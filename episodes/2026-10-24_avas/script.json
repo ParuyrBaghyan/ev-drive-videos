@@ -1,0 +1,13 @@
+{
+  "title": "Your EV Is Making Noise ON PURPOSE 🔊⚡ #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {"id": "hook",    "text": "Your electric car is secretly making noise. On purpose.", "visual": "speaker"},
+    {"id": "silent",  "text": "At low speed, EVs are almost silent. And that's dangerous for pedestrians, cyclists, and people who are blind.", "visual": "pedestrian"},
+    {"id": "law",     "text": "So the law now requires a fake sound. It's called AVAS: Acoustic Vehicle Alerting System.", "visual": "avas"},
+    {"id": "speeds",  "text": "In Europe, it plays below twenty kilometers per hour. In the US, up to about thirty.", "visual": "gauge"},
+    {"id": "tires",   "text": "Go faster, and tire noise is loud enough on its own, so the speaker goes quiet.", "visual": "tires"},
+    {"id": "outro",   "text": "Next time an EV hums past you in a parking lot, that's a speaker, not the motor. Follow EV Drive for a new car tech fact every day.", "visual": "outro"}
+  ]
+}
