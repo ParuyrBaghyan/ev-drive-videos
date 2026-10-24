@@ -1,0 +1,14 @@
+{
+  "title": "Why EV Charging Crawls After 80% ⚡🔋 #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {"id": "hook",    "text": "Why does a fast charger race to eighty percent, then crawl?", "visual": "curve"},
+    {"id": "garage",  "text": "Charging parks lithium ions between the layers of a graphite anode, like cars in a garage.", "visual": "garage"},
+    {"id": "empty",   "text": "When the battery is low, open spots are everywhere, so it takes a huge current.", "visual": "empty"},
+    {"id": "plating", "text": "Near full, spots get scarce. Push too hard, and ions pile up as metal. That's lithium plating, and it damages the cell.", "visual": "plating"},
+    {"id": "voltage", "text": "Cells also hit a voltage ceiling, often about four point two volts. Then the charger holds it and lets current fade.", "visual": "cccv"},
+    {"id": "numbers", "text": "So the last ten percent can take about as long as the first ninety.", "visual": "bars"},
+    {"id": "outro",   "text": "On a road trip, is a hundred percent worth the wait? Follow EV Drive for daily car tech.", "visual": "outro2"}
+  ]
+}
