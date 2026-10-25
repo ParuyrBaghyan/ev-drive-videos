@@ -1,0 +1,42 @@
+{
+  "title": "What Is a Kilowatt-Hour, Really? ⚡🔢 #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Thirty three point seven kilowatt hours. That's the energy in one gallon of gas. But what is a kilowatt hour?",
+      "visual": "kwh_hook"
+    },
+    {
+      "id": "def",
+      "text": "It's one thousand watts, flowing for one hour. Or a ten watt LED bulb, glowing for a hundred hours.",
+      "visual": "kwh_def"
+    },
+    {
+      "id": "home",
+      "text": "The average American home uses about twenty eight of them a day.",
+      "visual": "kwh_home"
+    },
+    {
+      "id": "car",
+      "text": "The most efficient EVs go about four miles on one. Give them a gallon's worth, and they go over a hundred and thirty miles.",
+      "visual": "kwh_car"
+    },
+    {
+      "id": "gas",
+      "text": "A new gas car averages about twenty seven miles on that same energy.",
+      "visual": "kwh_gas"
+    },
+    {
+      "id": "why",
+      "text": "Why? An engine loses most of its fuel as heat. An EV gets around ninety percent to the wheels.",
+      "visual": "kwh_why"
+    },
+    {
+      "id": "outro",
+      "text": "Same energy, five times the distance. Should we still measure cars in gallons? Follow EV Drive for daily car tech.",
+      "visual": "kwh_outro"
+    }
+  ]
+}

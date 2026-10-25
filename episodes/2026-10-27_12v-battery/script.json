@@ -1,0 +1,42 @@
+{
+  "title": "Your EV Has a SECOND Battery. Here's Why 🔋🔌 #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Your electric car has a huge battery. It also has a small one, like a gas car's. Why?",
+      "visual": "v12_hook"
+    },
+    {
+      "id": "wake",
+      "text": "It's a twelve volt battery, and it wakes the car up, running the computers, locks, lights and screens.",
+      "visual": "v12_wake"
+    },
+    {
+      "id": "contactor",
+      "text": "Its biggest job: closing the contactors, heavy duty switches that connect the high voltage pack.",
+      "visual": "v12_contactor"
+    },
+    {
+      "id": "open",
+      "text": "When the car is off, or after a crash, they open, cutting the big pack off.",
+      "visual": "v12_open"
+    },
+    {
+      "id": "dcdc",
+      "text": "There's no alternator. Instead, a DC to DC converter steps the pack's voltage down to keep it charged.",
+      "visual": "v12_dcdc"
+    },
+    {
+      "id": "dead",
+      "text": "So if it dies, you may not unlock or drive the car, even with a full main battery.",
+      "visual": "v12_dead"
+    },
+    {
+      "id": "outro",
+      "text": "Some new cars are moving to forty eight volts. Will the twelve volt battery vanish? Follow EV Drive for daily car tech.",
+      "visual": "v12_outro"
+    }
+  ]
+}
