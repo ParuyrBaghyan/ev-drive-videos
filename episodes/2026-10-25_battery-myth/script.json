@@ -1,0 +1,13 @@
+{
+  "title": "Do EV Batteries Die After a Few Years? The Data Says No 🔋📊 #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {"id": "hook",    "text": "Myth: an electric car's battery dies after a few years, just like an old phone. The data says otherwise.", "visual": "myth"},
+    {"id": "geotab",  "text": "Telematics firm Geotab tracked almost five thousand EVs. On average, their batteries lost about one point eight percent of capacity per year.", "visual": "rate"},
+    {"id": "curve",   "text": "At that rate, a twelve year old pack would still hold nearly eighty percent.", "visual": "curve"},
+    {"id": "replace", "text": "Recurrent looked at over twenty thousand EVs. For models from twenty sixteen on, one percent or less ever needed a new pack.", "visual": "replace"},
+    {"id": "why",     "text": "Why better than a phone? EVs use liquid cooling, and hide spare capacity at the top and bottom of the charge.", "visual": "buffer"},
+    {"id": "outro",   "text": "The battery may outlast the car. So what should we do with it next? Follow EV Drive for daily car tech.", "visual": "outro_b"}
+  ]
+}
