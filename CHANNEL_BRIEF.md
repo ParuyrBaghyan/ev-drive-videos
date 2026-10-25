@@ -7,7 +7,7 @@ This file is the standing instruction for every daily run. Follow it exactly.
 - Theme: electric cars, automotive technology, car software, hidden features, futuristic vehicles.
 - Goal set by the owner: content must be **educational and cognitive**. Each Short teaches ONE real idea and explains *how* or *why* it works, so the viewer leaves smarter, not just entertained.
 
-## Formats (rotate; don't use the same format two days in a row)
+## Formats (rotate; never use the same format as the previous episode — with two Shorts a day, the noon and evening Shorts of one day must also differ)
 1. **How it works** — the mechanism behind a technology (regen braking, heat pumps, LiDAR, inverters).
 2. **Myth vs fact** — a common belief, then the evidence.
 3. **What would happen if…?** — a thought experiment grounded in real physics/engineering.
@@ -40,7 +40,9 @@ Every Short ends with a short thought-provoking question or takeaway before the 
 ## Publishing
 - Commit the episode folder + the mp4 in `videos/` and push to `main`.
 - Public video URL: `https://raw.githubusercontent.com/ParuyrBaghyan/ev-drive-videos/main/videos/<file>.mp4` (check it returns 200 before scheduling).
-- Schedule with Metricool `createScheduledPost`: blogId `7616311`, provider `youtube`, `autoPublish: true`, publication time **18:00 America/New_York** on the run's date (send `publicationDate` with timezone `America/New_York`).
+- Schedule with Metricool `createScheduledPost`: blogId `7616311`, provider `youtube`, `autoPublish: true`, publication time = the run's slot on the run's date (send `publicationDate` with timezone `America/New_York`).
+- **Two Shorts per day, two slots:** **12:00** (noon run) and **18:00** (evening run), America/New_York. Each scheduled run makes exactly one Short for its own slot.
   youtubeData: `type: "short"`, `privacy: "public"`, `category: "SCIENCE_TECHNOLOGY"`, `madeForKids: false`, `isAiGeneratedContent: false`, 4–8 tags. Title ≤ 70 chars, ends with `#shorts`. Description: 2–3 sentences summarising what the viewer learns + hashtags `#EV #ElectricCars #CarTech #EVDrive #shorts`.
-- Before scheduling, call `getScheduledPosts` for that day and skip if a post already exists (never double-post).
+- Before starting, call `getScheduledPosts` for that day (use `extendedRange: true` so already-published posts show up too) and skip only if a YouTube post already exists **in your own slot** (publication time within ±1 hour of the slot). A post in the other slot is expected — never double-post a slot.
+- Before picking a topic, also check today's other-slot post (and `topics_log.md`) so the two Shorts of the day have different topics and formats.
 - Append the episode to `topics_log.md` (date, format, topic, title, sources) and push again.
