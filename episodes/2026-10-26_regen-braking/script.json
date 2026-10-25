@@ -1,0 +1,42 @@
+{
+  "title": "How Your EV Makes Electricity When It Slows Down ⚡🛑 #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Every time an electric car slows down, it can make electricity. How?",
+      "visual": "hook_r"
+    },
+    {
+      "id": "motor",
+      "text": "The motor works both ways. Send current in, and it turns the wheels. Let the wheels turn it, and it's a generator.",
+      "visual": "motor"
+    },
+    {
+      "id": "drag",
+      "text": "Making that current creates magnetic drag, which slows the car. The energy flows back into the battery instead of heating the brakes.",
+      "visual": "flow"
+    },
+    {
+      "id": "loss",
+      "text": "But it can't recover everything. Air and tire drag already used some energy, and each conversion loses a little as heat.",
+      "visual": "loss"
+    },
+    {
+      "id": "limits",
+      "text": "When the battery is full, too cold or too hot, the car cuts back regen to protect it, and the friction brakes take over.",
+      "visual": "limits"
+    },
+    {
+      "id": "city",
+      "text": "That's why regen pays off most in stop and go city traffic.",
+      "visual": "city"
+    },
+    {
+      "id": "outro",
+      "text": "Next time you lift off the pedal, you're charging. Could you drive with one pedal? Follow EV Drive for daily car tech.",
+      "visual": "outro_r"
+    }
+  ]
+}
