@@ -1,0 +1,14 @@
+{
+  "title": "Electric Cars Were Winning in 1900. What Happened? ⚡🕰️ #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {"id": "hook",    "text": "Around nineteen hundred, about a third of the cars on American roads were electric. So why did they vanish?", "visual": "third"},
+    {"id": "loved",   "text": "Drivers loved them. They were quiet, with no smelly exhaust, and no gears to fight.", "visual": "loved"},
+    {"id": "crank",   "text": "Gas cars had to be started with a hand crank, and a kickback could seriously injure you.", "visual": "crank"},
+    {"id": "price",   "text": "Then mass production arrived. By nineteen twelve, a gas car cost six hundred fifty dollars. An electric roadster? Seventeen fifty.", "visual": "price"},
+    {"id": "starter", "text": "That same year, Cadillac offered Charles Kettering's electric starter. The crank was gone.", "visual": "starter"},
+    {"id": "roads",   "text": "Cheap Texas oil and new roads rewarded long range. By nineteen thirty five, electric cars had all but disappeared.", "visual": "roads"},
+    {"id": "outro",   "text": "The idea wasn't wrong, just early. What brought it back? Follow EV Drive for daily car tech.", "visual": "outro3"}
+  ]
+}
