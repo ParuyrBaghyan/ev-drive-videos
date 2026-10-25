@@ -9,12 +9,14 @@ Published (newest last). Don't repeat these.
 | 2026-10-25 | History | Early EVs: ~1/3 of US cars ~1900; lost to cheap mass-produced gas cars ($650 vs $1,750 electric roadster by 1912), Kettering's electric starter (1912 Cadillac) ending the hand crank, cheap Texas oil and better roads; all but gone by 1935 | Electric Cars Were Winning in 1900. What Happened? ⚡🕰️ #shorts | energy.gov/articles/history-electric-car ; suiter.com/patent-history-engine-starting-device |
 | 2026-10-25 | Myth vs fact | EV battery degradation: Geotab ~5,000 EVs avg ~1.8%/yr capacity loss (≈78% after 12 yrs at that rate); Recurrent 20,000+ EVs, ≤1% of 2016+ models needed a new pack (up to 13% pre-2015); liquid cooling + hidden top (~5%) / bottom (~15%) buffers | Do EV Batteries Die After a Few Years? The Data Says No 🔋📊 #shorts | geotab.com/uk/press-release/2024-battery-degradation ; insideevs.com/news/720398/study-battery-replacement-rates-evs/ ; recurrentauto.com/research/why-do-ev-batteries-last-so-much-longer-than-cell-phone-batteries |
 | 2026-10-26 | How it works | Regenerative braking: motor runs as generator, magnetic drag slows car, energy to battery instead of brake heat; can't recover 100% (air/tire drag, conversion heat losses); regen reduced when battery full/too cold/too hot so friction brakes take over; pays off most in city stop-and-go | How Your EV Makes Electricity When It Slows Down ⚡🛑 #shorts | fueleconomy.gov/feg/atv-ev.shtml ; energy.gov FOTW #1360 (typical EV 87–91% efficient incl. regen) ; Nissan Leaf 2025 owner's manual (regenerative brake system) |
+| 2026-10-26 (12:00 slot) | The numbers | What a kWh is: 1,000 W for 1 hour = a 10 W LED for 100 h; 1 gallon of gas = 33.7 kWh (EPA MPGe basis); avg US home ≈ 28 kWh/day (865 kWh/month, 2024); most efficient EVs ≈ 4 mi/kWh → 130+ mi per gallon-equivalent vs new gas car avg 27.2 mpg; typical EV ~87–91% efficient vs ~30% gas | What Is a Kilowatt-Hour, Really? ⚡🔢 #shorts | fueleconomy.gov (1 gal = 33.7 kWh) ; eia.gov/todayinenergy/detail.php?id=65244 ; recurrentauto.com/research/2025-most-efficient-ev (Ioniq 6 / Model 3 134.8 MPGe) ; epa.gov/automotive-trends (MY2024 27.2 mpg) ; energy.gov FOTW #1360 |
+| 2026-10-27 (12:00 slot) | Hidden feature | EVs still have a 12 V battery: wakes the car (computers, locks, lights, screens), powers the contactors that connect the high-voltage pack and open when off / in a crash; no alternator — DC-DC converter steps pack voltage down to recharge it; if it dies the car may not unlock or drive even with a full main pack; some new cars moving to 48 V | Your EV Has a SECOND Battery. Here's Why 🔋🔌 #shorts | insideevs.com/features/724785/ev-12-volt-battery-explained/ ; mazdausa.com/resource-center/12v-battery-ev |
 
 ## Idea backlog (verify every fact before using; strike through when used)
 - ~~How regenerative braking turns motion back into battery charge — and why it can't recover 100%~~ (used 2026-10-26)
 - Why EV range drops in winter, and how a heat pump helps
 - ~~Electric cars came before gas cars took over: early 1900s EVs and why they lost~~ (used 2026-10-25)
-- What a "kWh" actually is, explained with everyday comparisons
+- ~~What a "kWh" actually is, explained with everyday comparisons~~ (used 2026-10-26 12:00)
 - ~~Why EVs charge fast to ~80% and then slow down (the charging curve)~~ (used 2026-10-24)
 - How an electric motor makes full torque from zero rpm
 - ~~Myth vs fact: "EV batteries die after a few years" (battery degradation data)~~ (used 2026-10-25)
@@ -35,4 +37,4 @@ Published (newest last). Don't repeat these.
 - Thermal runaway: why battery fires are hard to put out
 - Why charging plugs differ (NACS, CCS, CHAdeMO) and why the US is converging on NACS
 - How ABS stops wheels from locking
-- What the 12-volt battery still does in an EV
+- ~~What the 12-volt battery still does in an EV~~ (used 2026-10-27 12:00)
