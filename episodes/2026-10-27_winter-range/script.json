@@ -1,0 +1,42 @@
+{
+  "title": "What Happens to Your EV at 20°F? ❄️🔋 #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "What happens to your EV at twenty degrees Fahrenheit? In a triple A lab test, range fell forty one percent.",
+      "visual": "wr_hook"
+    },
+    {
+      "id": "battery",
+      "text": "First, cold thickens the battery's electrolyte, so lithium ions move slower.",
+      "visual": "wr_battery"
+    },
+    {
+      "id": "heat",
+      "text": "Second, heat. A gas engine's waste heat warms you for free. An EV pays from its battery.",
+      "visual": "wr_heat"
+    },
+    {
+      "id": "heater",
+      "text": "A basic heater is like a toaster: one unit of electricity, one unit of heat.",
+      "visual": "wr_heater"
+    },
+    {
+      "id": "pump",
+      "text": "A heat pump moves heat in from outside, giving more heat than the power it uses.",
+      "visual": "wr_pump"
+    },
+    {
+      "id": "data",
+      "text": "Across over eighteen thousand EVs, cars with heat pumps kept about eighty three percent of range in freezing weather. Without, about seventy five.",
+      "visual": "wr_data"
+    },
+    {
+      "id": "outro",
+      "text": "Tip: warm it up while plugged in. Would winter change which EV you buy? Follow EV Drive for daily car tech.",
+      "visual": "wr_outro"
+    }
+  ]
+}
