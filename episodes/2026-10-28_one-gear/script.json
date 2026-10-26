@@ -1,0 +1,14 @@
+{
+  "title": "Your Gas Car Has 10 Gears. Most EVs Have ONE. Why? ⚙️⚡ #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {"id": "hook", "text": "Some gas cars have ten gears. Most electric cars have just one. Why?", "visual": "og_hook"},
+    {"id": "engine", "text": "A gas engine makes no power at zero rpm, and only pulls well in a narrow band of speeds. Gears keep it inside that band.", "visual": "og_engine"},
+    {"id": "motor", "text": "An electric motor makes its full torque from a standstill, right from zero rpm.", "visual": "og_motor"},
+    {"id": "rpm", "text": "And it spins much faster. A Tesla Model 3 motor turns over eighteen thousand rpm at top speed.", "visual": "og_rpm"},
+    {"id": "gear", "text": "So one fixed reduction gear, about nine to one, covers everything from zero to top speed.", "visual": "og_gear"},
+    {"id": "taycan", "text": "A few performance EVs, like the Porsche Taycan, add a second gear: a short one, about fifteen to one, for launches.", "visual": "og_taycan"},
+    {"id": "outro", "text": "Fewer parts, no shifting, smooth pull. Would you miss changing gears? Follow EV Drive for daily car tech.", "visual": "og_outro"}
+  ]
+}
