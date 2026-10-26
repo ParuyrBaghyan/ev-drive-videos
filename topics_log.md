@@ -12,6 +12,7 @@ Published (newest last). Don't repeat these.
 | 2026-10-26 (12:00 slot) | The numbers | What a kWh is: 1,000 W for 1 hour = a 10 W LED for 100 h; 1 gallon of gas = 33.7 kWh (EPA MPGe basis); avg US home ≈ 28 kWh/day (865 kWh/month, 2024); most efficient EVs ≈ 4 mi/kWh → 130+ mi per gallon-equivalent vs new gas car avg 27.2 mpg; typical EV ~87–91% efficient vs ~30% gas | What Is a Kilowatt-Hour, Really? ⚡🔢 #shorts | fueleconomy.gov (1 gal = 33.7 kWh) ; eia.gov/todayinenergy/detail.php?id=65244 ; recurrentauto.com/research/2025-most-efficient-ev (Ioniq 6 / Model 3 134.8 MPGe) ; epa.gov/automotive-trends (MY2024 27.2 mpg) ; energy.gov FOTW #1360 |
 | 2026-10-27 (12:00 slot) | Hidden feature | EVs still have a 12 V battery: wakes the car (computers, locks, lights, screens), powers the contactors that connect the high-voltage pack and open when off / in a crash; no alternator — DC-DC converter steps pack voltage down to recharge it; if it dies the car may not unlock or drive even with a full main pack; some new cars moving to 48 V | Your EV Has a SECOND Battery. Here's Why 🔋🔌 #shorts | insideevs.com/features/724785/ev-12-volt-battery-explained/ ; mazdausa.com/resource-center/12v-battery-ev |
 | 2026-10-27 (18:00 slot) | What would happen if…? | EV at 20°F: AAA lab test range −41% with heater on (59 of every 100 mi); cold thickens electrolyte so Li ions move slower (temporary, recovers when warm); gas car heats cabin with engine waste heat, EV pays from battery; resistive heater COP = 1 (early Leaf up to 5 kW); heat pump moves heat (COP > 1); Recurrent 18,000+ EVs: ~83% range kept below freezing with heat pump vs ~75% without; precondition while plugged in | What Happens to Your EV at 20°F? ❄️🔋 #shorts | colorado.aaa.com/node/11006 (AAA 2019 cold-weather EV range study) ; insideevs.com/news/747374/ev-range-loss-cold-heat-pump-data/ (Recurrent) ; inside.lgensol.com (cold weather & Li-ion electrolyte) ; chargedevs.com (heat pumps in EV HVAC, COP) ; fueleconomy.gov cold-weather tips (preheat while plugged in) |
+| 2026-10-28 (12:00 slot) | How it works | Why most EVs have one gear: gas engine makes no power at 0 rpm and only pulls well in a narrow rpm band, so it needs many gears (some have 10); electric motor makes full torque from 0 rpm and spins far faster (Model 3 rotor ~18,447 rpm at 163 mph top speed), so one fixed reduction gear (Model 3 ≈ 9.04:1, two stages) covers 0 → top speed; exception: Porsche Taycan 2-speed rear axle (1st ≈ 15:1 for launch, 2nd ≈ 8:1 for efficiency/top speed) | Your Gas Car Has 10 Gears. Most EVs Have ONE. Why? ⚙️⚡ #shorts | jalopnik.com/1938058/ev-no-transmission-explained/ ; insideevs.com/news/518692/tesla-model-3y-drive-units/ ; media.porsche.com/mediakit/taycan/en/porsche-taycan/der-antrieb |
 
 ## Idea backlog (verify every fact before using; strike through when used)
 - ~~How regenerative braking turns motion back into battery charge — and why it can't recover 100%~~ (used 2026-10-26)
@@ -19,12 +20,12 @@ Published (newest last). Don't repeat these.
 - ~~Electric cars came before gas cars took over: early 1900s EVs and why they lost~~ (used 2026-10-25)
 - ~~What a "kWh" actually is, explained with everyday comparisons~~ (used 2026-10-26 12:00)
 - ~~Why EVs charge fast to ~80% and then slow down (the charging curve)~~ (used 2026-10-24)
-- How an electric motor makes full torque from zero rpm
+- ~~How an electric motor makes full torque from zero rpm~~ (used 2026-10-28 12:00)
 - ~~Myth vs fact: "EV batteries die after a few years" (battery degradation data)~~ (used 2026-10-25)
 - What an inverter does: turning battery DC into motor AC
 - How LiDAR, radar and cameras each "see" the road — and their weaknesses
 - The SAE levels of driving automation (0–5), explained
-- Why EVs have no traditional gearbox (single-speed reduction gear)
+- ~~Why EVs have no traditional gearbox (single-speed reduction gear)~~ (used 2026-10-28 12:00)
 - How over-the-air updates can change a car after you buy it
 - What happens to an EV battery when it is recycled
 - Solid-state batteries: what changes and why they're hard to make
