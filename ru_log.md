@@ -10,3 +10,7 @@ Voice: Edge `de-DE-FlorianMultilingualNeural`, rate +20%, pitch +8Hz (`tools/mak
 | 2026-10-26_what-is-a-kwh | Что такое киловатт-час на самом деле? ⚡ | 2026-10-26 20:00 (published with garbled opening number); fixed version re-posted 2026-10-26 20:50 | videos/ru/2026-10-26_what-is-a-kwh.mp4 |
 | 2026-10-27_12v-battery | У электромобиля есть ВТОРАЯ батарея 🔋 | 2026-10-27 20:00 (video replaced with fixed opening) | videos/ru/2026-10-27_12v-battery.mp4 |
 | 2026-10-28_one-gear | 10 передач против ОДНОЙ ⚙️⚡ | 2026-10-28 20:00 | videos/ru/2026-10-28_one-gear.mp4 |
+| 2026-10-30_inverter | Как электромобиль «переводит» ток ⚡🔁 | 2026-10-30 20:00 | videos/ru/2026-10-30_inverter.mp4 |
+| 2026-10-31_ev-fire-myth | Электромобили горят чаще? Данные 🔥🔋 | 2026-10-31 20:00 | videos/ru/2026-10-31_ev-fire-myth.mp4 |
+
+Note (2026-10-30 run): no RU TikTok exists for the 2026-10-29 20:00 slot (it was missed; past slots are not back-filled). «восемь сотых процента» was heard as «восьмисотых» by the voice in context; «ноль, ноль восемь процента» is said cleanly — prefer that pattern for small percentages.
