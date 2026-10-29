@@ -1,0 +1,14 @@
+{
+  "title": "The First Car to Hit 100 km/h Was ELECTRIC (1899) ⚡🏁 #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {"id": "hook", "text": "The first car to break one hundred kilometers an hour wasn't gas powered. It was electric.", "visual": "jc_hook"},
+    {"id": "duel", "text": "In eighteen ninety-nine, the world speed record was a duel, and every car in it was electric.", "visual": "jc_duel"},
+    {"id": "car", "text": "Belgian racer Camille Jenatzy built a torpedo-shaped car and named it Never Satisfied.", "visual": "jc_car"},
+    {"id": "inside", "text": "Two electric motors, one for each rear wheel, and about half its weight was batteries.", "visual": "jc_inside"},
+    {"id": "record", "text": "On April twenty-ninth, near Paris, it hit almost one hundred and six kilometers an hour. That's sixty-six miles an hour.", "visual": "jc_record"},
+    {"id": "after", "text": "The record stood for three years, until a steam car beat it. Then gas engines took over.", "visual": "jc_after"},
+    {"id": "outro", "text": "Electric was fastest first. So why did it take a century to come back? Follow EV Drive for daily car tech.", "visual": "jc_outro"}
+  ]
+}
