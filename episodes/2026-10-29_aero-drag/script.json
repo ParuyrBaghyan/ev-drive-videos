@@ -1,0 +1,42 @@
+{
+  "title": "Half Your EV's Highway Energy Goes to THIS 💨⚡ #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "At highway speed, roughly half your car's energy goes into one thing: pushing air.",
+      "visual": "ad_hook"
+    },
+    {
+      "id": "square",
+      "text": "Drag grows with the square of speed. Double your speed, and the air pushes back four times harder.",
+      "visual": "ad_square"
+    },
+    {
+      "id": "cube",
+      "text": "And since you cover ground twice as fast, the power needed goes up eight times.",
+      "visual": "ad_cube"
+    },
+    {
+      "id": "cd",
+      "text": "So engineers chase the drag coefficient. A boxy SUV: about zero point four. An average car: under zero point three.",
+      "visual": "ad_cd"
+    },
+    {
+      "id": "eqs",
+      "text": "The Mercedes EQS: just zero point two zero.",
+      "visual": "ad_eqs"
+    },
+    {
+      "id": "design",
+      "text": "That's why EVs get flush handles, smooth wheels, and a closed front.",
+      "visual": "ad_design"
+    },
+    {
+      "id": "outro",
+      "text": "In an EV, shape is range. Would you trade looks for miles? Follow EV Drive for daily car tech.",
+      "visual": "ad_outro"
+    }
+  ]
+}
