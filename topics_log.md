@@ -15,6 +15,8 @@ Published (newest last). Don't repeat these.
 | 2026-10-28 (12:00 slot) | How it works | Why most EVs have one gear: gas engine makes no power at 0 rpm and only pulls well in a narrow rpm band, so it needs many gears (some have 10); electric motor makes full torque from 0 rpm and spins far faster (Model 3 rotor ~18,447 rpm at 163 mph top speed), so one fixed reduction gear (Model 3 ≈ 9.04:1, two stages) covers 0 → top speed; exception: Porsche Taycan 2-speed rear axle (1st ≈ 15:1 for launch, 2nd ≈ 8:1 for efficiency/top speed) | Your Gas Car Has 10 Gears. Most EVs Have ONE. Why? ⚙️⚡ #shorts | jalopnik.com/1938058/ev-no-transmission-explained/ ; insideevs.com/news/518692/tesla-model-3y-drive-units/ ; media.porsche.com/mediakit/taycan/en/porsche-taycan/der-antrieb |
 | 2026-10-29 (18:00 slot) | The numbers | Aerodynamic drag: roughly half of highway energy goes to air drag; drag force ∝ speed² (2× speed → 4× drag), power ∝ speed³ (→ 8×); drag coefficient: boxy SUV ~0.35–0.45, average modern car 0.25–0.30, Mercedes EQS 0.20; flush handles, smooth wheels, closed front | Half Your EV's Highway Energy Goes to THIS 💨⚡ #shorts | greencarreports.com/news/1133045 (≈half of highway energy) ; en.wikipedia.org/wiki/Automobile_drag_coefficient (Cd ranges, drag ∝ v²) ; insideevs.com/news/497543/mercedes-benz-eqs-4-mi-kwh/ (EQS 0.20) |
 | 2026-10-30 (18:00 slot) | History | La Jamais Contente: first car past 100 km/h was electric — Camille Jenatzy, 29 Apr 1899, Achères near Paris, 105.88 km/h (65.8 mph); first six land speed records (Dec 1898–Apr 1899) all electric, a duel with Chasseloup-Laubat; torpedo light-alloy (partinium) body, two ~25 kW motors one per rear wheel, ≈1,450 kg with roughly half batteries; record stood until Serpollet's steam car (120.8 km/h, Apr 1902), then gas cars (Mors, Nov 1902) | The First Car to Hit 100 km/h Was ELECTRIC (1899) ⚡🏁 #shorts | en.wikipedia.org/wiki/La_Jamais_Contente ; focusonbelgium.be (Camille Jenatzy) ; gregwapling.com land-speed-racing-absolute-records ; en.wikipedia.org/wiki/Léon_Serpollet |
+| 2026-10-30 (12:00 slot) | How it works | Traction inverter: battery stores DC, most EV motors need three-phase AC (three waves 120° apart); inverter = six power switches (IGBT or SiC MOSFET) in three half-bridge pairs, one per phase; PWM switching roughly 6–24 kHz ("up to ~20,000 times a second"), motor coil inductance smooths pulses into sinusoidal current; AC frequency sets motor speed, current sets torque; bidirectional — runs in reverse during regen (AC → DC) | How Your EV Turns DC Into AC: The Inverter ⚡🔁 #shorts | wolfspeed.com/knowledge-center/article/whats-under-the-hood-ev-architectures-inverters ; industrialmonitordirect.com/blogs/knowledgebase/ev-inverter-pwm-how-dc-becomes-three-phase-ac-output |
+| 2026-10-31 (12:00 slot) | Myth vs fact | Do EVs catch fire more often? Sweden MSB 2022: 24 EV fires = ~0.004% of battery-electric cars vs ~0.08% for gasoline/diesel (~20×; ICE total includes arson, EV count excludes it) ≈ 1 in 25,000; thermal runaway: damaged cell overheats, heats neighbours, self-sustaining chain reaction; rare but stubborn — one Texas EV crash fire needed 30,000+ gallons of water (NFPA) | Do Electric Cars Catch Fire More Often? The Data 🔥🔋 #shorts | spectrum.ieee.org/lithium-ion-battery-fires (MSB data) ; ctif.org/news/fears-lithium-ion-battery-fires-not-necessarily-fair-relation-low-frequency-ev-incidents (MSB, NFPA Texas 30,000 gal) ; pluginamerica.org/the-facts-about-ev-fire-safety/ (thermal runaway, arson caveat) |
 
 ## Idea backlog (verify every fact before using; strike through when used)
 - ~~How regenerative braking turns motion back into battery charge — and why it can't recover 100%~~ (used 2026-10-26)
@@ -24,7 +26,7 @@ Published (newest last). Don't repeat these.
 - ~~Why EVs charge fast to ~80% and then slow down (the charging curve)~~ (used 2026-10-24)
 - ~~How an electric motor makes full torque from zero rpm~~ (used 2026-10-28 12:00)
 - ~~Myth vs fact: "EV batteries die after a few years" (battery degradation data)~~ (used 2026-10-25)
-- What an inverter does: turning battery DC into motor AC
+- ~~What an inverter does: turning battery DC into motor AC~~ (used 2026-10-30 12:00)
 - How LiDAR, radar and cameras each "see" the road — and their weaknesses
 - The SAE levels of driving automation (0–5), explained
 - ~~Why EVs have no traditional gearbox (single-speed reduction gear)~~ (used 2026-10-28 12:00)
@@ -39,7 +41,7 @@ Published (newest last). Don't repeat these.
 - How a car's crumple zone works (and why EV structure changes it)
 - The skateboard platform: why EV batteries sit in the floor
 - ~~First car past 100 km/h was electric (La Jamais Contente, 1899)~~ (used 2026-10-30 18:00)
-- Thermal runaway: why battery fires are hard to put out
+- ~~Thermal runaway: why battery fires are hard to put out~~ (used 2026-10-31 12:00, as EV fire myth vs fact)
 - Why charging plugs differ (NACS, CCS, CHAdeMO) and why the US is converging on NACS
 - How ABS stops wheels from locking
 - ~~What the 12-volt battery still does in an EV~~ (used 2026-10-27 12:00)
