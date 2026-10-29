@@ -1,0 +1,37 @@
+{
+  "title": "Do Electric Cars Catch Fire More Often? The Data 🔥🔋 #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Electric cars catch fire all the time, right? The data says no.",
+      "visual": "fm_hook"
+    },
+    {
+      "id": "sweden",
+      "text": "Sweden tracks car fires by fuel type. In 2022, about zero point zero zero four percent of its electric cars burned.",
+      "visual": "fm_sweden"
+    },
+    {
+      "id": "compare",
+      "text": "For gas and diesel cars, it was zero point zero eight percent. Roughly twenty times higher, though that total includes arson.",
+      "visual": "fm_compare"
+    },
+    {
+      "id": "runaway",
+      "text": "So why the scary headlines? When one battery cell is damaged, it overheats and heats its neighbors. That chain reaction is called thermal runaway.",
+      "visual": "fm_runaway"
+    },
+    {
+      "id": "water",
+      "text": "It makes EV fires rare but stubborn. One crash fire in Texas took more than thirty thousand gallons of water.",
+      "visual": "fm_water"
+    },
+    {
+      "id": "outro",
+      "text": "Dramatic events feel common because they make the news. What else do we misjudge that way? Follow EV Drive for daily car tech.",
+      "visual": "fm_outro"
+    }
+  ]
+}

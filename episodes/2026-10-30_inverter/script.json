@@ -1,0 +1,14 @@
+{
+  "title": "How Your EV Turns DC Into AC: The Inverter ⚡🔁 #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {"id": "hook", "text": "Your EV's battery speaks one language, and its motor speaks another. Something has to translate.", "visual": "iv_hook"},
+    {"id": "dcac", "text": "The battery stores direct current, flowing one way. Most EV motors run on three-phase alternating current: three waves, each a third of a cycle apart.", "visual": "iv_dcac"},
+    {"id": "switches", "text": "The translator is the inverter: six power switches, arranged in three pairs.", "visual": "iv_switches"},
+    {"id": "pwm", "text": "They flick on and off up to twenty thousand times a second. The motor's coils smooth those pulses into clean waves.", "visual": "iv_pwm"},
+    {"id": "control", "text": "Raise the wave's frequency, and the motor spins faster. Push more current, and you get more torque.", "visual": "iv_control"},
+    {"id": "regen", "text": "When you slow down, it works in reverse, turning the motor's AC back into DC for the battery.", "visual": "iv_regen"},
+    {"id": "outro", "text": "So your accelerator pedal is really a request to a chip. Follow EV Drive for daily car tech.", "visual": "iv_outro"}
+  ]
+}
