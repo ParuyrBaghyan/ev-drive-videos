@@ -1,0 +1,14 @@
+{
+  "title": "Why EVs Hide Their Battery in the FLOOR 🛹🔋 #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {"id": "hook", "text": "Why do almost all electric cars put the battery in the floor? Meet the skateboard platform.", "visual": "sk_hook"},
+    {"id": "board", "text": "Lift off the body: a flat battery slab between the axles, motors at the wheels. Almost any body fits on top.", "visual": "sk_board"},
+    {"id": "weight", "text": "A typical pack weighs about a thousand pounds. Mounted low, it drags the center of gravity down.", "visual": "sk_weight"},
+    {"id": "rollover", "text": "So EVs resist tipping. In federal tests, the Tesla Model Y scored a seven point nine percent rollover risk, then the lowest of any SUV.", "visual": "sk_rollover"},
+    {"id": "space", "text": "No engine, no driveshaft tunnel: a flat floor, more cabin room, often a front trunk.", "visual": "sk_space"},
+    {"id": "struct", "text": "Newer designs make the battery case part of the floor itself. Stiffer body, fewer parts.", "visual": "sk_struct"},
+    {"id": "outro", "text": "The heaviest part does three jobs. What else could pull double duty? Follow EV Drive for daily car tech.", "visual": "sk_outro"}
+  ]
+}
