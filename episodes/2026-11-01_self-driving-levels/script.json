@@ -1,0 +1,42 @@
+{
+  "title": "Is Your Car Self-Driving? The 0 to 5 Scale Explained 🚗🤖 #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Your car can steer and brake by itself. Is it self-driving? Engineers grade that from zero to five.",
+      "visual": "lv_hook"
+    },
+    {
+      "id": "l0",
+      "text": "Level zero: you do all the driving. Warning beeps and even emergency braking still count as zero.",
+      "visual": "lv_zero"
+    },
+    {
+      "id": "l12",
+      "text": "Level one: the car handles steering or speed. Level two: both at once. But you must watch the road.",
+      "visual": "lv_onetwo"
+    },
+    {
+      "id": "l3",
+      "text": "Level three is the big jump. In limited conditions the car drives, and you take over only when it asks.",
+      "visual": "lv_three"
+    },
+    {
+      "id": "l4",
+      "text": "Level four needs no driver, but only in set conditions. If something goes wrong, it stops safely on its own.",
+      "visual": "lv_four"
+    },
+    {
+      "id": "l5",
+      "text": "Level five drives anywhere, in any weather. Nobody has built one yet.",
+      "visual": "lv_five"
+    },
+    {
+      "id": "outro",
+      "text": "The scale isn't about how smart the car is. It's about who's responsible. Would you hand over the wheel? Follow EV Drive for daily car tech.",
+      "visual": "lv_outro"
+    }
+  ]
+}
