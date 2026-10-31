@@ -1,0 +1,24 @@
+How does an electric car actually work? We follow the energy from the plug to the wheels: the battery pack and its thousands of cells, the battery management system, the inverter that turns DC into three-phase AC, the electric motor, the single reduction gear, regenerative braking, thermal management and heat pumps, and how AC and DC fast charging work.
+
+0:00 Intro
+0:26 The battery pack
+1:33 The battery management system
+2:21 The inverter
+3:14 The electric motor
+4:03 Why just one gear
+4:33 Regenerative braking
+5:18 Heat, cold and heat pumps
+6:09 Charging: AC vs DC
+7:02 Putting it all together
+
+Which part of the EV will change the most in the next 10 years: the battery, the motor, or the software? Tell me in the comments.
+
+Sources:
+U.S. Department of Energy / fueleconomy.gov: EV efficiency 87–91% vs ~30% for gasoline; regenerative braking recovers ~22% (EPA combined cycle)
+CleanTechnica teardown: Tesla Model 3 pack, 4,416 cells (96s46p); Chevy Bolt pack 96s3p
+Wolfspeed: traction inverter switching frequency 6–24 kHz
+Mazda USA: how EV motors work (stator, rotor, PM and induction motors)
+InsideEVs / Recurrent: heat pump range retention in cold weather (18,000+ EVs)
+Wevolver / AFDC: Level 1, Level 2 and DC fast charging power levels
+
+#EV #ElectricCars #CarTech #EVDrive #HowItWorks

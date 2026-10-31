@@ -2,3 +2,10 @@
 raw.mp4
 preview_*.png
 __pycache__/
+long/*/segs/
+long/*/tts_cache/
+long/*/video_only.mp4
+long/*/how_evs_work.mp4
+long/*/prev_*.png
+long/*/mix.wav
+long/*/voice.wav

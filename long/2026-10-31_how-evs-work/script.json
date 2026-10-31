@@ -1,0 +1,203 @@
+{
+ "title": "How an Electric Car Actually Works: From Battery to Wheels",
+ "voice": "am_michael",
+ "speed": 1.04,
+ "chapters": {
+  "intro": "Intro",
+  "battery": "01  The battery pack",
+  "bms": "02  The battery management system",
+  "inverter": "03  The inverter",
+  "motor": "04  The electric motor",
+  "gear": "05  Why just one gear",
+  "regen": "06  Regenerative braking",
+  "thermal": "07  Heat, cold and heat pumps",
+  "charging": "08  Charging: AC vs DC",
+  "outro": "Putting it all together"
+ },
+ "scenes": [
+  {
+   "ch": "intro",
+   "visual": "intro_missing",
+   "text": "An electric car has no engine, no gearbox full of gears, no exhaust pipe, and no oil changes."
+  },
+  {
+   "ch": "intro",
+   "visual": "intro_xray",
+   "text": "And yet even an ordinary EV feels surprisingly quick off the line. So what is actually happening under the floor?"
+  },
+  {
+   "ch": "intro",
+   "visual": "intro_map",
+   "text": "In the next few minutes, we'll follow the energy all the way from the plug to the wheels. By the end, you'll understand how every major part of an electric car works. Let's go."
+  },
+  {
+   "ch": "battery",
+   "visual": "xray_battery",
+   "text": "Everything starts with the battery pack, the biggest and most expensive part of the car. But it isn't one giant battery. It's hundreds, or even thousands, of small cells wired together."
+  },
+  {
+   "ch": "battery",
+   "visual": "cell_compare",
+   "text": "A Tesla Model 3 pack, for example, holds four thousand, four hundred and sixteen cylindrical cells, each one just a little bigger than a double-A battery."
+  },
+  {
+   "ch": "battery",
+   "visual": "series_parallel",
+   "text": "Cells wired side by side, in parallel, add capacity. Groups connected end to end, in series, add voltage. That Model 3 pack has ninety-six groups in series, which adds up to roughly three hundred fifty to four hundred volts."
+  },
+  {
+   "ch": "battery",
+   "visual": "cell_formats",
+   "text": "Other cars use larger, flat pouch cells, or box-shaped prismatic cells. The Chevy Bolt's pack, for instance, uses just two hundred eighty-eight pouch cells."
+  },
+  {
+   "ch": "battery",
+   "visual": "cog",
+   "text": "And the whole pack is laid flat in the floor, between the wheels. That keeps the heaviest part of the car as low as possible, which lowers the center of gravity and helps the car feel planted in corners. With no engine up front, many EVs even get a second trunk there."
+  },
+  {
+   "ch": "bms",
+   "visual": "bms_monitor",
+   "text": "Thousands of cells can't just be left on their own. Every pack has a battery management system, the pack's brain. It constantly measures the voltage and temperature of the cells, and the current flowing in and out."
+  },
+  {
+   "ch": "bms",
+   "visual": "soc",
+   "text": "From those readings, it estimates your state of charge, the battery percentage you see on the dashboard."
+  },
+  {
+   "ch": "bms",
+   "visual": "balance",
+   "text": "It also balances the cells. No two cells are perfectly identical, and in a chain, the weakest cell sets the limit for the whole pack. So the management system gently evens out their charge levels."
+  },
+  {
+   "ch": "bms",
+   "visual": "contactor",
+   "text": "And it's the pack's bodyguard. If cells get too hot, too full, or too empty, it limits power, or opens the contactors: heavy-duty switches that disconnect the high-voltage battery from the rest of the car."
+  },
+  {
+   "ch": "inverter",
+   "visual": "dc_ac",
+   "text": "Now we have a high-voltage battery. But there's a problem. A battery delivers direct current, flowing in one direction. Most EV motors need alternating current, in three separate phases."
+  },
+  {
+   "ch": "inverter",
+   "visual": "switches",
+   "text": "That's the job of the inverter. Inside are power switches, made of silicon or, increasingly, silicon carbide, that turn on and off thousands of times every second. Typically somewhere between six and twenty-four thousand times per second."
+  },
+  {
+   "ch": "inverter",
+   "visual": "pwm",
+   "text": "By carefully timing those pulses, the inverter shapes three smooth, wave-like currents out of the flat, steady battery power."
+  },
+  {
+   "ch": "inverter",
+   "visual": "pedal",
+   "text": "And here's the clever part. The frequency of those waves sets how fast the motor spins, and their strength sets how much torque it makes. When you press the accelerator, you're not opening a throttle. You're sending a request to the inverter's computer."
+  },
+  {
+   "ch": "motor",
+   "visual": "motor_parts",
+   "text": "The motor itself has two main parts: a fixed outer ring called the stator, wrapped in copper coils, and a spinning rotor inside it."
+  },
+  {
+   "ch": "motor",
+   "visual": "rot_field",
+   "text": "When the inverter's three currents flow through the coils one after another, they create a magnetic field that rotates around the stator. And the rotor is pulled along with it."
+  },
+  {
+   "ch": "motor",
+   "visual": "motor_types",
+   "text": "In a permanent magnet motor, the rotor carries strong magnets that lock onto that rotating field. In an induction motor, the field induces currents in the rotor, which then create their own magnetism."
+  },
+  {
+   "ch": "motor",
+   "visual": "torque_eff",
+   "text": "Either way, the motor makes strong torque almost from zero rpm. There's no idle speed, and no waiting for revs to build. And it's remarkably efficient. Permanent magnet motors can turn over ninety percent of the electrical energy into motion."
+  },
+  {
+   "ch": "gear",
+   "visual": "reduction",
+   "text": "Because the motor pulls hard from a standstill and spins very fast, most EVs need only one gear. A single reduction gear, about nine to one in a Tesla Model 3, slows the motor's speed down and multiplies its torque before sending it to the wheels."
+  },
+  {
+   "ch": "gear",
+   "visual": "one_gear",
+   "text": "No clutch, no shifting, just one smooth pull from zero to top speed. A few performance cars, like the Porsche Taycan, add a second gear, but they're the exception."
+  },
+  {
+   "ch": "regen",
+   "visual": "regen_flow",
+   "text": "Now let's run everything in reverse. When you lift off the accelerator or press the brake, the inverter turns the motor into a generator. The wheels now spin the motor, that resistance slows the car down, and the electricity it makes flows back into the battery. That's regenerative braking."
+  },
+  {
+   "ch": "regen",
+   "visual": "regen_compare",
+   "text": "In a gas car, braking simply turns your speed into wasted heat. According to the US Department of Energy, regenerative braking recovers about twenty-two percent of the energy on a standard mixed city and highway test."
+  },
+  {
+   "ch": "regen",
+   "visual": "regen_limits",
+   "text": "It can't capture everything, though. When the battery is full or very cold, regenerative braking is limited, and the regular friction brakes take over."
+  },
+  {
+   "ch": "thermal",
+   "visual": "temp_scale",
+   "text": "Batteries are a bit like people. They don't like being too hot or too cold. Heat makes them age faster, and cold makes them sluggish and less powerful."
+  },
+  {
+   "ch": "thermal",
+   "visual": "coolant",
+   "text": "So an EV has a thermal management system. Liquid coolant flows through channels next to the cells, carrying heat away, or bringing heat in."
+  },
+  {
+   "ch": "thermal",
+   "visual": "heat_pump",
+   "text": "Many EVs also use a heat pump, which moves heat instead of making it from scratch, like a refrigerator working in reverse. In data from over eighteen thousand EVs, cars with a heat pump kept about eighty-three percent of their range in freezing weather, versus about seventy-five percent without one."
+  },
+  {
+   "ch": "thermal",
+   "visual": "precondition",
+   "text": "Some cars also warm up the battery on the way to a fast charger. It's called preconditioning, and it lets the battery accept power faster."
+  },
+  {
+   "ch": "charging",
+   "visual": "levels",
+   "text": "Finally, how does the energy get in? Level one is a regular wall outlet, about one to two kilowatts, adding just a few miles of range per hour. Level two uses two hundred forty volts, up to about nineteen kilowatts, enough to refill most EVs overnight."
+  },
+  {
+   "ch": "charging",
+   "visual": "ac_dc_path",
+   "text": "For both, a device inside the car called the onboard charger converts the grid's alternating current into direct current for the battery. At a DC fast charger, that conversion happens inside the big station instead, so it can push fifty to three hundred fifty kilowatts or more straight into the pack."
+  },
+  {
+   "ch": "charging",
+   "visual": "charge_curve",
+   "text": "But notice that charging slows down as the battery fills. Above about eighty percent, the car deliberately reduces power to protect the cells. That's why road trips usually charge from around twenty to eighty percent."
+  },
+  {
+   "ch": "outro",
+   "visual": "flow_recap",
+   "text": "So let's follow the energy one last time. Power from the grid goes through the charger into thousands of cells, watched over by the management system. The inverter turns it into three-phase alternating current, the motor turns magnetism into motion, one gear sends it to the wheels, and when you slow down, regenerative braking sends some of it back."
+  },
+  {
+   "ch": "outro",
+   "visual": "efficiency",
+   "text": "All of that adds up to a big efficiency gap. The Department of Energy estimates a typical EV is about eighty-seven to ninety-one percent efficient, including the energy it recovers when braking, compared with about thirty percent for a gasoline car."
+  },
+  {
+   "ch": "outro",
+   "visual": "question",
+   "text": "So here's a question for you. Which part of the electric car will change the most in the next ten years? The battery, the motor, or the software? Tell me in the comments."
+  },
+  {
+   "ch": "outro",
+   "visual": "endcard",
+   "text": "And if you learned something today, subscribe to EV Drive for a new car tech explainer every day. Thanks for watching."
+  }
+ ],
+ "say": {
+  "US Department": "United States Department",
+  "Taycan": "Tie-kahn"
+ }
+}

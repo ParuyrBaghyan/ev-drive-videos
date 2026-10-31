@@ -1,0 +1,805 @@
+{
+ "total": 483.7855833333333,
+ "scenes": [
+  {
+   "i": 0,
+   "ch": "intro",
+   "visual": "intro_missing",
+   "chapter_start": true,
+   "start": 0.4,
+   "end": 7.328416666666667,
+   "sentences": [
+    {
+     "text": "An electric car has no engine, no gearbox full of gears, no exhaust pipe, and no oil changes.",
+     "start": 0.4,
+     "end": 7.328416666666667
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "ch": "intro",
+   "visual": "intro_xray",
+   "chapter_start": false,
+   "start": 7.7084166666666665,
+   "end": 14.687,
+   "sentences": [
+    {
+     "text": "And yet even an ordinary EV feels surprisingly quick off the line.",
+     "start": 7.7084166666666665,
+     "end": 12.131083333333333
+    },
+    {
+     "text": "So what is actually happening under the floor?",
+     "start": 12.291083333333333,
+     "end": 14.687
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "ch": "intro",
+   "visual": "intro_map",
+   "chapter_start": false,
+   "start": 15.067,
+   "end": 25.872875,
+   "sentences": [
+    {
+     "text": "In the next few minutes, we'll follow the energy all the way from the plug to the wheels.",
+     "start": 15.067,
+     "end": 20.069541666666666
+    },
+    {
+     "text": "By the end, you'll understand how every major part of an electric car works.",
+     "start": 20.229541666666666,
+     "end": 24.9115
+    },
+    {
+     "text": "Let's go.",
+     "start": 25.0715,
+     "end": 25.872875
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "ch": "battery",
+   "visual": "xray_battery",
+   "chapter_start": true,
+   "start": 28.452875,
+   "end": 39.51116666666666,
+   "sentences": [
+    {
+     "text": "Everything starts with the battery pack, the biggest and most expensive part of the car.",
+     "start": 28.452875,
+     "end": 33.533208333333334
+    },
+    {
+     "text": "But it isn't one giant battery.",
+     "start": 33.69320833333333,
+     "end": 35.58020833333333
+    },
+    {
+     "text": "It's hundreds, or even thousands, of small cells wired together.",
+     "start": 35.74020833333333,
+     "end": 39.51116666666666
+    }
+   ]
+  },
+  {
+   "i": 4,
+   "ch": "battery",
+   "visual": "cell_compare",
+   "chapter_start": false,
+   "start": 39.891166666666656,
+   "end": 49.69887499999999,
+   "sentences": [
+    {
+     "text": "A Tesla Model 3 pack, for example, holds four thousand, four hundred and sixteen cylindrical cells, each one just a little bigger than a double-A battery.",
+     "start": 39.891166666666656,
+     "end": 49.69887499999999
+    }
+   ]
+  },
+  {
+   "i": 5,
+   "ch": "battery",
+   "visual": "series_parallel",
+   "chapter_start": false,
+   "start": 50.07887499999998,
+   "end": 65.31424999999997,
+   "sentences": [
+    {
+     "text": "Cells wired side by side, in parallel, add capacity.",
+     "start": 50.07887499999998,
+     "end": 53.87524999999998
+    },
+    {
+     "text": "Groups connected end to end, in series, add voltage.",
+     "start": 54.03524999999998,
+     "end": 57.408416666666646
+    },
+    {
+     "text": "That Model 3 pack has ninety-six groups in series, which adds up to roughly three hundred fifty to four hundred volts.",
+     "start": 57.56841666666664,
+     "end": 65.31424999999997
+    }
+   ]
+  },
+  {
+   "i": 6,
+   "ch": "battery",
+   "visual": "cell_formats",
+   "chapter_start": false,
+   "start": 65.69424999999997,
+   "end": 75.8498333333333,
+   "sentences": [
+    {
+     "text": "Other cars use larger, flat pouch cells, or box-shaped prismatic cells.",
+     "start": 65.69424999999997,
+     "end": 70.7714583333333
+    },
+    {
+     "text": "The Chevy Bolt's pack, for instance, uses just two hundred eighty-eight pouch cells.",
+     "start": 70.9314583333333,
+     "end": 75.8498333333333
+    }
+   ]
+  },
+  {
+   "i": 7,
+   "ch": "battery",
+   "visual": "cog",
+   "chapter_start": false,
+   "start": 76.22983333333329,
+   "end": 92.84649999999993,
+   "sentences": [
+    {
+     "text": "And the whole pack is laid flat in the floor, between the wheels.",
+     "start": 76.22983333333329,
+     "end": 79.72408333333328
+    },
+    {
+     "text": "That keeps the heaviest part of the car as low as possible, which lowers the center of gravity and helps the car feel planted in corners.",
+     "start": 79.88408333333328,
+     "end": 88.51479166666661
+    },
+    {
+     "text": "With no engine up front, many EVs even get a second trunk there.",
+     "start": 88.67479166666661,
+     "end": 92.84649999999993
+    }
+   ]
+  },
+  {
+   "i": 8,
+   "ch": "bms",
+   "visual": "bms_monitor",
+   "chapter_start": true,
+   "start": 95.42649999999993,
+   "end": 107.76458333333328,
+   "sentences": [
+    {
+     "text": "Thousands of cells can't just be left on their own.",
+     "start": 95.42649999999993,
+     "end": 98.1315416666666
+    },
+    {
+     "text": "Every pack has a battery management system, the pack's brain.",
+     "start": 98.2915416666666,
+     "end": 101.97962499999994
+    },
+    {
+     "text": "It constantly measures the voltage and temperature of the cells, and the current flowing in and out.",
+     "start": 102.13962499999994,
+     "end": 107.76458333333328
+    }
+   ]
+  },
+  {
+   "i": 9,
+   "ch": "bms",
+   "visual": "soc",
+   "chapter_start": false,
+   "start": 108.14458333333327,
+   "end": 114.3124166666666,
+   "sentences": [
+    {
+     "text": "From those readings, it estimates your state of charge, the battery percentage you see on the dashboard.",
+     "start": 108.14458333333327,
+     "end": 114.3124166666666
+    }
+   ]
+  },
+  {
+   "i": 10,
+   "ch": "bms",
+   "visual": "balance",
+   "chapter_start": false,
+   "start": 114.6924166666666,
+   "end": 127.24920833333326,
+   "sentences": [
+    {
+     "text": "It also balances the cells.",
+     "start": 114.6924166666666,
+     "end": 116.5310416666666
+    },
+    {
+     "text": "No two cells are perfectly identical, and in a chain, the weakest cell sets the limit for the whole pack.",
+     "start": 116.69104166666659,
+     "end": 123.19362499999993
+    },
+    {
+     "text": "So the management system gently evens out their charge levels.",
+     "start": 123.35362499999992,
+     "end": 127.24920833333326
+    }
+   ]
+  },
+  {
+   "i": 11,
+   "ch": "bms",
+   "visual": "contactor",
+   "chapter_start": false,
+   "start": 127.62920833333325,
+   "end": 141.2217499999999,
+   "sentences": [
+    {
+     "text": "And it's the pack's bodyguard.",
+     "start": 127.62920833333325,
+     "end": 129.16904166666657
+    },
+    {
+     "text": "If cells get too hot, too full, or too empty, it limits power, or opens the contactors: heavy-duty switches that disconnect the high-voltage battery from the rest of the car.",
+     "start": 129.32904166666657,
+     "end": 141.2217499999999
+    }
+   ]
+  },
+  {
+   "i": 12,
+   "ch": "inverter",
+   "visual": "dc_ac",
+   "chapter_start": true,
+   "start": 143.80174999999988,
+   "end": 155.64241666666655,
+   "sentences": [
+    {
+     "text": "Now we have a high-voltage battery.",
+     "start": 143.80174999999988,
+     "end": 145.78279166666655
+    },
+    {
+     "text": "But there's a problem.",
+     "start": 145.94279166666655,
+     "end": 147.15845833333321
+    },
+    {
+     "text": "A battery delivers direct current, flowing in one direction.",
+     "start": 147.3184583333332,
+     "end": 150.8207499999999
+    },
+    {
+     "text": "Most EV motors need alternating current, in three separate phases.",
+     "start": 150.9807499999999,
+     "end": 155.64241666666655
+    }
+   ]
+  },
+  {
+   "i": 13,
+   "ch": "inverter",
+   "visual": "switches",
+   "chapter_start": false,
+   "start": 156.02241666666654,
+   "end": 171.0462083333332,
+   "sentences": [
+    {
+     "text": "That's the job of the inverter.",
+     "start": 156.02241666666654,
+     "end": 157.7189583333332
+    },
+    {
+     "text": "Inside are power switches, made of silicon or, increasingly, silicon carbide, that turn on and off thousands of times every second.",
+     "start": 157.8789583333332,
+     "end": 166.84637499999988
+    },
+    {
+     "text": "Typically somewhere between six and twenty-four thousand times per second.",
+     "start": 167.00637499999988,
+     "end": 171.0462083333332
+    }
+   ]
+  },
+  {
+   "i": 14,
+   "ch": "inverter",
+   "visual": "pwm",
+   "chapter_start": false,
+   "start": 171.4262083333332,
+   "end": 179.11854166666652,
+   "sentences": [
+    {
+     "text": "By carefully timing those pulses, the inverter shapes three smooth, wave-like currents out of the flat, steady battery power.",
+     "start": 171.4262083333332,
+     "end": 179.11854166666652
+    }
+   ]
+  },
+  {
+   "i": 15,
+   "ch": "inverter",
+   "visual": "pedal",
+   "chapter_start": false,
+   "start": 179.4985416666665,
+   "end": 193.82295833333316,
+   "sentences": [
+    {
+     "text": "And here's the clever part.",
+     "start": 179.4985416666665,
+     "end": 181.0070416666665
+    },
+    {
+     "text": "The frequency of those waves sets how fast the motor spins, and their strength sets how much torque it makes.",
+     "start": 181.1670416666665,
+     "end": 187.4917916666665
+    },
+    {
+     "text": "When you press the accelerator, you're not opening a throttle.",
+     "start": 187.6517916666665,
+     "end": 190.9552916666665
+    },
+    {
+     "text": "You're sending a request to the inverter's computer.",
+     "start": 191.1152916666665,
+     "end": 193.82295833333316
+    }
+   ]
+  },
+  {
+   "i": 16,
+   "ch": "motor",
+   "visual": "motor_parts",
+   "chapter_start": true,
+   "start": 196.40295833333315,
+   "end": 204.79091666666648,
+   "sentences": [
+    {
+     "text": "The motor itself has two main parts: a fixed outer ring called the stator, wrapped in copper coils, and a spinning rotor inside it.",
+     "start": 196.40295833333315,
+     "end": 204.79091666666648
+    }
+   ]
+  },
+  {
+   "i": 17,
+   "ch": "motor",
+   "visual": "rot_field",
+   "chapter_start": false,
+   "start": 205.17091666666647,
+   "end": 214.92808333333312,
+   "sentences": [
+    {
+     "text": "When the inverter's three currents flow through the coils one after another, they create a magnetic field that rotates around the stator.",
+     "start": 205.17091666666647,
+     "end": 212.9209999999998
+    },
+    {
+     "text": "And the rotor is pulled along with it.",
+     "start": 213.0809999999998,
+     "end": 214.92808333333312
+    }
+   ]
+  },
+  {
+   "i": 18,
+   "ch": "motor",
+   "visual": "motor_types",
+   "chapter_start": false,
+   "start": 215.30808333333312,
+   "end": 227.8125833333331,
+   "sentences": [
+    {
+     "text": "In a permanent magnet motor, the rotor carries strong magnets that lock onto that rotating field.",
+     "start": 215.30808333333312,
+     "end": 221.2565833333331
+    },
+    {
+     "text": "In an induction motor, the field induces currents in the rotor, which then create their own magnetism.",
+     "start": 221.4165833333331,
+     "end": 227.8125833333331
+    }
+   ]
+  },
+  {
+   "i": 19,
+   "ch": "motor",
+   "visual": "torque_eff",
+   "chapter_start": false,
+   "start": 228.1925833333331,
+   "end": 243.4981666666664,
+   "sentences": [
+    {
+     "text": "Either way, the motor makes strong torque almost from zero rpm.",
+     "start": 228.1925833333331,
+     "end": 232.2740833333331
+    },
+    {
+     "text": "There's no idle speed, and no waiting for revs to build.",
+     "start": 232.4340833333331,
+     "end": 235.96012499999975
+    },
+    {
+     "text": "And it's remarkably efficient.",
+     "start": 236.12012499999975,
+     "end": 237.65708333333308
+    },
+    {
+     "text": "Permanent magnet motors can turn over ninety percent of the electrical energy into motion.",
+     "start": 237.81708333333307,
+     "end": 243.4981666666664
+    }
+   ]
+  },
+  {
+   "i": 20,
+   "ch": "gear",
+   "visual": "reduction",
+   "chapter_start": true,
+   "start": 246.0781666666664,
+   "end": 262.4461249999997,
+   "sentences": [
+    {
+     "text": "Because the motor pulls hard from a standstill and spins very fast, most EVs need only one gear.",
+     "start": 246.0781666666664,
+     "end": 252.35245833333306
+    },
+    {
+     "text": "A single reduction gear, about nine to one in a Tesla Model 3, slows the motor's speed down and multiplies its torque before sending it to the wheels.",
+     "start": 252.51245833333306,
+     "end": 262.4461249999997
+    }
+   ]
+  },
+  {
+   "i": 21,
+   "ch": "gear",
+   "visual": "one_gear",
+   "chapter_start": false,
+   "start": 262.82612499999976,
+   "end": 273.2433333333331,
+   "sentences": [
+    {
+     "text": "No clutch, no shifting, just one smooth pull from zero to top speed.",
+     "start": 262.82612499999976,
+     "end": 267.48337499999974
+    },
+    {
+     "text": "A few performance cars, like the Porsche Taycan, add a second gear, but they're the exception.",
+     "start": 267.64337499999976,
+     "end": 273.2433333333331
+    }
+   ]
+  },
+  {
+   "i": 22,
+   "ch": "regen",
+   "visual": "regen_flow",
+   "chapter_start": true,
+   "start": 275.82333333333315,
+   "end": 293.80691666666655,
+   "sentences": [
+    {
+     "text": "Now let's run everything in reverse.",
+     "start": 275.82333333333315,
+     "end": 278.06679166666646
+    },
+    {
+     "text": "When you lift off the accelerator or press the brake, the inverter turns the motor into a generator.",
+     "start": 278.2267916666665,
+     "end": 284.0288749999998
+    },
+    {
+     "text": "The wheels now spin the motor, that resistance slows the car down, and the electricity it makes flows back into the battery.",
+     "start": 284.1888749999998,
+     "end": 291.9029166666665
+    },
+    {
+     "text": "That's regenerative braking.",
+     "start": 292.0629166666665,
+     "end": 293.80691666666655
+    }
+   ]
+  },
+  {
+   "i": 23,
+   "ch": "regen",
+   "visual": "regen_compare",
+   "chapter_start": false,
+   "start": 294.1869166666666,
+   "end": 308.8874583333333,
+   "sentences": [
+    {
+     "text": "In a gas car, braking simply turns your speed into wasted heat.",
+     "start": 294.1869166666666,
+     "end": 298.21174999999994
+    },
+    {
+     "text": "According to the US Department of Energy, regenerative braking recovers about twenty-two percent of the energy on a standard mixed city and highway test.",
+     "start": 298.37174999999996,
+     "end": 308.8874583333333
+    }
+   ]
+  },
+  {
+   "i": 24,
+   "ch": "regen",
+   "visual": "regen_limits",
+   "chapter_start": false,
+   "start": 309.26745833333337,
+   "end": 318.6194166666667,
+   "sentences": [
+    {
+     "text": "It can't capture everything, though.",
+     "start": 309.26745833333337,
+     "end": 311.0360416666667
+    },
+    {
+     "text": "When the battery is full or very cold, regenerative braking is limited, and the regular friction brakes take over.",
+     "start": 311.1960416666667,
+     "end": 318.6194166666667
+    }
+   ]
+  },
+  {
+   "i": 25,
+   "ch": "thermal",
+   "visual": "temp_scale",
+   "chapter_start": true,
+   "start": 321.19941666666676,
+   "end": 330.2223750000001,
+   "sentences": [
+    {
+     "text": "Batteries are a bit like people.",
+     "start": 321.19941666666676,
+     "end": 323.07608333333343
+    },
+    {
+     "text": "They don't like being too hot or too cold.",
+     "start": 323.23608333333345,
+     "end": 325.54091666666676
+    },
+    {
+     "text": "Heat makes them age faster, and cold makes them sluggish and less powerful.",
+     "start": 325.7009166666668,
+     "end": 330.2223750000001
+    }
+   ]
+  },
+  {
+   "i": 26,
+   "ch": "thermal",
+   "visual": "coolant",
+   "chapter_start": false,
+   "start": 330.60237500000017,
+   "end": 339.48433333333355,
+   "sentences": [
+    {
+     "text": "So an EV has a thermal management system.",
+     "start": 330.60237500000017,
+     "end": 333.4007083333335
+    },
+    {
+     "text": "Liquid coolant flows through channels next to the cells, carrying heat away, or bringing heat in.",
+     "start": 333.56070833333354,
+     "end": 339.48433333333355
+    }
+   ]
+  },
+  {
+   "i": 27,
+   "ch": "thermal",
+   "visual": "heat_pump",
+   "chapter_start": false,
+   "start": 339.8643333333336,
+   "end": 360.0089583333337,
+   "sentences": [
+    {
+     "text": "Many EVs also use a heat pump, which moves heat instead of making it from scratch, like a refrigerator working in reverse.",
+     "start": 339.8643333333336,
+     "end": 348.22354166666696
+    },
+    {
+     "text": "In data from over eighteen thousand EVs, cars with a heat pump kept about eighty-three percent of their range in freezing weather, versus about seventy-five percent without one.",
+     "start": 348.383541666667,
+     "end": 360.0089583333337
+    }
+   ]
+  },
+  {
+   "i": 28,
+   "ch": "thermal",
+   "visual": "precondition",
+   "chapter_start": false,
+   "start": 360.38895833333373,
+   "end": 369.0031250000004,
+   "sentences": [
+    {
+     "text": "Some cars also warm up the battery on the way to a fast charger.",
+     "start": 360.38895833333373,
+     "end": 364.57591666666707
+    },
+    {
+     "text": "It's called preconditioning, and it lets the battery accept power faster.",
+     "start": 364.7359166666671,
+     "end": 369.0031250000004
+    }
+   ]
+  },
+  {
+   "i": 29,
+   "ch": "charging",
+   "visual": "levels",
+   "chapter_start": true,
+   "start": 371.58312500000045,
+   "end": 389.0477916666672,
+   "sentences": [
+    {
+     "text": "Finally, how does the energy get in?",
+     "start": 371.58312500000045,
+     "end": 373.61504166666714
+    },
+    {
+     "text": "Level one is a regular wall outlet, about one to two kilowatts, adding just a few miles of range per hour.",
+     "start": 373.77504166666716,
+     "end": 381.1612916666672
+    },
+    {
+     "text": "Level two uses two hundred forty volts, up to about nineteen kilowatts, enough to refill most EVs overnight.",
+     "start": 381.3212916666672,
+     "end": 389.0477916666672
+    }
+   ]
+  },
+  {
+   "i": 30,
+   "ch": "charging",
+   "visual": "ac_dc_path",
+   "chapter_start": false,
+   "start": 389.42779166666725,
+   "end": 408.5157500000006,
+   "sentences": [
+    {
+     "text": "For both, a device inside the car called the onboard charger converts the grid's alternating current into direct current for the battery.",
+     "start": 389.42779166666725,
+     "end": 397.7257500000006
+    },
+    {
+     "text": "At a DC fast charger, that conversion happens inside the big station instead, so it can push fifty to three hundred fifty kilowatts or more straight into the pack.",
+     "start": 397.8857500000006,
+     "end": 408.5157500000006
+    }
+   ]
+  },
+  {
+   "i": 31,
+   "ch": "charging",
+   "visual": "charge_curve",
+   "chapter_start": false,
+   "start": 408.89575000000065,
+   "end": 422.441708333334,
+   "sentences": [
+    {
+     "text": "But notice that charging slows down as the battery fills.",
+     "start": 408.89575000000065,
+     "end": 412.51850000000064
+    },
+    {
+     "text": "Above about eighty percent, the car deliberately reduces power to protect the cells.",
+     "start": 412.67850000000067,
+     "end": 417.9562916666673
+    },
+    {
+     "text": "That's why road trips usually charge from around twenty to eighty percent.",
+     "start": 418.11629166666734,
+     "end": 422.441708333334
+    }
+   ]
+  },
+  {
+   "i": 32,
+   "ch": "outro",
+   "visual": "flow_recap",
+   "chapter_start": true,
+   "start": 425.02170833333406,
+   "end": 447.49491666666745,
+   "sentences": [
+    {
+     "text": "So let's follow the energy one last time.",
+     "start": 425.02170833333406,
+     "end": 427.6327916666674
+    },
+    {
+     "text": "Power from the grid goes through the charger into thousands of cells, watched over by the management system.",
+     "start": 427.7927916666674,
+     "end": 434.14691666666744
+    },
+    {
+     "text": "The inverter turns it into three-phase alternating current, the motor turns magnetism into motion, one gear sends it to the wheels, and when you slow down, regenerative braking sends some of it back.",
+     "start": 434.30691666666746,
+     "end": 447.49491666666745
+    }
+   ]
+  },
+  {
+   "i": 33,
+   "ch": "outro",
+   "visual": "efficiency",
+   "chapter_start": false,
+   "start": 447.8749166666675,
+   "end": 463.96666666666755,
+   "sentences": [
+    {
+     "text": "All of that adds up to a big efficiency gap.",
+     "start": 447.8749166666675,
+     "end": 450.2992916666675
+    },
+    {
+     "text": "The Department of Energy estimates a typical EV is about eighty-seven to ninety-one percent efficient, including the energy it recovers when braking, compared with about thirty percent for a gasoline car.",
+     "start": 450.4592916666675,
+     "end": 463.96666666666755
+    }
+   ]
+  },
+  {
+   "i": 34,
+   "ch": "outro",
+   "visual": "question",
+   "chapter_start": false,
+   "start": 464.3466666666676,
+   "end": 474.1860833333344,
+   "sentences": [
+    {
+     "text": "So here's a question for you.",
+     "start": 464.3466666666676,
+     "end": 465.9315416666676
+    },
+    {
+     "text": "Which part of the electric car will change the most in the next ten years?",
+     "start": 466.09154166666764,
+     "end": 470.453250000001
+    },
+    {
+     "text": "The battery, the motor, or the software?",
+     "start": 470.613250000001,
+     "end": 472.788250000001
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 472.94825000000105,
+     "end": 474.1860833333344
+    }
+   ]
+  },
+  {
+   "i": 35,
+   "ch": "outro",
+   "visual": "endcard",
+   "chapter_start": false,
+   "start": 474.56608333333446,
+   "end": 481.90558333333445,
+   "sentences": [
+    {
+     "text": "And if you learned something today, subscribe to EV Drive for a new car tech explainer every day.",
+     "start": 474.56608333333446,
+     "end": 480.6265000000011
+    },
+    {
+     "text": "Thanks for watching.",
+     "start": 480.7865000000011,
+     "end": 481.90558333333445
+    }
+   ]
+  }
+ ]
+}
