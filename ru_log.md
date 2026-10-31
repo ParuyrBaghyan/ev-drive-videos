@@ -13,5 +13,6 @@ Voice: Edge `de-DE-FlorianMultilingualNeural`, rate +20%, pitch +8Hz (`tools/mak
 | 2026-10-30_inverter | Как электромобиль «переводит» ток ⚡🔁 | 2026-10-30 20:00 | videos/ru/2026-10-30_inverter.mp4 |
 | 2026-10-31_ev-fire-myth | Электромобили горят чаще? Данные 🔥🔋 | 2026-10-31 20:00 | videos/ru/2026-10-31_ev-fire-myth.mp4 |
 | 2026-11-01_self-driving-levels | Ваша машина — беспилотник? Шкала от 0 до 5 🚗🤖 | 2026-11-01 20:00 | videos/ru/2026-11-01_self-driving-levels.mp4 |
+| 2026-11-02_car-sensors | Камеры, радар, лидар: как видит беспилотник 👁️📡 | 2026-11-02 20:00 | videos/ru/2026-11-02_car-sensors.mp4 |
 
 Note (2026-10-30 run): no RU TikTok exists for the 2026-10-29 20:00 slot (it was missed; past slots are not back-filled). «восемь сотых процента» was heard as «восьмисотых» by the voice in context; «ноль, ноль восемь процента» is said cleanly — prefer that pattern for small percentages.
