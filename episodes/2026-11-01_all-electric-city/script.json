@@ -1,0 +1,37 @@
+{
+  "title": "What If EVERY Car in Your City Were Electric? 🏙️⚡ #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "What if every car in your city went electric overnight? Three things change. One surprise stays.",
+      "visual": "ec_hook"
+    },
+    {
+      "id": "noise",
+      "text": "First, noise. Below about thirty-five miles an hour, streets get much quieter. At highway speed, tire roar dominates, so little changes.",
+      "visual": "ec_noise"
+    },
+    {
+      "id": "air",
+      "text": "Second, air. Tailpipe fumes vanish, right where people breathe.",
+      "visual": "ec_air"
+    },
+    {
+      "id": "dust",
+      "text": "The surprise: tires and brakes still shed fine dust. An OECD study found heavy long-range EVs emit a few percent more than gas cars. Lighter ones, a bit less.",
+      "visual": "ec_dust"
+    },
+    {
+      "id": "grid",
+      "text": "Third, the grid. Electrifying every US passenger car needs about twenty-two percent more electricity. Spread out to twenty-fifty, that's about one percent a year.",
+      "visual": "ec_grid"
+    },
+    {
+      "id": "outro",
+      "text": "EVs fix the tailpipe, not the tire. Should lighter cars be next? Follow EV Drive.",
+      "visual": "ec_outro"
+    }
+  ]
+}
