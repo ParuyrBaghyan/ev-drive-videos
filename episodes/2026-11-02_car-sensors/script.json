@@ -1,0 +1,37 @@
+{
+  "title": "Cameras, Radar, Lidar: How Self-Driving Cars See 👁️📡 #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "A self-driving car has three kinds of eyes. Each one is blind to something the others can see.",
+      "visual": "sn_hook"
+    },
+    {
+      "id": "camera",
+      "text": "Cameras see like you do. They read signs, lane lines and traffic-light colors. But glare, darkness and fog hurt them, and distance must be guessed by software.",
+      "visual": "sn_camera"
+    },
+    {
+      "id": "radar",
+      "text": "Radar sends out radio waves. The echo gives distance and speed, even in rain or fog. But it's blurry. It can't tell a deer from a rock.",
+      "visual": "sn_radar"
+    },
+    {
+      "id": "lidar",
+      "text": "Lidar fires laser pulses and times each echo. Every return becomes a dot in a precise 3D map. But fog and snow scatter the light, and it's been costly.",
+      "visual": "sn_lidar"
+    },
+    {
+      "id": "fusion",
+      "text": "So most robotaxis fuse all three. Tesla is the big exception: since twenty twenty-one, it has bet on cameras alone.",
+      "visual": "sn_fusion"
+    },
+    {
+      "id": "outro",
+      "text": "Is one kind of eye ever enough? Follow EV Drive.",
+      "visual": "sn_outro"
+    }
+  ]
+}
