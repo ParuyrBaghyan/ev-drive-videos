@@ -1,0 +1,14 @@
+{
+  "title": "Your EV Can Power Your HOUSE. Here's How 🏠⚡ #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {"id": "hook", "text": "Some electric cars hide a power plant. They can run your house.", "visual": "pp_hook"},
+    {"id": "outlet", "text": "Hyundai's Ioniq 5 has a normal outlet under the back seat, good for up to three point six kilowatts.", "visual": "pp_outlet"},
+    {"id": "inverter", "text": "Electronics flip the battery's direct current into the AC your appliances use.", "visual": "pp_inverter"},
+    {"id": "truck", "text": "Ford's F one-fifty Lightning can push up to nine point six kilowatts into a home, from a pack of about one hundred thirty-one kilowatt-hours.", "visual": "pp_truck"},
+    {"id": "days", "text": "A typical home uses about thirty a day. That's roughly three days of backup, or up to ten if you ration.", "visual": "pp_days"},
+    {"id": "island", "text": "It needs a bidirectional charger, and a switch that cuts your house off the grid to protect line crews.", "visual": "pp_island"},
+    {"id": "outro", "text": "So is the next power plant parked in your driveway? Follow EV Drive.", "visual": "pp_outro"}
+  ]
+}
