@@ -1,0 +1,42 @@
+{
+  "title": "Why America Had THREE EV Plugs (and Who Won) 🔌⚡ #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Why did America end up with three different fast-charging plugs for electric cars? A format war.",
+      "visual": "pw_hook"
+    },
+    {
+      "id": "chademo",
+      "text": "Round one, twenty ten: Japan's CHAdeMO, backed by Tokyo Electric Power and Nissan. The Leaf used it.",
+      "visual": "pw_chademo"
+    },
+    {
+      "id": "ccs",
+      "text": "Round two: CCS. The regular AC plug, with two extra DC pins added underneath.",
+      "visual": "pw_ccs"
+    },
+    {
+      "id": "tesla",
+      "text": "Meanwhile, Tesla made its own plug in twenty twelve. Smaller, and the same two pins carry AC and DC.",
+      "visual": "pw_tesla"
+    },
+    {
+      "id": "flip",
+      "text": "In late twenty twenty-two, Tesla opened the design as NACS. Ford signed on, then GM, then nearly everyone.",
+      "visual": "pw_flip"
+    },
+    {
+      "id": "sae",
+      "text": "By twenty twenty-four it was official: SAE J thirty-four hundred.",
+      "visual": "pw_sae"
+    },
+    {
+      "id": "outro",
+      "text": "Should one company's plug become everyone's standard? Follow EV Drive.",
+      "visual": "pw_outro"
+    }
+  ]
+}
