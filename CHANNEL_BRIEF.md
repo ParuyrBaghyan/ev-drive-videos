@@ -40,9 +40,10 @@ Every Short ends with a short thought-provoking question or takeaway before the 
 ## Publishing
 - Commit the episode folder + the mp4 in `videos/` and push to `main`.
 - Public video URL: `https://raw.githubusercontent.com/ParuyrBaghyan/ev-drive-videos/main/videos/<file>.mp4` (check it returns 200 before scheduling).
-- Schedule with Metricool `createScheduledPost`: blogId `7616311`, provider `youtube`, `autoPublish: true`, publication time = the run's slot on the run's date (send `publicationDate` with timezone `America/New_York`).
+- Schedule with Metricool `createScheduledPost`: blogId `7793522` (Metricool account baghyanparuyr@gmail.com; switched on 2026-11-01 from the old brand 7616311), provider `youtube`, `autoPublish: true`, publication time = the run's slot on the run's date (send `publicationDate` with timezone `America/New_York`).
 - **Two Shorts per day, two slots:** **12:00** (noon run) and **18:00** (evening run), America/New_York. Each scheduled run makes exactly one Short for its own slot.
   youtubeData: `type: "short"`, `privacy: "public"`, `category: "SCIENCE_TECHNOLOGY"`, `madeForKids: false`, `isAiGeneratedContent: false`, 4–8 tags. Title ≤ 70 chars, ends with `#shorts`. Description: 2–3 sentences summarising what the viewer learns + hashtags `#EV #ElectricCars #CarTech #EVDrive #shorts`.
+- A slot that already has an entry in `topics_log.md` counts as filled even if Metricool doesn't show it (posts up to 2026-11-02 12:00 ET were scheduled in the old Metricool account) — never make a second video for it.
 - Before starting, call `getScheduledPosts` for that day (use `extendedRange: true` so already-published posts show up too) and skip only if a YouTube post already exists **in your own slot** (publication time within ±1 hour of the slot). A post in the other slot is expected — never double-post a slot.
 - Before picking a topic, also check today's other-slot post (and `topics_log.md`) so the two Shorts of the day have different topics and formats.
 - Append the episode to `topics_log.md` (date, format, topic, title, sources) and push again.
