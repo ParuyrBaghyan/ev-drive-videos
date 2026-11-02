@@ -1,0 +1,37 @@
+{
+  "title": "Do Electric Cars Really EAT Their Tires? 🛞⚡ #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Electric cars eat their tires. Myth or fact? Mostly fact.",
+      "visual": "tw_hook"
+    },
+    {
+      "id": "study",
+      "text": "A J.D. Power survey of over thirty-one thousand owners found E V drivers say their tires wear faster than they expected.",
+      "visual": "tw_study"
+    },
+    {
+      "id": "weight",
+      "text": "Reason one: weight. A typical battery pack weighs around a thousand pounds, and unlike a fuel tank, it never gets lighter as you drive.",
+      "visual": "tw_weight"
+    },
+    {
+      "id": "torque",
+      "text": "Reason two: instant torque. Full twist from a standstill means quick launches scrub rubber off the tread.",
+      "visual": "tw_torque"
+    },
+    {
+      "id": "hl",
+      "text": "So tire makers added a new rating, H L, for high load. Same size and pressure, about a quarter more load than a standard tire.",
+      "visual": "tw_hl"
+    },
+    {
+      "id": "outro",
+      "text": "Smooth launches and regular rotations help. Would you trade a little range for longer-lasting tires? Follow EV Drive.",
+      "visual": "tw_outro"
+    }
+  ]
+}
