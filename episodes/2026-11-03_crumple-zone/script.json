@@ -1,0 +1,14 @@
+{
+  "title": "Why Modern Cars Are DESIGNED to Crumple 💥🚗 #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {"id": "hook", "text": "Cars are built to crush. That's what saves you.", "visual": "cz_hook"},
+    {"id": "physics", "text": "In a crash, your speed must drop to zero. Stretch that stop over more time and the force on you shrinks. Twice the time, about half the force.", "visual": "cz_physics"},
+    {"id": "patent", "text": "Béla Barényi patented it for Mercedes in nineteen fifty-two: crush zones front and rear, around a rigid passenger cage.", "visual": "cz_patent"},
+    {"id": "fintail", "text": "The nineteen fifty-nine Fintail was the first Mercedes built that way.", "visual": "cz_fintail"},
+    {"id": "ev", "text": "Electric cars shift the puzzle. No engine block can free up front space, though Ford said its Mach-E got about ten percent less.", "visual": "cz_ev"},
+    {"id": "battery", "text": "The new job: guard the battery in the floor, with strong side sills that steer crash forces around it.", "visual": "cz_battery"},
+    {"id": "outro", "text": "A crumpled hood isn't a failure. It took the hit so you didn't. Follow EV Drive.", "visual": "cz_outro"}
+  ]
+}
