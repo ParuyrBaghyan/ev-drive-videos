@@ -1,0 +1,42 @@
+{
+  "title": "How ABS Keeps You Steering in a Panic Stop 🛑⚡ #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Slam the brakes on ice, the wheels lock, and your steering does nothing.",
+      "visual": "abs_hook"
+    },
+    {
+      "id": "lock",
+      "text": "A locked tire slides instead of rolling, and a sliding tire can't grip sideways to turn.",
+      "visual": "abs_lock"
+    },
+    {
+      "id": "sensors",
+      "text": "So every wheel gets a speed sensor. If one slows much faster than the car, a computer knows it's about to lock.",
+      "visual": "abs_sensors"
+    },
+    {
+      "id": "pulse",
+      "text": "Valves cut that wheel's brake pressure, let it spin up, then squeeze again. Bosch says up to forty times a second.",
+      "visual": "abs_pulse"
+    },
+    {
+      "id": "history",
+      "text": "Mercedes and Bosch first offered it in late nineteen seventy-eight.",
+      "visual": "abs_history"
+    },
+    {
+      "id": "driver",
+      "text": "A buzzing pedal means it's working. Don't pump. Press hard and steer. Many EVs even cut regen so the motor doesn't fight it.",
+      "visual": "abs_driver"
+    },
+    {
+      "id": "outro",
+      "text": "On loose gravel, ABS can stop you longer. It trades distance for steering. Worth it? Follow EV Drive.",
+      "visual": "abs_outro"
+    }
+  ]
+}
