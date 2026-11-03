@@ -1,0 +1,42 @@
+{
+  "title": "What's Inside a Dead EV Battery? The Numbers ♻️🔋 #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "When an E V battery dies, is it trash? Let's run the numbers.",
+      "visual": "rc_hook"
+    },
+    {
+      "id": "inside",
+      "text": "A big five-hundred-kilo pack holds roughly fifty kilos of nickel, thirty of copper, and ten each of cobalt and lithium.",
+      "visual": "rc_inside"
+    },
+    {
+      "id": "process",
+      "text": "Recyclers shred the old cells, then use chemistry to dissolve and purify the metals back out.",
+      "visual": "rc_process"
+    },
+    {
+      "id": "recovery",
+      "text": "Redwood Materials says it recovers more than ninety-five percent of the lithium, nickel, cobalt and copper.",
+      "visual": "rc_recovery"
+    },
+    {
+      "id": "mining",
+      "text": "A Stanford study of its plant found recycled metals cut emissions fifty-eight to eighty-one percent versus mining, with far less water and energy.",
+      "visual": "rc_mining"
+    },
+    {
+      "id": "loop",
+      "text": "Metals don't wear out, so they can go back into new batteries again and again.",
+      "visual": "rc_loop"
+    },
+    {
+      "id": "outro",
+      "text": "So could the biggest lithium mine of the future be a pile of old batteries? Follow EV Drive.",
+      "visual": "rc_outro"
+    }
+  ]
+}
