@@ -1,0 +1,37 @@
+{
+  "title": "Your Car Can Get BETTER Overnight. Here's How 📲⚡ #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "In twenty eighteen, a car got better brakes overnight, without ever visiting a shop.",
+      "visual": "ota_hook"
+    },
+    {
+      "id": "brakes",
+      "text": "Consumer Reports had flagged the Tesla Model 3's long stopping distance. A software update cut it by about twenty feet.",
+      "visual": "ota_brakes"
+    },
+    {
+      "id": "irma",
+      "text": "During Hurricane Irma, Tesla unlocked hidden battery capacity on some Florida cars. Sixty kilowatt-hours became seventy-five, about thirty extra miles.",
+      "visual": "ota_irma"
+    },
+    {
+      "id": "download",
+      "text": "It works because the car has its own internet connection, and downloads updates in the background.",
+      "visual": "ota_download"
+    },
+    {
+      "id": "ab",
+      "text": "The clever part: two copies of the software. The new version installs on the spare copy, and the car switches on restart. If it fails, it rolls back.",
+      "visual": "ota_ab"
+    },
+    {
+      "id": "outro",
+      "text": "But the switch that unlocked those miles can lock them again. Who really owns your car's features? Follow EV Drive.",
+      "visual": "ota_outro"
+    }
+  ]
+}
