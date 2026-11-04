@@ -7,6 +7,13 @@ ROADC = (28, 33, 42); WALK = (38, 45, 56); CURB = (70, 80, 96); YEL = (235, 196,
 RED = (255, 84, 84); BLUE = (110, 190, 255); CAMC = (120, 200, 255); LIDC = ACC; RADC = ACC2
 CHILD = (255, 214, 102); BALLC = (255, 96, 96)
 
+def sent_t(name, k):
+    """seconds (relative to the scene's visual start) when sentence k of that scene is spoken"""
+    for sc in scenes:
+        if sc["visual"] == name:
+            k = min(k, len(sc["sentences"]) - 1)
+            return sc["sentences"][k]["start"] - sc["vis_start"]
+    return 0.0
 def appear(lt, at, dur=0.45): return ease_out((lt - at) / dur)
 def pop(lt, at, dur=0.5): return clamp(back_out((lt - at) / dur), 0, 1.15)
 def label_pill(d, x, y, s, col, a=1.0, size=28, fg=None, name=BLACK):
@@ -181,8 +188,8 @@ def cold_state(lt, total=6.0):
     ball_t = lt - 1.2
     bx = GAP_WX - scroll + 0
     by = PARK_Y1 + 40 - max(0, ball_t) * 120
-    child_t = lt - 2.4
-    cy = PARK_Y1 + 70 - max(0, child_t) * 60
+    child_t = lt - (sent_t("cold_ball", 1) - 0.1)
+    cy = PARK_Y1 + 20 - max(0, child_t) * 70
     return scroll, (bx, by, ball_t), (bx - 40, cy, child_t)
 
 def vis_cold_ball(d, lt, t, dur):
@@ -195,7 +202,7 @@ def vis_cold_ball(d, lt, t, dur):
         if btt > 0.3: warn_pulse(d, bx, max(by, 330), t, 1, RED)
     if ctt > 0:
         person_top(d, cx_, max(cy_, 470), CHILD, 1, 1.0, t)
-        label_pill(d, cx_ + 90, max(cy_, 470) - 20, "CHILD", CHILD, appear(lt, 2.6), 22)
+        label_pill(d, cx_ + 90, max(cy_, 470) - 20, "CHILD", CHILD, appear(lt, sent_t("cold_ball", 1) + 0.2), 22)
 
 def vis_cold_react(d, lt, t, dur):
     lt0 = lt + 4.2
@@ -289,11 +296,11 @@ def vis_levels_ladder(d, lt, t, dur):
     big_text(d, CX, 30, "SAE LEVELS OF DRIVING AUTOMATION", 44, WHITE, a)
 
 def vis_levels_low(d, lt, t, dur):
-    seg = dur / 3
-    hi = (0,) if lt < seg else (1,) if lt < 2 * seg else (2,)
-    cam_path(lt, [(0, 1.0, 750, 360), (seg * 2, 1.0, 750, 360), (dur, 1.25, 560, 420)])
+    t1, t2 = sent_t("levels_low", 1), sent_t("levels_low", 2)
+    hi = (0,) if lt < t1 else (1,) if lt < t2 else (2,)
+    cam_path(lt, [(0, 1.0, 750, 360), (t2, 1.0, 750, 360), (t2 + 2.0, 1.25, 560, 420)])
     ladder(d, 9, hi, 0.25, t, build=False)
-    a = appear(lt, 2 * seg)
+    a = appear(lt, t2 + 0.3)
     if a > 0:
         rrect(d, 450, 40, 1010, 150, 24, rgba(PANEL, a), rgba(CAMC, a), 3)
         text_c(d, 730, 58, "LEVEL 2: EYES ON THE ROAD", 32, rgba(CAMC, a), BLACK)
