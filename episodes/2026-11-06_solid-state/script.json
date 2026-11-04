@@ -1,0 +1,42 @@
+{
+  "title": "Solid-State Batteries: Why Aren't They in Your Car Yet? 🔋🧪 #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Solid-state batteries promise more range in the same space. So where are they?",
+      "visual": "ss_hook"
+    },
+    {
+      "id": "liquid",
+      "text": "Today's EV cells move lithium ions through a liquid electrolyte, and that liquid can burn.",
+      "visual": "ss_liquid"
+    },
+    {
+      "id": "solid",
+      "text": "Solid-state cells swap it for a thin solid layer, allowing a lithium-metal anode that holds far more charge than graphite.",
+      "visual": "ss_solid"
+    },
+    {
+      "id": "gaps",
+      "text": "The catch: solids don't flow. Electrodes swell and shrink while charging, gaps open, so cells must be kept squeezed.",
+      "visual": "ss_gaps"
+    },
+    {
+      "id": "dendrite",
+      "text": "And lithium can grow needles called dendrites that crack the layer and short the cell.",
+      "visual": "ss_dendrite"
+    },
+    {
+      "id": "progress",
+      "text": "Still, in twenty twenty-five a Mercedes test car with lithium-metal solid-state cells drove seven hundred forty-nine miles on one charge.",
+      "visual": "ss_progress"
+    },
+    {
+      "id": "outro",
+      "text": "Toyota aims for twenty twenty-seven or eight. Would you wait? Follow EV Drive.",
+      "visual": "ss_outro"
+    }
+  ]
+}
