@@ -1,0 +1,835 @@
+{
+ "total": 433.64529166666665,
+ "scenes": [
+  {
+   "i": 0,
+   "ch": "intro",
+   "visual": "cold_ball",
+   "chapter_start": true,
+   "start": 0.4,
+   "end": 4.039791666666667,
+   "sentences": [
+    {
+     "text": "A ball bounces into the street.",
+     "start": 0.4,
+     "end": 2.1985833333333336
+    },
+    {
+     "text": "And right behind it, a child.",
+     "start": 2.3585833333333337,
+     "end": 4.039791666666667
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "ch": "intro",
+   "visual": "cold_react",
+   "chapter_start": false,
+   "start": 4.419791666666667,
+   "end": 14.590208333333333,
+   "sentences": [
+    {
+     "text": "A human driver needs about one and a half seconds just to react.",
+     "start": 4.419791666666667,
+     "end": 8.648666666666667
+    },
+    {
+     "text": "At thirty miles per hour, that's about sixty-six feet before your foot even touches the brake.",
+     "start": 8.808666666666667,
+     "end": 14.590208333333333
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "ch": "intro",
+   "visual": "cold_questions",
+   "chapter_start": false,
+   "start": 14.970208333333334,
+   "end": 25.69183333333333,
+   "sentences": [
+    {
+     "text": "A self-driving car in the same spot has to answer three questions, over and over, many times every second.",
+     "start": 14.970208333333334,
+     "end": 22.00175
+    },
+    {
+     "text": "What is around me?",
+     "start": 22.16175,
+     "end": 23.175833333333333
+    },
+    {
+     "text": "What will it do next?",
+     "start": 23.335833333333333,
+     "end": 24.431583333333332
+    },
+    {
+     "text": "And what should I do?",
+     "start": 24.591583333333332,
+     "end": 25.69183333333333
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "ch": "intro",
+   "visual": "cold_promise",
+   "chapter_start": false,
+   "start": 26.07183333333333,
+   "end": 36.26108333333333,
+   "sentences": [
+    {
+     "text": "By the end of this video, you'll know exactly how a robot car answers those questions, and why getting it right almost every time still isn't good enough.",
+     "start": 26.07183333333333,
+     "end": 35.127583333333334
+    },
+    {
+     "text": "Let's get into it.",
+     "start": 35.28758333333333,
+     "end": 36.26108333333333
+    }
+   ]
+  },
+  {
+   "i": 4,
+   "ch": "levels",
+   "visual": "levels_ladder",
+   "chapter_start": true,
+   "start": 38.84108333333333,
+   "end": 49.82758333333333,
+   "sentences": [
+    {
+     "text": "First, not every car that says self-driving really drives itself.",
+     "start": 38.84108333333333,
+     "end": 42.792375
+    },
+    {
+     "text": "Engineers use a scale from the Society of Automotive Engineers, with six levels, from zero to five.",
+     "start": 42.952374999999996,
+     "end": 49.82758333333333
+    }
+   ]
+  },
+  {
+   "i": 5,
+   "ch": "levels",
+   "visual": "levels_low",
+   "chapter_start": false,
+   "start": 50.207583333333325,
+   "end": 65.54549999999998,
+   "sentences": [
+    {
+     "text": "Level zero is just you.",
+     "start": 50.207583333333325,
+     "end": 51.861708333333326
+    },
+    {
+     "text": "Level one helps with one thing at a time, like adaptive cruise control.",
+     "start": 52.02170833333332,
+     "end": 56.35249999999999
+    },
+    {
+     "text": "Level two can steer, brake and accelerate together, but you must watch the road every single second.",
+     "start": 56.51249999999999,
+     "end": 62.62329166666665
+    },
+    {
+     "text": "Tesla's Autopilot is a level two system.",
+     "start": 62.78329166666665,
+     "end": 65.54549999999998
+    }
+   ]
+  },
+  {
+   "i": 6,
+   "ch": "levels",
+   "visual": "levels_l3",
+   "chapter_start": false,
+   "start": 65.92549999999997,
+   "end": 83.50266666666663,
+   "sentences": [
+    {
+     "text": "Level three is where things change.",
+     "start": 65.92549999999997,
+     "end": 67.93591666666664
+    },
+    {
+     "text": "In certain conditions, the car drives and you can look away, but you must take over within a few seconds when it asks.",
+     "start": 68.09591666666664,
+     "end": 75.04699999999997
+    },
+    {
+     "text": "Mercedes' Drive Pilot is level three, and in Germany it's now approved on highways at up to ninety-five kilometers per hour.",
+     "start": 75.20699999999997,
+     "end": 83.50266666666663
+    }
+   ]
+  },
+  {
+   "i": 7,
+   "ch": "levels",
+   "visual": "levels_l45",
+   "chapter_start": false,
+   "start": 83.88266666666662,
+   "end": 97.52733333333327,
+   "sentences": [
+    {
+     "text": "Level four drives itself completely, but only inside a set area and set conditions.",
+     "start": 83.88266666666662,
+     "end": 89.47429166666662
+    },
+    {
+     "text": "That's what robotaxis are.",
+     "start": 89.63429166666661,
+     "end": 91.28404166666661
+    },
+    {
+     "text": "And level five, a car that can drive anywhere, in anything, with no limits?",
+     "start": 91.4440416666666,
+     "end": 96.0750416666666
+    },
+    {
+     "text": "That doesn't exist yet.",
+     "start": 96.2350416666666,
+     "end": 97.52733333333327
+    }
+   ]
+  },
+  {
+   "i": 8,
+   "ch": "sensors",
+   "visual": "suite",
+   "chapter_start": true,
+   "start": 100.10733333333327,
+   "end": 118.86499999999992,
+   "sentences": [
+    {
+     "text": "To drive, the car first has to see.",
+     "start": 100.10733333333327,
+     "end": 102.16733333333327
+    },
+    {
+     "text": "Waymo's latest robotaxi uses thirteen cameras, four lidars and six radars, with overlapping views all around the car, reaching up to five hundred meters away.",
+     "start": 102.32733333333327,
+     "end": 114.13724999999994
+    },
+    {
+     "text": "Why so many different sensors?",
+     "start": 114.29724999999993,
+     "end": 115.93208333333327
+    },
+    {
+     "text": "Because each one has a superpower, and a weakness.",
+     "start": 116.09208333333326,
+     "end": 118.86499999999992
+    }
+   ]
+  },
+  {
+   "i": 9,
+   "ch": "sensors",
+   "visual": "cam_view",
+   "chapter_start": false,
+   "start": 119.24499999999992,
+   "end": 130.5349166666666,
+   "sentences": [
+    {
+     "text": "Cameras see the world like we do.",
+     "start": 119.24499999999992,
+     "end": 121.05395833333326
+    },
+    {
+     "text": "They read traffic lights, signs and lane markings, and they see color.",
+     "start": 121.21395833333325,
+     "end": 125.14016666666659
+    },
+    {
+     "text": "But a single camera has no direct sense of depth, and it struggles in darkness and glare.",
+     "start": 125.30016666666658,
+     "end": 130.5349166666666
+    }
+   ]
+  },
+  {
+   "i": 10,
+   "ch": "sensors",
+   "visual": "lidar_cloud",
+   "chapter_start": false,
+   "start": 130.91491666666658,
+   "end": 145.45637499999992,
+   "sentences": [
+    {
+     "text": "Lidar fixes the depth problem.",
+     "start": 130.91491666666658,
+     "end": 132.92108333333326
+    },
+    {
+     "text": "It fires laser pulses and times how long each one takes to bounce back.",
+     "start": 133.08108333333325,
+     "end": 137.7380416666666
+    },
+    {
+     "text": "Do that up to millions of times a second, and you get a precise 3D map of everything around the car, called a point cloud.",
+     "start": 137.8980416666666,
+     "end": 145.45637499999992
+    }
+   ]
+  },
+  {
+   "i": 11,
+   "ch": "sensors",
+   "visual": "lidar_weak",
+   "chapter_start": false,
+   "start": 145.83637499999992,
+   "end": 149.62816666666657,
+   "sentences": [
+    {
+     "text": "Its weakness?",
+     "start": 145.83637499999992,
+     "end": 146.72358333333324
+    },
+    {
+     "text": "Heavy rain, fog and snow scatter the laser light.",
+     "start": 146.88358333333323,
+     "end": 149.62816666666657
+    }
+   ]
+  },
+  {
+   "i": 12,
+   "ch": "sensors",
+   "visual": "radar",
+   "chapter_start": false,
+   "start": 150.00816666666657,
+   "end": 164.03741666666656,
+   "sentences": [
+    {
+     "text": "Radar uses radio waves, which pass through rain, fog and snow.",
+     "start": 150.00816666666657,
+     "end": 154.17333333333323
+    },
+    {
+     "text": "Thanks to the Doppler effect, it measures how fast things are moving, directly.",
+     "start": 154.33333333333323,
+     "end": 158.76966666666655
+    },
+    {
+     "text": "But its picture is blurry.",
+     "start": 158.92966666666655,
+     "end": 160.36708333333323
+    },
+    {
+     "text": "It can tell that something is there, not exactly what it is.",
+     "start": 160.52708333333322,
+     "end": 164.03741666666656
+    }
+   ]
+  },
+  {
+   "i": 13,
+   "ch": "sensors",
+   "visual": "compare",
+   "chapter_start": false,
+   "start": 164.41741666666655,
+   "end": 173.74191666666655,
+   "sentences": [
+    {
+     "text": "So cameras tell you what.",
+     "start": 164.41741666666655,
+     "end": 165.81499999999988
+    },
+    {
+     "text": "Lidar tells you where.",
+     "start": 165.97499999999988,
+     "end": 167.27679166666655
+    },
+    {
+     "text": "Radar tells you how fast.",
+     "start": 167.43679166666655,
+     "end": 169.14245833333322
+    },
+    {
+     "text": "No single sensor is enough, which is why the next step matters so much.",
+     "start": 169.30245833333322,
+     "end": 173.74191666666655
+    }
+   ]
+  },
+  {
+   "i": 14,
+   "ch": "fusion",
+   "visual": "fusion",
+   "chapter_start": true,
+   "start": 176.32191666666654,
+   "end": 193.17879166666654,
+   "sentences": [
+    {
+     "text": "The car combines all three into one picture of the world.",
+     "start": 176.32191666666654,
+     "end": 179.73141666666655
+    },
+    {
+     "text": "This is called sensor fusion.",
+     "start": 179.89141666666654,
+     "end": 181.58504166666654
+    },
+    {
+     "text": "If the camera sees a person-shaped object, lidar confirms exactly where it is, and radar adds its speed, the car can be far more confident than with any one sensor alone.",
+     "start": 181.74504166666654,
+     "end": 193.17879166666654
+    }
+   ]
+  },
+  {
+   "i": 15,
+   "ch": "fusion",
+   "visual": "fusion_boxes",
+   "chapter_start": false,
+   "start": 193.55879166666654,
+   "end": 203.52066666666653,
+   "sentences": [
+    {
+     "text": "The result is a live 3D model of the street.",
+     "start": 193.55879166666654,
+     "end": 196.56441666666655
+    },
+    {
+     "text": "Every car, cyclist and pedestrian is wrapped in a box, labeled, and tracked from one moment to the next.",
+     "start": 196.72441666666654,
+     "end": 203.52066666666653
+    }
+   ]
+  },
+  {
+   "i": 16,
+   "ch": "brain",
+   "visual": "pipeline",
+   "chapter_start": true,
+   "start": 206.1006666666665,
+   "end": 212.51908333333319,
+   "sentences": [
+    {
+     "text": "Now the car has to think.",
+     "start": 206.1006666666665,
+     "end": 207.49662499999985
+    },
+    {
+     "text": "Most systems split this into three jobs: perception, prediction, and planning.",
+     "start": 207.65662499999985,
+     "end": 212.51908333333319
+    }
+   ]
+  },
+  {
+   "i": 17,
+   "ch": "brain",
+   "visual": "predict",
+   "chapter_start": false,
+   "start": 212.89908333333318,
+   "end": 225.19499999999985,
+   "sentences": [
+    {
+     "text": "Prediction is the hard one.",
+     "start": 212.89908333333318,
+     "end": 214.6570833333332
+    },
+    {
+     "text": "The car doesn't just see the cyclist.",
+     "start": 214.8170833333332,
+     "end": 216.80195833333318
+    },
+    {
+     "text": "It imagines several possible futures.",
+     "start": 216.96195833333317,
+     "end": 219.42158333333316
+    },
+    {
+     "text": "Will she keep going straight?",
+     "start": 219.58158333333316,
+     "end": 220.9952916666665
+    },
+    {
+     "text": "Turn left?",
+     "start": 221.1552916666665,
+     "end": 221.94058333333317
+    },
+    {
+     "text": "Stop?",
+     "start": 222.10058333333316,
+     "end": 222.76512499999984
+    },
+    {
+     "text": "Each possibility gets a probability.",
+     "start": 222.92512499999984,
+     "end": 225.19499999999985
+    }
+   ]
+  },
+  {
+   "i": 18,
+   "ch": "brain",
+   "visual": "plan",
+   "chapter_start": false,
+   "start": 225.57499999999985,
+   "end": 237.6967916666665,
+   "sentences": [
+    {
+     "text": "Then planning picks the car's own path: one that's safe, legal, and comfortable for the passengers.",
+     "start": 225.57499999999985,
+     "end": 231.60854166666653
+    },
+    {
+     "text": "And it doesn't do this once.",
+     "start": 231.76854166666652,
+     "end": 233.22174999999984
+    },
+    {
+     "text": "It repeats the whole loop many times every second, constantly updating.",
+     "start": 233.38174999999984,
+     "end": 237.6967916666665
+    }
+   ]
+  },
+  {
+   "i": 19,
+   "ch": "brain",
+   "visual": "neural",
+   "chapter_start": false,
+   "start": 238.0767916666665,
+   "end": 250.3374166666665,
+   "sentences": [
+    {
+     "text": "Much of this is powered by neural networks: AI models trained on enormous amounts of driving data.",
+     "start": 238.0767916666665,
+     "end": 244.56537499999985
+    },
+    {
+     "text": "They learn what a pedestrian looks like from countless examples, instead of from hand-written rules.",
+     "start": 244.72537499999984,
+     "end": 250.3374166666665
+    }
+   ]
+  },
+  {
+   "i": 20,
+   "ch": "brain",
+   "visual": "sim",
+   "chapter_start": false,
+   "start": 250.7174166666665,
+   "end": 268.9934583333332,
+   "sentences": [
+    {
+     "text": "And because rare, dangerous moments are hard to find on real roads, companies create them in simulation.",
+     "start": 250.7174166666665,
+     "end": 257.5374166666665
+    },
+    {
+     "text": "As far back as twenty eighteen, Waymo's software was driving about ten million virtual miles every single day, replaying tricky situations with endless variations.",
+     "start": 257.6974166666665,
+     "end": 268.9934583333332
+    }
+   ]
+  },
+  {
+   "i": 21,
+   "ch": "maps",
+   "visual": "hdmap",
+   "chapter_start": true,
+   "start": 271.57345833333324,
+   "end": 280.2807916666666,
+   "sentences": [
+    {
+     "text": "There's one more trick.",
+     "start": 271.57345833333324,
+     "end": 272.8166249999999
+    },
+    {
+     "text": "Many robotaxis carry a detailed map of their service area, with every lane, curb, crosswalk and traffic light.",
+     "start": 272.9766249999999,
+     "end": 280.2807916666666
+    }
+   ]
+  },
+  {
+   "i": 22,
+   "ch": "maps",
+   "visual": "localize",
+   "chapter_start": false,
+   "start": 280.6607916666666,
+   "end": 291.38604166666664,
+   "sentences": [
+    {
+     "text": "By matching what its lidar sees against that map, the car can pin down its position far more precisely than ordinary GPS, which can be off by several meters.",
+     "start": 280.6607916666666,
+     "end": 291.38604166666664
+    }
+   ]
+  },
+  {
+   "i": 23,
+   "ch": "hard",
+   "visual": "rare",
+   "chapter_start": true,
+   "start": 293.9660416666667,
+   "end": 307.7887916666667,
+   "sentences": [
+    {
+     "text": "So why isn't every car self-driving already?",
+     "start": 293.9660416666667,
+     "end": 296.76029166666666
+    },
+    {
+     "text": "Because driving is ninety-nine percent boring, and one percent chaos.",
+     "start": 296.9202916666667,
+     "end": 301.42691666666667
+    },
+    {
+     "text": "A mattress falls off a truck.",
+     "start": 301.5869166666667,
+     "end": 303.27433333333335
+    },
+    {
+     "text": "A police officer waves you through a red light.",
+     "start": 303.43433333333337,
+     "end": 306.0547083333334
+    },
+    {
+     "text": "A child chases a ball.",
+     "start": 306.2147083333334,
+     "end": 307.7887916666667
+    }
+   ]
+  },
+  {
+   "i": 24,
+   "ch": "hard",
+   "visual": "weather",
+   "chapter_start": false,
+   "start": 308.1687916666668,
+   "end": 314.7780833333335,
+   "sentences": [
+    {
+     "text": "Weather makes everything harder.",
+     "start": 308.1687916666668,
+     "end": 309.9442500000001
+    },
+    {
+     "text": "Rain blurs cameras, snow covers lane lines, and fog scatters lidar.",
+     "start": 310.10425000000015,
+     "end": 314.7780833333335
+    }
+   ]
+  },
+  {
+   "i": 25,
+   "ch": "hard",
+   "visual": "recall",
+   "chapter_start": false,
+   "start": 315.15808333333354,
+   "end": 328.94608333333355,
+   "sentences": [
+    {
+     "text": "Even the leaders get caught out.",
+     "start": 315.15808333333354,
+     "end": 316.6196250000002
+    },
+    {
+     "text": "In twenty twenty-six, Waymo recalled nearly four thousand robotaxis after some drove into closed highway construction zones, and it pulled its cars off highways while it worked on a fix.",
+     "start": 316.77962500000024,
+     "end": 328.94608333333355
+    }
+   ]
+  },
+  {
+   "i": 26,
+   "ch": "hard",
+   "visual": "bar",
+   "chapter_start": false,
+   "start": 329.3260833333336,
+   "end": 337.92554166666696,
+   "sentences": [
+    {
+     "text": "And the bar is extremely high.",
+     "start": 329.3260833333336,
+     "end": 331.06012500000026
+    },
+    {
+     "text": "We accept human mistakes.",
+     "start": 331.2201250000003,
+     "end": 332.78266666666696
+    },
+    {
+     "text": "But a robot car is expected to be far better than us, everywhere, all the time.",
+     "start": 332.942666666667,
+     "end": 337.92554166666696
+    }
+   ]
+  },
+  {
+   "i": 27,
+   "ch": "today",
+   "visual": "waymo_stats",
+   "chapter_start": true,
+   "start": 340.505541666667,
+   "end": 354.501416666667,
+   "sentences": [
+    {
+     "text": "So where do things actually stand?",
+     "start": 340.505541666667,
+     "end": 342.5211250000003
+    },
+    {
+     "text": "Waymo now runs paid robotaxi rides in fifteen US metro areas, with more than five hundred thousand paid rides every week, and a fleet of around four thousand vehicles.",
+     "start": 342.68112500000035,
+     "end": 354.501416666667
+    }
+   ]
+  },
+  {
+   "i": 28,
+   "ch": "today",
+   "visual": "safety",
+   "chapter_start": false,
+   "start": 354.88141666666706,
+   "end": 372.42241666666706,
+   "sentences": [
+    {
+     "text": "According to Waymo's own data, across two hundred seventy-one million driverless miles, its cars had ninety-five percent fewer serious-injury crashes than human drivers in the same areas, and ninety-three percent fewer injury crashes involving pedestrians.",
+     "start": 354.88141666666706,
+     "end": 372.42241666666706
+    }
+   ]
+  },
+  {
+   "i": 29,
+   "ch": "today",
+   "visual": "tesla",
+   "chapter_start": false,
+   "start": 372.8024166666671,
+   "end": 387.89850000000047,
+   "sentences": [
+    {
+     "text": "Tesla takes a different path: cameras only, no lidar.",
+     "start": 372.8024166666671,
+     "end": 376.35758333333376
+    },
+    {
+     "text": "Its robotaxi service runs in seven metro areas, with some rides that have no safety monitor on board.",
+     "start": 376.5175833333338,
+     "end": 383.8606666666671
+    },
+    {
+     "text": "Which approach wins is one of the biggest debates in the car world.",
+     "start": 384.0206666666671,
+     "end": 387.89850000000047
+    }
+   ]
+  },
+  {
+   "i": 30,
+   "ch": "today",
+   "visual": "own_car",
+   "chapter_start": false,
+   "start": 388.2785000000005,
+   "end": 398.7642500000006,
+   "sentences": [
+    {
+     "text": "But in a car you can buy today, self-driving almost always means level two.",
+     "start": 388.2785000000005,
+     "end": 393.0692500000005
+    },
+    {
+     "text": "Your hands may leave the wheel, but your eyes, and your responsibility, never leave the road.",
+     "start": 393.22925000000055,
+     "end": 398.7642500000006
+    }
+   ]
+  },
+  {
+   "i": 31,
+   "ch": "outro",
+   "visual": "replay",
+   "chapter_start": true,
+   "start": 401.3442500000006,
+   "end": 417.98920833333403,
+   "sentences": [
+    {
+     "text": "So let's go back to that ball.",
+     "start": 401.3442500000006,
+     "end": 402.9712500000006
+    },
+    {
+     "text": "Cameras spot it, and the child behind it.",
+     "start": 403.13125000000065,
+     "end": 405.49712500000066
+    },
+    {
+     "text": "Lidar measures exactly where they are.",
+     "start": 405.6571250000007,
+     "end": 407.95554166666733
+    },
+    {
+     "text": "Radar tracks how fast they're moving.",
+     "start": 408.11554166666735,
+     "end": 410.11616666666737
+    },
+    {
+     "text": "The car predicts the child will run into the road, plans a stop, and brakes, without ever getting distracted or tired.",
+     "start": 410.2761666666674,
+     "end": 417.98920833333403
+    }
+   ]
+  },
+  {
+   "i": 32,
+   "ch": "outro",
+   "visual": "question",
+   "chapter_start": false,
+   "start": 418.3692083333341,
+   "end": 426.7560000000008,
+   "sentences": [
+    {
+     "text": "So here's my question for you.",
+     "start": 418.3692083333341,
+     "end": 420.15283333333406
+    },
+    {
+     "text": "Would you get into a car with no driver today?",
+     "start": 420.3128333333341,
+     "end": 422.89400000000074
+    },
+    {
+     "text": "Yes, no, or only in some places?",
+     "start": 423.05400000000077,
+     "end": 425.35816666666744
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 425.51816666666747,
+     "end": 426.7560000000008
+    }
+   ]
+  },
+  {
+   "i": 33,
+   "ch": "outro",
+   "visual": "endcard",
+   "chapter_start": false,
+   "start": 427.1360000000009,
+   "end": 431.76529166666757,
+   "sentences": [
+    {
+     "text": "If you learned something, subscribe to EV Drive.",
+     "start": 427.1360000000009,
+     "end": 430.0795416666675
+    },
+    {
+     "text": "I'll see you in the next one.",
+     "start": 430.23954166666755,
+     "end": 431.76529166666757
+    }
+   ]
+  }
+ ]
+}

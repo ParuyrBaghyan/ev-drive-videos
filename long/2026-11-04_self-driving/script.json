@@ -1,0 +1,193 @@
+{
+ "title": "How Self-Driving Cars Actually Work (And Why It's So Hard)",
+ "voice": "am_michael",
+ "speed": 1.05,
+ "say": {
+  "robotaxis": "robo-taxis",
+  "robotaxi": "robo-taxi",
+  "no lidar": "and no lidar"
+ },
+ "chapters": {
+  "intro": "Intro",
+  "levels": "01  The six levels",
+  "sensors": "02  How the car sees",
+  "fusion": "03  Sensor fusion",
+  "brain": "04  How the car thinks",
+  "maps": "05  Knowing where it is",
+  "hard": "06  Why it's so hard",
+  "today": "07  Where we are today",
+  "outro": "Back to the ball"
+ },
+ "scenes": [
+  {
+   "ch": "intro",
+   "visual": "cold_ball",
+   "text": "A ball bounces into the street. And right behind it, a child."
+  },
+  {
+   "ch": "intro",
+   "visual": "cold_react",
+   "text": "A human driver needs about one and a half seconds just to react. At thirty miles per hour, that's about sixty-six feet before your foot even touches the brake."
+  },
+  {
+   "ch": "intro",
+   "visual": "cold_questions",
+   "text": "A self-driving car in the same spot has to answer three questions, over and over, many times every second. What is around me? What will it do next? And what should I do?"
+  },
+  {
+   "ch": "intro",
+   "visual": "cold_promise",
+   "text": "By the end of this video, you'll know exactly how a robot car answers those questions, and why getting it right almost every time still isn't good enough. Let's get into it."
+  },
+  {
+   "ch": "levels",
+   "visual": "levels_ladder",
+   "text": "First, not every car that says self-driving really drives itself. Engineers use a scale from the Society of Automotive Engineers, with six levels, from zero to five."
+  },
+  {
+   "ch": "levels",
+   "visual": "levels_low",
+   "text": "Level zero is just you. Level one helps with one thing at a time, like adaptive cruise control. Level two can steer, brake and accelerate together, but you must watch the road every single second. Tesla's Autopilot is a level two system."
+  },
+  {
+   "ch": "levels",
+   "visual": "levels_l3",
+   "text": "Level three is where things change. In certain conditions, the car drives and you can look away, but you must take over within a few seconds when it asks. Mercedes' Drive Pilot is level three, and in Germany it's now approved on highways at up to ninety-five kilometers per hour."
+  },
+  {
+   "ch": "levels",
+   "visual": "levels_l45",
+   "text": "Level four drives itself completely, but only inside a set area and set conditions. That's what robotaxis are. And level five, a car that can drive anywhere, in anything, with no limits? That doesn't exist yet."
+  },
+  {
+   "ch": "sensors",
+   "visual": "suite",
+   "text": "To drive, the car first has to see. Waymo's latest robotaxi uses thirteen cameras, four lidars and six radars, with overlapping views all around the car, reaching up to five hundred meters away. Why so many different sensors? Because each one has a superpower, and a weakness."
+  },
+  {
+   "ch": "sensors",
+   "visual": "cam_view",
+   "text": "Cameras see the world like we do. They read traffic lights, signs and lane markings, and they see color. But a single camera has no direct sense of depth, and it struggles in darkness and glare."
+  },
+  {
+   "ch": "sensors",
+   "visual": "lidar_cloud",
+   "text": "Lidar fixes the depth problem. It fires laser pulses and times how long each one takes to bounce back. Do that up to millions of times a second, and you get a precise 3D map of everything around the car, called a point cloud."
+  },
+  {
+   "ch": "sensors",
+   "visual": "lidar_weak",
+   "text": "Its weakness? Heavy rain, fog and snow scatter the laser light."
+  },
+  {
+   "ch": "sensors",
+   "visual": "radar",
+   "text": "Radar uses radio waves, which pass through rain, fog and snow. Thanks to the Doppler effect, it measures how fast things are moving, directly. But its picture is blurry. It can tell that something is there, not exactly what it is."
+  },
+  {
+   "ch": "sensors",
+   "visual": "compare",
+   "text": "So cameras tell you what. Lidar tells you where. Radar tells you how fast. No single sensor is enough, which is why the next step matters so much."
+  },
+  {
+   "ch": "fusion",
+   "visual": "fusion",
+   "text": "The car combines all three into one picture of the world. This is called sensor fusion. If the camera sees a person-shaped object, lidar confirms exactly where it is, and radar adds its speed, the car can be far more confident than with any one sensor alone."
+  },
+  {
+   "ch": "fusion",
+   "visual": "fusion_boxes",
+   "text": "The result is a live 3D model of the street. Every car, cyclist and pedestrian is wrapped in a box, labeled, and tracked from one moment to the next."
+  },
+  {
+   "ch": "brain",
+   "visual": "pipeline",
+   "text": "Now the car has to think. Most systems split this into three jobs: perception, prediction, and planning."
+  },
+  {
+   "ch": "brain",
+   "visual": "predict",
+   "text": "Prediction is the hard one. The car doesn't just see the cyclist. It imagines several possible futures. Will she keep going straight? Turn left? Stop? Each possibility gets a probability."
+  },
+  {
+   "ch": "brain",
+   "visual": "plan",
+   "text": "Then planning picks the car's own path: one that's safe, legal, and comfortable for the passengers. And it doesn't do this once. It repeats the whole loop many times every second, constantly updating."
+  },
+  {
+   "ch": "brain",
+   "visual": "neural",
+   "text": "Much of this is powered by neural networks: AI models trained on enormous amounts of driving data. They learn what a pedestrian looks like from countless examples, instead of from hand-written rules."
+  },
+  {
+   "ch": "brain",
+   "visual": "sim",
+   "text": "And because rare, dangerous moments are hard to find on real roads, companies create them in simulation. As far back as twenty eighteen, Waymo's software was driving about ten million virtual miles every single day, replaying tricky situations with endless variations."
+  },
+  {
+   "ch": "maps",
+   "visual": "hdmap",
+   "text": "There's one more trick. Many robotaxis carry a detailed map of their service area, with every lane, curb, crosswalk and traffic light."
+  },
+  {
+   "ch": "maps",
+   "visual": "localize",
+   "text": "By matching what its lidar sees against that map, the car can pin down its position far more precisely than ordinary GPS, which can be off by several meters."
+  },
+  {
+   "ch": "hard",
+   "visual": "rare",
+   "text": "So why isn't every car self-driving already? Because driving is ninety-nine percent boring, and one percent chaos. A mattress falls off a truck. A police officer waves you through a red light. A child chases a ball."
+  },
+  {
+   "ch": "hard",
+   "visual": "weather",
+   "text": "Weather makes everything harder. Rain blurs cameras, snow covers lane lines, and fog scatters lidar."
+  },
+  {
+   "ch": "hard",
+   "visual": "recall",
+   "text": "Even the leaders get caught out. In twenty twenty-six, Waymo recalled nearly four thousand robotaxis after some drove into closed highway construction zones, and it pulled its cars off highways while it worked on a fix."
+  },
+  {
+   "ch": "hard",
+   "visual": "bar",
+   "text": "And the bar is extremely high. We accept human mistakes. But a robot car is expected to be far better than us, everywhere, all the time."
+  },
+  {
+   "ch": "today",
+   "visual": "waymo_stats",
+   "text": "So where do things actually stand? Waymo now runs paid robotaxi rides in fifteen US metro areas, with more than five hundred thousand paid rides every week, and a fleet of around four thousand vehicles."
+  },
+  {
+   "ch": "today",
+   "visual": "safety",
+   "text": "According to Waymo's own data, across two hundred seventy-one million driverless miles, its cars had ninety-five percent fewer serious-injury crashes than human drivers in the same areas, and ninety-three percent fewer injury crashes involving pedestrians."
+  },
+  {
+   "ch": "today",
+   "visual": "tesla",
+   "text": "Tesla takes a different path: cameras only, no lidar. Its robotaxi service runs in seven metro areas, with some rides that have no safety monitor on board. Which approach wins is one of the biggest debates in the car world."
+  },
+  {
+   "ch": "today",
+   "visual": "own_car",
+   "text": "But in a car you can buy today, self-driving almost always means level two. Your hands may leave the wheel, but your eyes, and your responsibility, never leave the road."
+  },
+  {
+   "ch": "outro",
+   "visual": "replay",
+   "text": "So let's go back to that ball. Cameras spot it, and the child behind it. Lidar measures exactly where they are. Radar tracks how fast they're moving. The car predicts the child will run into the road, plans a stop, and brakes, without ever getting distracted or tired."
+  },
+  {
+   "ch": "outro",
+   "visual": "question",
+   "text": "So here's my question for you. Would you get into a car with no driver today? Yes, no, or only in some places? Tell me in the comments."
+  },
+  {
+   "ch": "outro",
+   "visual": "endcard",
+   "text": "If you learned something, subscribe to EV Drive. I'll see you in the next one."
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+A ball bounces into the street, and a child runs after it. How does a self-driving car see it, predict what happens next, and decide to stop? We break down the six levels of automation, how cameras, lidar and radar each see the road, sensor fusion, prediction and planning, the AI and simulation behind it, HD maps, why it's still so hard, and where robotaxis really stand today.
+
+0:00 Intro
+0:36 The six levels
+1:37 How the car sees
+2:54 Sensor fusion
+3:23 How the car thinks
+4:29 Knowing where it is
+4:51 Why it's so hard
+5:38 Where we are today
+6:39 Back to the ball
+
+Would you ride in a car with no driver today? Yes, no, or only in some places? Tell me in the comments.
+
+Sources:
+SAE J3016 levels of driving automation (summary: Wevolver)
+Waymo: 6th-generation Waymo Driver (13 cameras, 4 lidars, 6 radars, up to 500 m)
+Waymo Safety Impact data through June 2026: 271M rider-only miles, 95% fewer serious-injury crashes, 93% fewer pedestrian injury crashes (company data vs. human benchmark)
+Robotaxi status Oct 2026 (The Charge Port tracker): Waymo 15 US metros, 500,000+ paid rides/week, ~4,000 vehicles; Tesla robotaxi 7 metros
+TechCrunch (June 2026): Waymo recalls nearly 4,000 robotaxis over highway construction zones
+Automotive World: Mercedes Drive Pilot Level 3 up to 95 km/h on German highways
+MIT Technology Review (2018): Waymo simulation ~10 million virtual miles per day
+Sensor fundamentals: lidar time of flight, radar Doppler, camera strengths and limits
+Driver perception-reaction time ~1.5 s (accident reconstruction standard)
+
+#SelfDriving #Robotaxi #Waymo #Lidar #CarTech #EVDrive
