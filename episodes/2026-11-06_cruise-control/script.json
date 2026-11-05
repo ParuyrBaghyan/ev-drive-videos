@@ -1,0 +1,14 @@
+{
+  "title": "The Man Who Invented Cruise Control Was BLIND 🚗🕰️ #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {"id": "hook", "text": "The man who invented cruise control couldn't see the road.", "visual": "cc_hook"},
+    {"id": "blind", "text": "Ralph Teetor was blinded in an accident at age five, yet became a leading automotive engineer.", "visual": "cc_blind"},
+    {"id": "lawyer", "text": "Riding with his lawyer, who slowed down while talking and sped up while listening, he wanted a car that held its speed.", "visual": "cc_lawyer"},
+    {"id": "device", "text": "His device sensed the car's speed and pushed back on the gas pedal at the speed you set. A lock mode held it until you tapped the brake.", "visual": "cc_device"},
+    {"id": "launch", "text": "Patented in nineteen fifty, it debuted on the nineteen fifty-eight Chrysler Imperial as Auto-Pilot.", "visual": "cc_launch"},
+    {"id": "radar", "text": "Today, radar adaptive cruise keeps your distance too.", "visual": "cc_radar"},
+    {"id": "outro", "text": "He felt the problem instead of seeing it. What would you notice? Follow EV Drive.", "visual": "cc_outro"}
+  ]
+}
