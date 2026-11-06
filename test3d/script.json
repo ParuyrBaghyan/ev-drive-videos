@@ -1,0 +1,11 @@
+{
+ "voice": "en-US-AndrewMultilingualNeural", "rate": "+6%", "pitch": "+0Hz",
+ "scenes": [
+  {"id": "hook",  "text": "In most electric cars, you can drive all day without ever touching the brake pedal."},
+  {"id": "lift",  "text": "Lift off the accelerator, and the motor flips into a generator."},
+  {"id": "regen", "text": "Its magnetic drag slows the car, at about a fifth of full braking force, while the energy flows back into the battery."},
+  {"id": "stop",  "text": "Near walking pace, the friction brakes quietly finish the stop, and hold you in place."},
+  {"id": "light", "text": "And yes, your brake lights still come on, so the driver behind you knows."},
+  {"id": "end",   "text": "Would you drive with just one pedal? Follow EV Drive."}
+ ]
+}

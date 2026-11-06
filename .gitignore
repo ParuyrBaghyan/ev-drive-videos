@@ -12,3 +12,7 @@ long/*/voice.wav
 long/*/*.mp4
 long/*/*.wav
 long/*/thumbnail.py.bak
+test3d/node_modules/
+test3d/*.mp4
+test3d/*.wav
+test3d/still_*.jpg
