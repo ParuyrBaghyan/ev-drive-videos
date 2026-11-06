@@ -1,0 +1,29 @@
+A brand-new electric car has already caused more pollution than a brand-new gas car, before it drives a single mile. So are EVs really better for the planet? We follow the carbon from the mine to the factory, the road and the scrapyard: battery manufacturing, lithium and cobalt mining, the gas car's hidden mountain of CO2, the break-even point, why your power grid changes everything, three popular myths, battery recycling, and what the big lifecycle studies actually conclude, including where EVs don't win.
+
+0:00 Intro
+0:29 The carbon debt
+1:06 The dirty side of mining
+2:05 The gas car's hidden mountain
+2:42 The break-even point
+3:11 Where you plug in
+3:58 Three myths, tested
+4:49 The end of the road
+5:18 The verdict
+
+Did this change your mind, or confirm what you already thought? Tell me in the comments.
+
+Sources:
+MIT Climate Portal: EV manufacturing ~80% more emissions; 80 kWh battery 2.5–16 t CO2; lifetime ~200 g/mi EV vs 350+ g/mi gasoline; Washington vs West Virginia grid comparison (MIT Insights Into Future Mobility)
+Reuters analysis using Argonne National Laboratory's GREET model (2021): Tesla Model 3 vs Toyota Corolla break-even 13,500 mi (US grid), 8,400 mi (Norway), 78,700 mi (all-coal grid)
+US EPA: 8,887 g CO2 per gallon of gasoline; typical driver ~11,500 miles/year
+AIDA (environmental group): ~150 m3 fresh water per tonne of lithium in Andean salt flats
+Adamas Intelligence (2025): cobalt per battery-electric car down 24% to 3.3 kg; DRC share of cobalt supply
+Recurrent (2023): ~1.5% of 15,000 EVs had non-recall battery replacements
+Ricardo brake-emissions study: e-Golf 0.3–1.2 mg/km vs ICE 2–3 mg/km PM2.5 from brakes
+US Dept. of Energy: EV ~87–91% efficient vs ~30% for gasoline cars
+Redwood Materials pilot (2023): 95%+ recovery of key battery metals
+ICCT global lifecycle study (2021): EVs 66–69% lower in Europe, 60–68% US, 37–45% China, 19–34% India
+IEA Global EV Outlook 2024: lifetime emissions of a medium BEV about half of an equivalent combustion car
+Break-even chart in the video is an illustrative model matched to the published break-even point.
+
+#ElectricCars #EV #Climate #Sustainability #CarTech #EVDrive

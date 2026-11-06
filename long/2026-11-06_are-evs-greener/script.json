@@ -1,0 +1,169 @@
+{
+ "title": "Are Electric Cars Really Better for the Planet? The Truth, From Mine to Scrapyard",
+ "voice": "en-US-AndrewMultilingualNeural",
+ "rate": "+6%",
+ "pitch": "+0Hz",
+ "chapters": {
+  "intro": "Intro",
+  "debt": "01  The carbon debt",
+  "mining": "02  The dirty side of mining",
+  "tailpipe": "03  The gas car's hidden mountain",
+  "breakeven": "04  The break-even point",
+  "grid": "05  Where you plug in",
+  "myths": "06  Three myths, tested",
+  "end": "07  The end of the road",
+  "verdict": "08  The verdict"
+ },
+ "scenes": [
+  {
+   "ch": "intro",
+   "visual": "hero",
+   "text": "This brand-new electric car has never driven a single mile. And it has already caused more pollution than a brand-new gas car."
+  },
+  {
+   "ch": "intro",
+   "visual": "scale_tilt",
+   "text": "So why do almost all of the big studies say it's the cleaner choice? Are they wrong, or is something hiding in the numbers?"
+  },
+  {
+   "ch": "intro",
+   "visual": "journey",
+   "text": "Today, we're going to follow the carbon, every step of the way, from the mine, to the factory, to the road, all the way to the scrapyard. And we'll find out exactly when, and where, an electric car really becomes green. In some places, the answer might surprise you."
+  },
+  {
+   "ch": "debt",
+   "visual": "factory",
+   "text": "Let's start in the factory. According to MIT, building a new electric car can produce around eighty percent more emissions than building a comparable gas car."
+  },
+  {
+   "ch": "debt",
+   "visual": "battery_co2",
+   "text": "Almost all of that extra comes from one part: the battery. Making an eighty kilowatt-hour battery pack releases somewhere between two and a half and sixteen tonnes of carbon dioxide."
+  },
+  {
+   "ch": "debt",
+   "visual": "range_why",
+   "text": "Why such a huge range? Because it depends on how the factory is powered. A battery made with coal power can carry several times more carbon than one made with clean electricity. So every electric car rolls out of the factory already in carbon debt."
+  },
+  {
+   "ch": "mining",
+   "visual": "mine_map",
+   "text": "And carbon isn't the only cost. Batteries need minerals like lithium, nickel and cobalt, and getting them out of the ground isn't pretty."
+  },
+  {
+   "ch": "mining",
+   "visual": "lithium_water",
+   "text": "In Chile's Atacama Desert, lithium is extracted from salty underground water that's pumped into huge evaporation ponds. Environmental groups estimate it takes around one hundred fifty thousand liters of fresh water for every tonne of lithium, in one of the driest places on Earth, where local communities depend on that water."
+  },
+  {
+   "ch": "mining",
+   "visual": "cobalt",
+   "text": "The cobalt story is even more troubling. Roughly three quarters of the world's supply comes from the Democratic Republic of Congo, where human rights groups have documented child labor at some small, informal mining sites."
+  },
+  {
+   "ch": "mining",
+   "visual": "lfp",
+   "text": "The good news is that this is changing fast. Many new electric cars now use LFP, or lithium iron phosphate, batteries, which contain no cobalt and no nickel at all. And in twenty twenty-five, the average amount of cobalt in each battery electric car fell by about a quarter."
+  },
+  {
+   "ch": "tailpipe",
+   "visual": "gallon",
+   "text": "But to be fair, we have to look at the other side too. Every gallon of gasoline burned creates about 8.9 kilograms of carbon dioxide. That's according to the US Environmental Protection Agency."
+  },
+  {
+   "ch": "tailpipe",
+   "visual": "mountain",
+   "text": "Now multiply that over a car's whole life. A thirty-three mile-per-gallon car driven around one hundred seventy thousand miles burns more than five thousand gallons of fuel. That's roughly forty-seven tonnes of carbon dioxide, just from the tailpipe."
+  },
+  {
+   "ch": "tailpipe",
+   "visual": "oil_chain",
+   "text": "And that fuel doesn't appear by magic. Oil has to be drilled, shipped, refined and trucked to the gas station, and every step of that adds even more emissions on top."
+  },
+  {
+   "ch": "breakeven",
+   "visual": "race",
+   "text": "So here's the real question. If the electric car starts with a carbon debt, when does it pay it back? Researchers used a model from Argonne National Laboratory to compare a Tesla Model 3 with a Toyota Corolla."
+  },
+  {
+   "ch": "breakeven",
+   "visual": "cross",
+   "text": "On the average US power grid, the electric car pulled ahead after about thirteen thousand five hundred miles. For a typical American driver, that's a little over one year of driving."
+  },
+  {
+   "ch": "breakeven",
+   "visual": "after",
+   "text": "And after that point, the gap just keeps growing, every single mile, for the rest of the car's life."
+  },
+  {
+   "ch": "grid",
+   "visual": "grid_map",
+   "text": "But that number changes a lot depending on where you live, because an electric car is only as clean as the electricity it runs on."
+  },
+  {
+   "ch": "grid",
+   "visual": "grid_bars",
+   "text": "In Norway, where almost all power comes from hydro, the break-even point dropped to about eight thousand four hundred miles. But on a grid powered entirely by coal, it jumped to about seventy-eight thousand seven hundred miles."
+  },
+  {
+   "ch": "grid",
+   "visual": "states",
+   "text": "MIT found the same pattern inside the United States. In hydro-powered Washington State, an electric car emitted sixty-one percent less carbon than a hybrid. In coal-heavy West Virginia, it actually emitted more than a hybrid, though still less than a regular gas car."
+  },
+  {
+   "ch": "grid",
+   "visual": "cleaner",
+   "text": "And here's the twist. Grids around the world are getting cleaner every year, which means an electric car can get greener as it gets older. A gas car never does."
+  },
+  {
+   "ch": "myths",
+   "visual": "myth_battery",
+   "text": "Now let's test three popular myths. Myth one: the battery dies after a few years, so you have to make another one. In data from fifteen thousand electric cars, only about one and a half percent had ever needed a battery replacement, outside of recalls."
+  },
+  {
+   "ch": "myths",
+   "visual": "myth_dust",
+   "text": "Myth two: heavier electric cars create more dust. This one is partly true. Extra weight can wear tires faster. But regenerative braking means the brakes are used far less. In one test, an electric car's brakes released several times less fine dust than a similar gas car's."
+  },
+  {
+   "ch": "myths",
+   "visual": "myth_tailpipe",
+   "text": "Myth three: electric cars just move the pollution to a power plant. Partly true again, but an electric car turns about ninety percent of its energy into motion, compared with roughly thirty percent for a gas engine. So even on the same fuel, far less energy is wasted."
+  },
+  {
+   "ch": "end",
+   "visual": "second_life",
+   "text": "So what happens when the car is finally done? The battery usually isn't. A worn car battery can still store plenty of energy, so it can get a second life, storing solar power for homes and businesses."
+  },
+  {
+   "ch": "end",
+   "visual": "recycle",
+   "text": "And when it's truly finished, it can be recycled. In one large pilot, the recycling company Redwood Materials recovered more than ninety-five percent of the important metals. Those metals can go straight into new batteries, so the mine of the future might be a pile of old batteries."
+  },
+  {
+   "ch": "verdict",
+   "visual": "verdict_bars",
+   "text": "So, what's the verdict? A major global study by the International Council on Clean Transportation found that over their whole lives, electric cars produce sixty-six to sixty-nine percent less greenhouse gas than gas cars in Europe, sixty to sixty-eight percent less in the United States, thirty-seven to forty-five percent less in China, and nineteen to thirty-four percent less in India."
+  },
+  {
+   "ch": "verdict",
+   "visual": "half",
+   "text": "The International Energy Agency puts it simply: an electric car's lifetime emissions are about half those of a comparable gas car."
+  },
+  {
+   "ch": "verdict",
+   "visual": "caveats",
+   "text": "But it's not a free pass. The benefit shrinks on coal-heavy grids. A giant electric truck with a massive battery takes much longer to pay off its debt. And mining still needs to get cleaner and fairer."
+  },
+  {
+   "ch": "verdict",
+   "visual": "final",
+   "text": "So are electric cars really better for the planet? On almost every grid on Earth, yes, and the gap grows every year. Just not as perfectly green as the ads would like you to believe."
+  },
+  {
+   "ch": "verdict",
+   "visual": "question",
+   "text": "So, did this change your mind, or confirm what you already thought? Tell me in the comments. And if you learned something, subscribe to EV Drive for more car tech, explained honestly."
+  }
+ ]
+}

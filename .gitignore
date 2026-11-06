@@ -16,3 +16,4 @@ test3d/node_modules/
 test3d/*.mp4
 test3d/*.wav
 test3d/still_*.jpg
+long/*/hero_frames/

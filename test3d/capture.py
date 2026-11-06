@@ -14,15 +14,23 @@ threading.Thread(target=srv.serve_forever, daemon=True).start()
 
 with sync_playwright() as pw:
     br = pw.chromium.launch(args=["--use-angle=swiftshader", "--enable-unsafe-swiftshader", "--ignore-gpu-blocklist", "--enable-webgl"])
-    pg = br.new_page(viewport={"width": 1080, "height": 1920}, device_scale_factor=1)
+    pg = br.new_page(viewport={"width": int(os.environ.get("VW", 1080)), "height": int(os.environ.get("VH", 1920))}, device_scale_factor=1)
     errs = []
     pg.on("console", lambda m: errs.append(m.text) if m.type in ("error", "warning") else None)
     pg.on("pageerror", lambda e: errs.append(str(e)))
-    pg.goto(f"http://127.0.0.1:{port}/index.html")
+    pg.goto(f"http://127.0.0.1:{port}/" + os.environ.get("PAGE", "index.html"))
     pg.wait_for_function("window.READY === true", timeout=180000)
     pg.evaluate("document.fonts.ready")
     if errs: print("console:", errs[:5], flush=True)
-    total = json.load(open(f"{DIR}/timing.json"))["total"]
+    total = json.load(open(f"{DIR}/timing.json"))["total"] if os.path.exists(f"{DIR}/timing.json") else 10
+    if sys.argv[2] == "--frames":
+        outdir = sys.argv[3]; n = int(float(sys.argv[4]) * FPS); os.makedirs(outdir, exist_ok=True)
+        st = time.time()
+        for i in range(n):
+            pg.evaluate(f"renderAt({i / FPS})"); pg.evaluate("new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)))")
+            pg.screenshot(path=f"{outdir}/f{i:04d}.jpg", type="jpeg", quality=92)
+            if i % 60 == 0: print(f"frame {i}/{n} {(time.time() - st) / (i + 1):.2f}s/frame", flush=True)
+        print("frames done"); sys.exit()
     if sys.argv[2] == "--stills":
         for tt in [float(x) for x in sys.argv[3].split(",")]:
             pg.evaluate(f"renderAt({tt})"); pg.evaluate("new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)))")

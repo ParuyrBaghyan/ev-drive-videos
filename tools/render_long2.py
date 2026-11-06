@@ -183,12 +183,15 @@ def build_captions():
     dtmp = ImageDraw.Draw(Image.new("RGB", (10, 10)))
     for sc in scenes:
         for se in sc["sentences"]:
-            words = se["text"].split()
-            wts = [len(re.sub(r"[^\w]", "", w)) + 2 for w in words]
-            tot = sum(wts); dur = se["end"] - se["start"]; t0 = se["start"]
-            timed = []
-            for w, wt in zip(words, wts):
-                dd = dur * wt / tot; timed.append((w, t0, t0 + dd)); t0 += dd
+            if se.get("words"):
+                timed = [(w["w"], w["s"], w["e"]) for w in se["words"]]
+            else:
+                words = se["text"].split()
+                wts = [len(re.sub(r"[^\w]", "", w)) + 2 for w in words]
+                tot = sum(wts); dur = se["end"] - se["start"]; t0 = se["start"]
+                timed = []
+                for w, wt in zip(words, wts):
+                    dd = dur * wt / tot; timed.append((w, t0, t0 + dd)); t0 += dd
             # chunk into lines of <= 1500px, max 2 lines per caption
             chunk, lines, cur = [], [], []
             def width(ws): return dtmp.textlength(" ".join(x[0] for x in ws), font=CAP_F)
