@@ -1,0 +1,14 @@
+{
+  "title": "What Happens When Your EV Hits 0%? 🔋🐢 #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {"id": "hook", "text": "What really happens when your electric car hits zero percent?", "visual": "z_hook"},
+    {"id": "turtle", "text": "It won't just die. The warnings get louder, then a turtle mode cuts your power and top speed.", "visual": "z_turtle"},
+    {"id": "buffer", "text": "There's usually a hidden buffer, too. In a AAA test, a Model 3 drove thirteen miles past zero.", "visual": "z_buffer"},
+    {"id": "lowv", "text": "When it finally stops, the small twelve volt battery still runs the locks and the hazard lights.", "visual": "z_12v"},
+    {"id": "tow", "text": "Then you need a flatbed. In most EVs the motor stays geared to the wheels, so towing on them turns it into a generator.", "visual": "z_tow"},
+    {"id": "rescue", "text": "Roadside chargers help, slowly: about fourteen miles in thirty minutes in AAA's test.", "visual": "z_rescue"},
+    {"id": "outro", "text": "That buffer protects the battery. It's not there to save your trip. Follow EV Drive.", "visual": "z_outro"}
+  ]
+}
