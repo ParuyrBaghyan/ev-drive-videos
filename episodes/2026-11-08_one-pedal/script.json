@@ -1,0 +1,42 @@
+{
+  "title": "How One-Pedal Driving Works (No Brake Needed?) 🦶⚡ #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "What if you could drive across town without touching the brake pedal?",
+      "visual": "op_hook"
+    },
+    {
+      "id": "map",
+      "text": "In one-pedal mode, the accelerator does both jobs. Press to go. Ease off, and the car starts braking.",
+      "visual": "op_map"
+    },
+    {
+      "id": "regen",
+      "text": "That's the motor running as a generator, turning your speed back into battery charge.",
+      "visual": "op_regen"
+    },
+    {
+      "id": "force",
+      "text": "Nissan's e-Pedal slows you at up to zero point two g, like a real brake stop, so the brake lights come on.",
+      "visual": "op_force"
+    },
+    {
+      "id": "stop",
+      "text": "Lift off fully and it adds the friction brakes, stops, and holds you, even on a steep hill.",
+      "visual": "op_stop"
+    },
+    {
+      "id": "limits",
+      "text": "But stay ready. On a full or cold battery, regen gets weaker, and hard stops still need the brake.",
+      "visual": "op_limits"
+    },
+    {
+      "id": "outro",
+      "text": "So is your brake pedal becoming a backup? Follow EV Drive.",
+      "visual": "op_outro"
+    }
+  ]
+}
