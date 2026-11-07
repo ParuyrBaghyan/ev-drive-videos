@@ -1,0 +1,42 @@
+{
+  "title": "The First Hybrid Car Was Built in 1900 ⚙️🕰️ #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "The first working hybrid car was built in nineteen hundred, with its motors inside the wheels.",
+      "visual": "hm_hook"
+    },
+    {
+      "id": "paris",
+      "text": "That year in Paris, a young Ferdinand Porsche showed an electric car with a motor in each front wheel hub.",
+      "visual": "hm_paris"
+    },
+    {
+      "id": "direct",
+      "text": "No gearbox, no chains, no driveshaft. Each motor made about two and a half horsepower.",
+      "visual": "hm_direct"
+    },
+    {
+      "id": "battery",
+      "text": "The catch? Batteries weighing up to eighteen hundred kilos, for about twenty-five miles of range.",
+      "visual": "hm_battery"
+    },
+    {
+      "id": "hybrid",
+      "text": "So he added gasoline engines that never drove the wheels. They spun generators instead. A series hybrid: Semper Vivus, always alive.",
+      "visual": "hm_hybrid"
+    },
+    {
+      "id": "range",
+      "text": "With the engines running, it could go about a hundred miles.",
+      "visual": "hm_range"
+    },
+    {
+      "id": "outro",
+      "text": "Hub motors later drove NASA's moon rovers. So why don't most EVs use them? Follow EV Drive.",
+      "visual": "hm_outro"
+    }
+  ]
+}

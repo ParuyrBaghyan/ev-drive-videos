@@ -1,0 +1,42 @@
+{
+  "title": "Your EV Secretly Heats Its Battery Before Charging 🔥🔋 #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Your EV may secretly heat its battery on the way to a fast charger. Why?",
+      "visual": "pc_hook"
+    },
+    {
+      "id": "cold",
+      "text": "In the cold, lithium ions move slower, and resistance inside each cell rises.",
+      "visual": "pc_cold"
+    },
+    {
+      "id": "plating",
+      "text": "Force fast-charging current into a cold cell, and lithium can plate onto the anode as metal, wearing the battery out.",
+      "visual": "pc_plating"
+    },
+    {
+      "id": "limit",
+      "text": "So the car cuts charging power. In an Idaho National Lab study, at freezing, cars gained about a third less charge in the same time.",
+      "visual": "pc_limit"
+    },
+    {
+      "id": "nav",
+      "text": "The fix: choose a fast charger in the navigation. Many EVs then warm the pack on the way, to around seventy to eighty-five degrees.",
+      "visual": "pc_nav"
+    },
+    {
+      "id": "tip",
+      "text": "Allow about twenty to thirty minutes.",
+      "visual": "pc_tip"
+    },
+    {
+      "id": "outro",
+      "text": "What else is your car doing quietly? Follow EV Drive.",
+      "visual": "pc_outro"
+    }
+  ]
+}
