@@ -114,7 +114,7 @@ new GLTFLoader().load('./models/CarConcept.glb', g => {
     const blob = new THREE.Mesh(new THREE.PlaneGeometry(1, 1), ao.material.clone()); blob.material.opacity = 0.95;
     blob.rotation.x = -Math.PI / 2; blob.position.set(cc.x, 0.003, cc.z); blob.scale.set(Math.max(sz.x, 0.35) * 1.5, sz.z * 0.9, 1);
     scene.add(blob); window.BLOBS = (window.BLOBS || []).concat(blob); }
-  window.CAR_INFO = { wheelRot: window.WHEEL_ROT, wheelMin: window.WHEEL_MIN, boxMin: window.BOX_MIN, ...info, size: size.toArray(), nodes: Object.keys(parts) };
+  window.CAR_INFO = { cn: window.CN_DBG, wheelRot: window.WHEEL_ROT, wheelMin: window.WHEEL_MIN, boxMin: window.BOX_MIN, ...info, size: size.toArray(), nodes: Object.keys(parts) };
   window.READY = true;
 }, undefined, e => { window.LOAD_ERR = String(e); });
 
@@ -145,7 +145,46 @@ function setXray(on, hot) {
   }
   if (on) buildPack(hot); else if (pack) { scene.remove(pack); pack = null; }
 }
+// ---- "Chinese premium EV" design cues (generic, not any real model): light bars, roof lidar, two-tone ----
+let cn = null;
+function wbox(name) { const o = parts[name]; return o ? new THREE.Box3().setFromObject(o, true) : null; }
+function buildCN() {
+  cn = new THREE.Group(); car.updateMatrixWorld(true);
+  const hl = wbox('BodyHeadlights'), tl = wbox('BodyTaillights'), ws = wbox('BodyWindshield'), roof = wbox('BodyRoofPanel');
+  const barMat = c => new THREE.MeshStandardMaterial({ color: 0x111111, emissive: c, emissiveIntensity: 6, roughness: 0.3 });
+  const front = hl.getCenter(new THREE.Vector3()).x > 0 ? 1 : -1;
+  const meshes = []; car.traverse(o => { if (o.isMesh && o.visible && !/Glass/.test(o.material.name)) meshes.push(o); });
+  const rc = new THREE.Raycaster();
+  const hit = (from, dir) => { rc.set(from, dir); const h = rc.intersectObjects(meshes, false)[0]; return h ? h.point : null; };
+  // light bar: trace the body surface across the width, then a glowing tube 4 mm proud of it
+  const bar = (dirX, y, zMax, col, name) => {
+    const pts = [];
+    for (let i = 0; i <= 40; i++) { const z = -zMax + 2 * zMax * i / 40;
+      const p = hit(new THREE.Vector3(dirX * 6, y, z), new THREE.Vector3(-dirX, 0, 0)); if (p) pts.push(p.add(new THREE.Vector3(dirX * 0.006, 0, 0))); }
+    if (pts.length < 4) return;
+    const tube = new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts), 120, name === 'frontBar' ? 0.013 : 0.011, 8, false),
+      new THREE.MeshStandardMaterial({ color: 0xffffff, emissive: col, emissiveIntensity: 9, roughness: 0.2 }));
+    tube.name = name; cn.add(tube);
+  };
+  const hc = hl.getCenter(new THREE.Vector3()), tc = tl.getCenter(new THREE.Vector3());
+  bar(front, hc.y + 0.012, (hl.max.z - hl.min.z) / 2 * 0.98, 0xeaf4ff, 'frontBar');
+  bar(-front, tc.y, (tl.max.z - tl.min.z) / 2 * 1.0, 0xff1a1a, 'rearBar');
+  // lidar pod centred on the roof's leading edge
+  const lx = roof.max.x - 0.06 * front;
+  const ry = hit(new THREE.Vector3(lx, 5, 0), new THREE.Vector3(0, -1, 0))?.y ?? roof.max.y;
+  const podMat = new THREE.MeshPhysicalMaterial({ color: 0x07080a, metalness: 0.3, roughness: 0.12, clearcoat: 1 });
+  const g = new THREE.Group(); g.name = 'lidar';
+  const base = new THREE.Mesh(new THREE.CylinderGeometry(0.13, 0.15, 0.035, 32), podMat); base.scale.set(1.25, 1, 1);
+  const dome = new THREE.Mesh(new THREE.SphereGeometry(0.11, 32, 16, 0, Math.PI * 2, 0, Math.PI / 2), podMat); dome.scale.set(1.35, 0.55, 1.1); dome.position.y = 0.015;
+  const win = new THREE.Mesh(new THREE.BoxGeometry(0.01, 0.025, 0.13), new THREE.MeshPhysicalMaterial({ color: 0x1a1d24, metalness: 0.9, roughness: 0.05, clearcoat: 1 }));
+  win.position.set(front * 0.145, 0.03, 0);
+  g.add(base, dome, win); g.position.set(lx, ry + 0.012, 0); cn.add(g);
+  window.CN_DBG = { ry, lx };
+  scene.add(cn);
+}
 window.pose = async (o = {}) => {
+  const STY = o.style ?? 'cn'; if (STY === 'cn' && !cn) buildCN();
+  if (cn) cn.visible = STY === 'cn';
   setXray(!!o.xray, o.packColor === 'hot');
   const env = await hdr(o.env || 'studio');
   scene.environment = env; scene.environmentIntensity = o.envI ?? 1.0;
@@ -156,7 +195,7 @@ window.pose = async (o = {}) => {
   renderer.toneMappingExposure = o.exp ?? 1.0;
   const col = new THREE.Color(PAINTS[o.paint] ?? o.paint ?? PAINTS.red);
   for (const m of paintMats) { if (m.name.includes('Paint 1') || m.name.includes('Paint 2')) {
-    m.color.copy(col); if (m.map) m.map = m.map; m.metalness = o.metal ?? 0.65; m.roughness = o.rough ?? 0.32;
+    m.color.copy(STY === 'cn' && m.name.includes('Paint 2') ? new THREE.Color(o.roof ?? 0x08090b) : col); if (m.map) m.map = m.map; m.metalness = o.metal ?? 0.65; m.roughness = o.rough ?? 0.32;
     if ('clearcoat' in m) { m.clearcoat = 1; m.clearcoatRoughness = 0.03; }
     if ('iridescence' in m) m.iridescence = 0; m.needsUpdate = true; } }
   for (const [n, m] of Object.entries(lightMats)) {

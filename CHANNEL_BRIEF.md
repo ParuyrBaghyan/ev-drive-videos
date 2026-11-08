@@ -44,6 +44,7 @@ Every Short ends with a short thought-provoking question or takeaway before the 
 - Animated shots: render a sequence of poses (one per frame) with the same script and assemble with ffmpeg.
 - **Credit is required (CC BY 4.0):** every video or thumbnail that shows this car must have this line in the description, just before the hashtags: `3D car model: "Car Concept" by Eric Chadwick / Darmstadt Graphics Group (CC BY 4.0)`.
 - Never show logos: the renderer already hides the licence plate and blanks the tyre-sidewall text.
+- **Default look = modern Chinese premium EV design language** (owner's request, 2026-11-08): full-width front light bar, red full-width rear light bar, roof lidar pod, two-tone black roof/lower body. It is on unless a pose sets `"style":"plain"`; `"roof"` sets the second tone. Never imitate a specific real model (no Li Auto/Zeekr/Avatr/BYD replicas); when a video is about a real brand, name it in words and on-screen text, but show our own generic car.
 
 ## Titles (owner's style — curiosity first, always honest)
 The owner wants titles that make people click, in the style of these pairs (educational → clickable):

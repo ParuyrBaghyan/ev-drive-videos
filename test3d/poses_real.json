@@ -1,18 +1,124 @@
 {
- "side_red":       {"ang": 1.5708, "dist": 9, "h": 1.0, "paint": "red"},
- "side_white":     {"ang": 1.5708, "dist": 9, "h": 1.0, "paint": "white"},
- "side_black":     {"ang": 1.5708, "dist": 9, "h": 1.0, "paint": "black"},
- "side34_red":     {"ang": 0.95, "dist": 8.6, "h": 1.3, "paint": "red"},
- "side34_silver":  {"ang": 0.95, "dist": 8.6, "h": 1.3, "paint": "silver"},
- "front34_silver": {"ang": 0.6, "dist": 8, "h": 1.4, "paint": "silver"},
- "front34_red":    {"ang": 0.6, "dist": 8, "h": 1.4, "paint": "red"},
- "front34_white":  {"ang": 0.6, "dist": 8, "h": 1.4, "paint": "white"},
- "front34_blue":   {"ang": 0.6, "dist": 8, "h": 1.4, "paint": "blue"},
- "low_front_blue": {"ang": 0.3, "dist": 8.5, "h": 0.6, "ty": 0.5, "paint": "blue"},
- "top34_black":    {"ang": 0.8, "dist": 8.5, "h": 4.2, "paint": "black"},
- "rearside_brake": {"ang": 2.2, "dist": 8.6, "h": 1.2, "paint": "black", "brake": true},
- "rear34_brake":   {"ang": 2.5, "dist": 8, "h": 1.3, "paint": "white", "brake": true},
- "side_xray":      {"ang": 1.5708, "dist": 9, "h": 1.0, "paint": "silver", "xray": true},
- "side_xray_hot":  {"ang": 1.5708, "dist": 9, "h": 1.0, "paint": "silver", "xray": true, "packColor": "hot"},
- "x34_xray":       {"ang": 0.9, "dist": 8.6, "h": 2.2, "paint": "silver", "xray": true}
+ "side_red": {
+  "ang": 1.5708,
+  "dist": 9,
+  "h": 1.0,
+  "paint": "red"
+ },
+ "side_white": {
+  "ang": 1.5708,
+  "dist": 9,
+  "h": 1.0,
+  "paint": "white"
+ },
+ "side_black": {
+  "ang": 1.5708,
+  "dist": 9,
+  "h": 1.0,
+  "paint": "black"
+ },
+ "side34_red": {
+  "ang": 0.95,
+  "dist": 8.6,
+  "h": 1.3,
+  "paint": "red"
+ },
+ "side34_silver": {
+  "ang": 0.95,
+  "dist": 8.6,
+  "h": 1.3,
+  "paint": "silver"
+ },
+ "front34_silver": {
+  "ang": 0.6,
+  "dist": 8,
+  "h": 1.4,
+  "paint": "silver"
+ },
+ "front34_red": {
+  "ang": 0.6,
+  "dist": 8,
+  "h": 1.4,
+  "paint": "red"
+ },
+ "front34_white": {
+  "ang": 0.6,
+  "dist": 8,
+  "h": 1.4,
+  "paint": "white"
+ },
+ "front34_blue": {
+  "ang": 0.6,
+  "dist": 8,
+  "h": 1.4,
+  "paint": "blue"
+ },
+ "low_front_blue": {
+  "ang": 0.3,
+  "dist": 8.5,
+  "h": 0.6,
+  "ty": 0.5,
+  "paint": "blue"
+ },
+ "top34_black": {
+  "ang": 0.8,
+  "dist": 8.5,
+  "h": 4.2,
+  "paint": "black"
+ },
+ "rearside_brake": {
+  "ang": 2.2,
+  "dist": 8.6,
+  "h": 1.2,
+  "paint": "black",
+  "brake": true
+ },
+ "rear34_brake": {
+  "ang": 2.5,
+  "dist": 8,
+  "h": 1.3,
+  "paint": "white",
+  "brake": true
+ },
+ "side_xray": {
+  "ang": 1.5708,
+  "dist": 9,
+  "h": 1.0,
+  "paint": "silver",
+  "xray": true
+ },
+ "side_xray_hot": {
+  "ang": 1.5708,
+  "dist": 9,
+  "h": 1.0,
+  "paint": "silver",
+  "xray": true,
+  "packColor": "hot"
+ },
+ "x34_xray": {
+  "ang": 0.9,
+  "dist": 8.6,
+  "h": 2.2,
+  "paint": "silver",
+  "xray": true
+ },
+ "cn_front34_white": {
+  "ang": 0.5,
+  "dist": 8,
+  "h": 1.5,
+  "paint": "white"
+ },
+ "cn_rear34_gray": {
+  "ang": 2.55,
+  "dist": 8,
+  "h": 1.5,
+  "paint": "gray",
+  "brake": true
+ },
+ "cn_side_teal": {
+  "ang": 1.5708,
+  "dist": 9,
+  "h": 1.0,
+  "paint": "teal"
+ }
 }
