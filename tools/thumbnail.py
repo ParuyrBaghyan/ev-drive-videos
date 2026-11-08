@@ -57,7 +57,7 @@ def place_car(img, name, box, flip):
     h = int(car.height * w / car.width)
     car = car.resize((int(w), h), Image.LANCZOS)
     # rim light / glow behind subject
-    a = car.getchannel("A").filter(ImageFilter.GaussianBlur(w * 0.03))
+    a = car.getchannel("A").point(lambda v: 255 if v > 200 else 0).filter(ImageFilter.GaussianBlur(w * 0.03))
     glow = Image.new("RGBA", car.size, (255, 255, 255, 0)); glow.putalpha(a.point(lambda v: int(v * 0.55)))
     img.paste(glow, (int(x), int(y)), glow)
     img.paste(car, (int(x), int(y)), car)

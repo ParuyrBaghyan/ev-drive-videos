@@ -37,6 +37,14 @@ Every Short ends with a short thought-provoking question or takeaway before the 
 - `visuals.py` runs inside render.py's globals. Define `vis_<name>(d, lt, t)` functions that draw on a 2× supersampled 900×900 logical canvas (use helpers `p()`, `arc()`, `rgba()`, `text_c()`, `FL()`, `speaker()`, `car_side()`, `person()`, `tire()`, `gauge()`, `waves()`, easing `ease_out/ease_inout/back_out`, colours `ACC/ACC2/WHITE/MUTED/BG`), then register them: `VIS.update({"name": vis_name})`. `lt` = seconds since the scene started, `t` = global time; `scenes[i]` gives start/vis_end. Look at the AVAS visuals in render.py as the reference.
 - Always render preview frames for every scene and LOOK at them (Read the PNGs) before the full render. Fix overlaps, clipping and unreadable text.
 
+## 3D car (owner: "as realistic and detailed as possible")
+- The only car model to use is the photoreal **Car Concept** in `test3d/models/CarConcept.glb` (full interior, metallic clearcoat paint, real wheels/brakes, opening doors), rendered by `test3d/realcar.js` with a studio softbox environment and contact shadows. The old procedural/blobby car is retired: never draw a car from primitives again.
+- Setup in a fresh run: `cd test3d && npm install three@0.169.0` (node_modules is not committed).
+- Stills / transparent PNGs: `python3 test3d/render_real.py OUTDIR poses.json [W H]` with poses like `{"ang":0.6,"dist":8,"h":1.4,"paint":"red"}`. Options: `paint` (red, white, black, silver, blue, lime, orange, gray, teal or a hex), `xray: true` (ghost body + glowing battery pack, `packColor: "hot"`), `brake: true`, `bg` (colour or omit for transparent), `env` (studio, venice_sunset, quarry_01, moonless_golf), `fov`, `ty`. Ready-made transparent renders are in `assets/cars/` (see `test3d/poses_real.json`).
+- Animated shots: render a sequence of poses (one per frame) with the same script and assemble with ffmpeg.
+- **Credit is required (CC BY 4.0):** every video or thumbnail that shows this car must have this line in the description, just before the hashtags: `3D car model: "Car Concept" by Eric Chadwick / Darmstadt Graphics Group (CC BY 4.0)`.
+- Never show logos: the renderer already hides the licence plate and blanks the tyre-sidewall text.
+
 ## Titles (owner's style — curiosity first, always honest)
 The owner wants titles that make people click, in the style of these pairs (educational → clickable):
 - How EV Batteries Work → "The Battery Inside Your Tesla Is More Complicated Than You Think"
