@@ -304,7 +304,7 @@ def frame(t):
         st = s["start"] if i else 0.0
         if st <= t < s["vis_end"] or (i == len(scenes) - 1 and t >= st):
             lt = t - st
-            fin = ease_out(lt / 0.3)
+            fin = 1.0 if i == 0 else ease_out(lt / 0.3)  # first scene shows at full strength from frame 0 (cover frame)
             fout = 1 - ease_inout((t - (s["vis_end"] - 0.25)) / 0.25) if i < len(scenes) - 1 else 1
             layer = L(); d = ImageDraw.Draw(layer)
             VIS[s["visual"]](d, lt, t)

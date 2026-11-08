@@ -1,0 +1,42 @@
+{
+  "title": "This Chinese EV Is Now Faster Than Any Bugatti #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "An electric car just went faster than any Bugatti. Five hundred and three kilometers per hour.",
+      "visual": "sr_hook"
+    },
+    {
+      "id": "king",
+      "text": "Since twenty nineteen, the king was a gas Bugatti Chiron. Four hundred ninety.",
+      "visual": "sr_king"
+    },
+    {
+      "id": "close",
+      "text": "Last year, BYD's Yangwang U9 Xtreme hit four ninety-six, then the driver lifted off.",
+      "visual": "sr_close"
+    },
+    {
+      "id": "record",
+      "text": "So on November first, Abu Dhabi closed a highway. Five oh three point one seven, recognized by the FIA. Three hundred twelve miles per hour.",
+      "visual": "sr_record"
+    },
+    {
+      "id": "motors",
+      "text": "The secret? Four motors, each up to thirty thousand rpm. Over three thousand horsepower, almost double the Bugatti.",
+      "visual": "sr_motors"
+    },
+    {
+      "id": "volts",
+      "text": "On twelve hundred volts, ten times your wall outlet, so less current and heat. Only thirty will be built.",
+      "visual": "sr_volts"
+    },
+    {
+      "id": "outro",
+      "text": "Genius, or pointless? Who beats it next? Follow EV Drive.",
+      "visual": "sr_outro"
+    }
+  ]
+}
