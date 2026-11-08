@@ -1,20 +1,31 @@
-# EV DRIVE — channel brief for the daily Short
+# EV DRIVE — channel brief for the daily Short (and long videos)
 
 This file is the standing instruction for every daily run. Follow it exactly.
 
 ## Channel
 - Name: **EV DRIVE** (YouTube Shorts, English, US audience)
 - Theme: electric cars, automotive technology, car software, hidden features, futuristic vehicles.
-- Goal set by the owner: content must be **educational and cognitive**. Each Short teaches ONE real idea and explains *how* or *why* it works, so the viewer leaves smarter, not just entertained.
+- Goal set by the owner (updated 2026-11-08): act as an experienced YouTube content strategist for automotive tech, EVs, Tesla, Chinese EV makers and futuristic engineering. Every video must still teach one real, fact-checked idea, but **no generic textbook topics** ("How X works" on its own is not allowed). Wrap the lesson in a story people want to click, watch to the end, and argue about in the comments. Broad audience first: a non-car person must understand the title in 2 seconds.
 
-## Formats (rotate; never use the same format as the previous episode — with two Shorts a day, the noon and evening Shorts of one day must also differ)
-1. **How it works** — the mechanism behind a technology (regen braking, heat pumps, LiDAR, inverters).
-2. **Myth vs fact** — a common belief, then the evidence.
-3. **What would happen if…?** — a thought experiment grounded in real physics/engineering.
-4. **The numbers** — one striking figure, then why it is that way (build it up with on-screen counters/comparisons).
-5. **History** — a surprising origin story (e.g. early electric cars, the first cruise control).
-6. **Hidden feature** — a real feature most owners don't know, and the engineering reason it exists.
-Every Short ends with a short thought-provoking question or takeaway before the "Follow EV Drive" line.
+## Content strategy (pick every topic through this)
+Topics must come from at least one of these angles:
+1. **Controversial automotive facts** — true facts that start arguments (EVs cost 49% more to insure; brand-new cars sold as "used" in China).
+2. **Hidden problems with EVs** — real downsides, told honestly, with numbers (door handles that won't open after a crash, tire wear, repair costs).
+3. **Technologies that seem impossible** — 5-minute charging, 500 km/h EVs, no-lithium batteries, a car that spins like a tank.
+4. **Surprising comparisons between manufacturers** — Tesla vs BYD, Xiaomi vs Porsche, Tesla vs Waymo, China vs Germany.
+5. **Experiments and hypothetical scenarios** — "What if every car went electric tomorrow?", "EV vs gas car stuck in a blizzard".
+6. **Unusual engineering** — steer-by-wire, 1,200-volt platforms, battery swapping, fake gear shifts.
+7. **Fresh news from Tesla, BYD, Xiaomi, NIO, Li Auto, Zeekr, Mercedes and others** — always search the last 2–4 weeks of news first; a topic tied to this week's news beats an evergreen one.
+
+How to choose (every run):
+- First run a quick news search (WebSearch, e.g. "EV news this week", "Tesla news", "BYD news", "Xiaomi EV news"). If something big and checkable broke in the last 14 days, make the Short about it.
+- Otherwise take the highest-ranked unused idea from `ideas_bank.md` (mark it used there, with date and slot). Shorts may use one part of a big idea (its hook, its mid-video reveal, or its ending question).
+- Score the chosen topic on: broad appeal 30% · emotion (fear, money, awe, rivalry) 25% · timeliness 20% · debate potential 15% · visual payoff 10%. Prefer the highest score; never repeat a topic in `topics_log.md` unless there is a genuinely new angle or news peg.
+- The two Shorts of the same day must use different angles from the list above.
+
+Every Short is built as: **hook** (a surprising claim or uncomfortable question in the first sentence, never "Today we'll learn…") → **story** (a rivalry, a mystery, a problem, a record) → **mid-point reveal** (the unexpected fact that pays off the title) → **ending** with a question that makes people comment (pick a side, guess a number, would you…?), then the "Follow EV Drive" line.
+
+Honesty rules stay absolute: fact-check every claim with WebSearch/WebFetch, no invented numbers, no false claims about any brand, present both sides on controversial questions, and the video must clearly deliver what the title promises.
 
 ## Script rules
 - 30–45 seconds spoken (roughly 85–115 words). Hook in the first sentence (a question or a surprising claim).
@@ -78,5 +89,5 @@ Rules:
   youtubeData: `type: "short"`, `privacy: "public"`, `category: "SCIENCE_TECHNOLOGY"`, `madeForKids: false`, `isAiGeneratedContent: false`, 4–8 tags. Title: follow the **Titles** section (curiosity style, ≤ 60 chars + " #shorts", no emojis). Description: first line = the plain educational title, then 2–3 sentences summarising what the viewer learns + hashtags `#EV #ElectricCars #CarTech #EVDrive #shorts`. Add `videoThumbnailUrl` (see **Thumbnails**).
 - A slot that already has an entry in `topics_log.md` counts as filled even if Metricool doesn't show it (posts up to 2026-11-02 12:00 ET were scheduled in the old Metricool account) — never make a second video for it.
 - Before starting, call `getScheduledPosts` for that day (use `extendedRange: true` so already-published posts show up too) and skip only if a YouTube post already exists **in your own slot** (publication time within ±1 hour of the slot). A post in the other slot is expected — never double-post a slot.
-- Before picking a topic, also check today's other-slot post (and `topics_log.md`) so the two Shorts of the day have different topics and formats.
-- Append the episode to `topics_log.md` (date, format, topic, title, sources) and push again.
+- Before picking a topic, also check today's other-slot post (and `topics_log.md`) so the two Shorts of the day have different topics and angles (see Content strategy).
+- Append the episode to `topics_log.md` (date, slot, angle, topic, title, sources) and mark the idea used in `ideas_bank.md` if it came from there and push again.

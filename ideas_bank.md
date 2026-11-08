@@ -1,0 +1,38 @@
+# EV DRIVE — idea bank (ranked by viral potential, researched 2026-11-08)
+
+Full write-ups (why people click, audience, story angle, ending): https://claude.ai/artifact/X9LygCSiNXFvfDoq21JTPu
+Daily runs: take the highest unused idea (unless fresh news is better), re-check every number on the day, then mark it used: `USED YYYY-MM-DD slot`.
+Ideas marked (covered) overlap an earlier Short; only use them with the new news angle shown.
+
+| Rank | Title | Angle | Hook | Mid-video reveal | Ending question | Status |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | Tesla's Robotaxi Has No Steering Wheel. Who Pays When It Crashes? | news, controversy | A car in Austin has no wheel or pedals; NHTSA opened an investigation hours after it hit the road | Tesla reports ~3.1M robotaxi miles, zero injury crashes, but no human baseline | Who should pay when a driverless car crashes? | |
+| 2 | This Chinese EV Is Now Faster Than Any Bugatti | impossible tech, rivalry | On Nov 1 an electric car went 503 km/h | 4 motors, ~3,000 hp, 1,200 V; only 30 built at ~$3M; 503 km/h not yet independently certified (496.22 certified) | Who's next to beat it? | |
+| 3 | China Is Banning Tesla-Style Door Handles. Here's the Scary Reason | hidden problem | After a crash, some EV doors may not open | From Jan 1, 2027, new cars in China need a mechanical release ≤300 mm from the door edge; 230+ models reviewed | Do you know where your manual release is? | |
+| 4 | Charging an EV in 5 Minutes Is Real. But There's a Catch | impossible tech | BYD has 10,000 chargers adding ~400 km in ~5 min | Up to 1,500 kW per charger — huge grid load, needs buffer batteries (verify homes comparison) | Would you still choose gas? | |
+| 5 | BYD Sold 276,000 More EVs Than Tesla in 3 Months | comparison | Q3 2026: BYD 762,478 BEVs vs Tesla 486,532 | Tesla beat estimates but fell 2% YoY; BYD up 31% | Is Tesla losing or playing a different game? | |
+| 6 | A Phone Company Built an SUV Faster Than Porsche | comparison | Xiaomi beat Porsche and Audi on the Nürburgring | YU7 GT 7:22.755, ~14 s under the old SUV record; driverless lap 10:29 | Apple quit its car; how did Xiaomi do it in 3 years? | |
+| 7 | Your EV Costs 49% More to Insure. Here's Why | hidden problem, money | ~$4,058 vs ~$2,732 a year (Insurify) | Repairs ~22% more; small battery hits can total a car | Reason to wait, or worth it? | |
+| 8 | China Is Selling Brand-New Cars as "Used". Here's Why | controversy | Zero miles, no owner — sold as used | Registered at the factory gate to count as sold, then exported | Who really pays for cheap EVs? | |
+| 9 | The EV Tax Credit Ended. Here's What Americans Did Next | controversy, US | EV share 11.4% (Sep 2025) → 5.8% a month later | ~5–6% through 2026; hybrids +27%; 300k+ EVs off lease next year | Did Americans reject EVs or the price? (neutral on politics) | |
+| 10 | This EV Battery Has No Lithium. It Works at -40 Degrees | impossible tech | 30 years of lithium — that just changed | CATL sodium-ion: >90% capacity at -40°C, but ~175 Wh/kg, up to 400 km | Is cold-proof better than long range? | |
+| 11 | NIO Swaps a Battery 110,000 Times a Day. Why Doesn't America? | unusual engineering | Robots swap your battery in minutes | 130M swaps by Nov 3, 2026, ~4,000 stations; Better Place failed in 2013 (verify) | Would you trust a robot swap? | |
+| 12 | Cybertruck Sales Collapsed. What Went Wrong? | controversy | Huge reservations, then reality (verify figures) | Latest quarterly drop (verify ~48%); 2026 rotor recall | Failure or 10 years early? | |
+| 13 | Mercedes Drove 749 Miles on One Charge. Why Can't You Buy It? | impossible tech | Germany to Sweden on one charge, 85 mi left | Factorial solid-state pack ~25% more energy; Mercedes says end of decade, China claims 2026 | Germany, Japan or China — who wins? | (covered: solid-state Short 2026-11-06 — use the record-drive angle) |
+| 14 | Tesla Sells Fewer Cars Every Year. So Why Is It Worth So Much? | controversy | Fewer cars than a year ago; plan is selling rides | Cybercab sales by end of 2026; unsupervised FSD slipped to Q2 2027 | Car company or robot company? | |
+| 15 | Do EVs Really Catch Fire More Than Gas Cars? | hidden problem, myth | You've seen the burning-EV videos | National data (e.g. Sweden) suggests fewer fires per vehicle (verify) | Rarer but harder to fight — safer or not? | (covered 2026-10-31 — needs new data or news) |
+| 16 | Can an AI Drive the Nürburgring? Xiaomi Just Tried | experiment | 20 km of track, nobody at the wheel | Driverless 10:29 vs record 7:22 | Guess the year AI beats the best human | |
+| 17 | What If Every Car in America Went Electric Tomorrow? | hypothetical | Every gas car wakes up electric — does the grid survive? | ~3T miles × ~0.3 kWh ≈ 1,000 TWh ≈ quarter of US power (verify EIA/DOT) | When would you charge? | (covered city version 2026-11-01 — use the national grid angle) |
+| 18 | Why the Cybertruck's Steering Wheel Isn't Connected to the Wheels | unusual engineering | Nothing mechanical links wheel and tires | Same idea lets Cybercab drop the wheel entirely | Would you trust drive-by-wire? | |
+| 19 | Why You Can't Buy a Chinese EV in America | controversy | A cheap good EV you're not allowed to buy | 100% tariff + connected-car software rule (verify) | Should Americans be allowed? (both sides) | |
+| 20 | Your EV Battery Will Probably Outlive Your Car | myth | Everyone says batteries die fast | Fleet data: ~a couple % per year (verify Geotab/Recurrent) | Would you buy a used EV now? | |
+| 21 | This Chinese SUV Can Spin Like a Tank and Float | impossible tech | Spins in place; floats in water | One motor per wheel (Yangwang U8, verify float details) | Feature or gimmick? | |
+| 22 | Tesla vs Waymo: Cameras or Lasers? | comparison | One says lasers, one says eyes are enough | Lidar costs collapsed (verify) | Which would you ride tonight? | |
+| 23 | Why Electric Cars Eat Tires | hidden problem | Owners replace tires sooner than expected | Weight + instant torque; EV tire compounds (verify) | — | (covered 2026-11-04) |
+| 24 | Why Chinese EVs Have Fridges, Beds and Karaoke | culture | The best fridge beats the fastest 0-60 | Common in mid-priced family SUVs (verify models) | Which feature would you pay for? | |
+| 25 | Heavy EVs: Are They Dangerous for Everyone Else? | hidden problem | An EV pickup weighs as much as two small cars | Weight protects inside, hurts outside (IIHS, verify) | Should heavy cars pay more? | |
+| 26 | Gas Car vs EV: Which Survives a Night Stuck in a Blizzard? | experiment | 10 hours stuck at -15° | Parked EV heats for many hours (verify AAA/Norway) | What would you want that night? | |
+| 27 | Why Are Cars Suddenly Running on 1,000 Volts? | unusual engineering | Your house: 120 V. The fastest car: 1,200 V | Higher voltage = thinner cables, faster charging | Where does it stop? | |
+| 28 | Your EV Can Power Your House. Most Owners Don't Know | hidden feature | Blackout? Your car can run the house | Days of average home use (verify kWh) | Biggest battery you'll own | (covered 2026-11-03) |
+| 29 | Why EVs Fake Engine Sounds and Gear Shifts | unusual engineering | No gears, but it shifts anyway | Ioniq 5 N simulated shifts (verify lap claims) | Fun or fake? | (AVAS covered — use the gearshift angle) |
+| 30 | The Motor Inside the Wheel: 125 Years of Failure | unusual engineering, history | Porsche put motors in wheels in 1900 | Unsprung weight; BYD's motor-per-wheel | Some ideas wait for the right battery | (Lohner-Porsche covered — use the modern angle) |
