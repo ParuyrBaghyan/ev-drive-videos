@@ -37,12 +37,36 @@ Every Short ends with a short thought-provoking question or takeaway before the 
 - `visuals.py` runs inside render.py's globals. Define `vis_<name>(d, lt, t)` functions that draw on a 2× supersampled 900×900 logical canvas (use helpers `p()`, `arc()`, `rgba()`, `text_c()`, `FL()`, `speaker()`, `car_side()`, `person()`, `tire()`, `gauge()`, `waves()`, easing `ease_out/ease_inout/back_out`, colours `ACC/ACC2/WHITE/MUTED/BG`), then register them: `VIS.update({"name": vis_name})`. `lt` = seconds since the scene started, `t` = global time; `scenes[i]` gives start/vis_end. Look at the AVAS visuals in render.py as the reference.
 - Always render preview frames for every scene and LOOK at them (Read the PNGs) before the full render. Fix overlaps, clipping and unreadable text.
 
+## Titles (owner's style — curiosity first, always honest)
+The owner wants titles that make people click, in the style of these pairs (educational → clickable):
+- How EV Batteries Work → "The Battery Inside Your Tesla Is More Complicated Than You Think"
+- How Self-Driving Cars Work → "Tesla's Self-Driving Technology Has a Serious Problem"
+- How EV Charging Works → "Why Charging Your EV Can Be More Expensive Than You Think"
+- How Electric Motors Work → "Electric Cars Have Something Gas Cars Don't"
+- EV Battery Degradation → "Your Electric Car Battery Is Slowly Dying. Here's Why"
+Rules:
+- Open a curiosity gap: hint at a surprise, a problem, a secret or a hidden cost, but don't give the answer in the title.
+- Speak to the viewer: "Your EV…", "Your Tesla…", "You've been…". Use concrete nouns (battery, brake, charger, Tesla, Porsche) and power words (secretly, hidden, problem, never, really, actually, dying, more than you think).
+- Patterns that work: "Your ___ Is Secretly ___" · "Why ___ Is More ___ Than You Think" · "___ Has a Serious Problem" · "___ Have Something ___ Don't" · "___. Here's Why" · "Nobody Tells You This About ___" · "The ___ Nobody Talks About".
+- Plain words, no emojis, Title Case, ≤ 60 characters before " #shorts" (Shorts end with " #shorts"; long videos don't).
+- **Never lie or exaggerate:** the video must clearly deliver what the title promises. No invented problems, no false claims about a brand, no "shocking" claims the facts don't support. Clickable, never misleading.
+- Write 3 candidate titles, pick the strongest, and put the plain educational version in the first line of the description.
+
+## Thumbnails (every video, Shorts included)
+- Make one with `tools/thumbnail.py spec.json out.jpg` (see the docstring; examples in `thumbs/specs.json`). Long videos: `"size": "long"` (1280×720). Shorts: `"size": "short"` (1080×1920 cover).
+- 2–4 huge words, max 3 lines, **different from the title** (the thumbnail adds the hook, the title explains it). One word in the accent color. Use a number, a question mark or a "!" when it fits ("DIRTIER THAN GAS?", "99.9% ISN'T ENOUGH", "4,416 BATTERIES?").
+- One big subject: a 3D car from `assets/cars/` (side views and x-ray views look best) filling about half the frame, and **exactly one** attention device: red arrow, red circle, yellow warning sign, big "?" or a number badge, pointing at what the video explains.
+- Bold background theme by mood: red = problem/danger, orange = cost/controversy, blue = cold/charging/tech, lime = how-it-works, purple = history.
+- Look at the result (Read the jpg) before using it: text readable at phone size, nothing cut off, subject not hidden.
+- Save it as `thumbs/<episode>.jpg`, push, and pass its raw URL as `videoThumbnailUrl` when scheduling (YouTube only shows custom thumbnails on verified channels; it's harmless otherwise). If Metricool rejects it with VIDEO_THUMBNAIL_NOT_APPLICABLE, schedule again without it.
+- Shorts: also make the first second of the video itself a strong cover (big hook text on screen), because many viewers see that frame.
+
 ## Publishing
 - Commit the episode folder + the mp4 in `videos/` and push to `main`.
 - Public video URL: `https://raw.githubusercontent.com/ParuyrBaghyan/ev-drive-videos/main/videos/<file>.mp4` (check it returns 200 before scheduling).
 - Schedule with Metricool `createScheduledPost`: blogId `7793522` (Metricool account baghyanparuyr@gmail.com; switched on 2026-11-01 from the old brand 7616311), provider `youtube`, `autoPublish: true`, publication time = the run's slot on the run's date (send `publicationDate` with timezone `America/New_York`).
 - **Two Shorts per day, two slots:** **12:00** (noon run) and **18:00** (evening run), America/New_York. Each scheduled run makes exactly one Short for its own slot.
-  youtubeData: `type: "short"`, `privacy: "public"`, `category: "SCIENCE_TECHNOLOGY"`, `madeForKids: false`, `isAiGeneratedContent: false`, 4–8 tags. Title ≤ 70 chars, ends with `#shorts`. Description: 2–3 sentences summarising what the viewer learns + hashtags `#EV #ElectricCars #CarTech #EVDrive #shorts`.
+  youtubeData: `type: "short"`, `privacy: "public"`, `category: "SCIENCE_TECHNOLOGY"`, `madeForKids: false`, `isAiGeneratedContent: false`, 4–8 tags. Title: follow the **Titles** section (curiosity style, ≤ 60 chars + " #shorts", no emojis). Description: first line = the plain educational title, then 2–3 sentences summarising what the viewer learns + hashtags `#EV #ElectricCars #CarTech #EVDrive #shorts`. Add `videoThumbnailUrl` (see **Thumbnails**).
 - A slot that already has an entry in `topics_log.md` counts as filled even if Metricool doesn't show it (posts up to 2026-11-02 12:00 ET were scheduled in the old Metricool account) — never make a second video for it.
 - Before starting, call `getScheduledPosts` for that day (use `extendedRange: true` so already-published posts show up too) and skip only if a YouTube post already exists **in your own slot** (publication time within ±1 hour of the slot). A post in the other slot is expected — never double-post a slot.
 - Before picking a topic, also check today's other-slot post (and `topics_log.md`) so the two Shorts of the day have different topics and formats.
