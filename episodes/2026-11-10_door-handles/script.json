@@ -1,0 +1,42 @@
+{
+  "title": "China Is Banning Tesla-Style Door Handles. Here's Why #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "After a crash, could anyone open your car door? In some EVs, maybe not.",
+      "visual": "dh_hook"
+    },
+    {
+      "id": "flush",
+      "text": "Many EVs hide flush door handles that pop out on electric power, a look Tesla made famous.",
+      "visual": "dh_flush"
+    },
+    {
+      "id": "power",
+      "text": "But if a crash or fire cuts the power, they may not move. In twenty twenty-five, bystanders couldn't open a burning Xiaomi SU7.",
+      "visual": "dh_power"
+    },
+    {
+      "id": "probe",
+      "text": "In America, regulators are probing a hundred seventy-four thousand Model Ys after parents couldn't reach kids inside.",
+      "visual": "dh_probe"
+    },
+    {
+      "id": "ban",
+      "text": "So China is the first country to ban hidden handles. From twenty twenty-seven, new models need mechanical releases that work without power.",
+      "visual": "dh_ban"
+    },
+    {
+      "id": "tip",
+      "text": "Most EVs hide a manual release inside. Find yours today.",
+      "visual": "dh_tip"
+    },
+    {
+      "id": "outro",
+      "text": "Sleek design, or safety risk? Should America ban them too? Follow EV Drive.",
+      "visual": "dh_outro"
+    }
+  ]
+}
