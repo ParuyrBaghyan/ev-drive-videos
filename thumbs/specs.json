@@ -1,0 +1,170 @@
+{
+ "long_how_evs_work": {
+  "theme": "lime",
+  "lines": [
+   [
+    "4,416",
+    "accent"
+   ],
+   [
+    "BATTERIES",
+    "white"
+   ],
+   [
+    "INSIDE?",
+    "white"
+   ]
+  ],
+  "car": "side_xray",
+  "car_box": [
+   350,
+   330,
+   900
+  ],
+  "stickers": [
+   {
+    "type": "arrow",
+    "x": 300,
+    "y": 470,
+    "ang": 0.55,
+    "len": 260
+   }
+  ],
+  "tag": "HOW IT REALLY WORKS"
+ },
+ "long_self_driving": {
+  "theme": "red",
+  "lines": [
+   [
+    "99.9%",
+    "yellow"
+   ],
+   [
+    "ISN'T",
+    "white"
+   ],
+   [
+    "ENOUGH",
+    "white"
+   ]
+  ],
+  "car": "side_white",
+  "car_box": [
+   440,
+   360,
+   820
+  ],
+  "stickers": [
+   {
+    "type": "warning",
+    "x": 1120,
+    "y": 200,
+    "r": 90
+   }
+  ],
+  "tag": "THE 1% PROBLEM"
+ },
+ "long_greener": {
+  "theme": "orange",
+  "lines": [
+   [
+    "DIRTIER",
+    "yellow"
+   ],
+   [
+    "THAN GAS?",
+    "white"
+   ]
+  ],
+  "car": "side_xray_hot",
+  "car_box": [
+   360,
+   300,
+   900
+  ],
+  "stickers": [
+   {
+    "type": "circle",
+    "x": 800,
+    "y": 455,
+    "r": 225
+   }
+  ],
+  "tag": "THE HONEST DATA"
+ },
+ "short_preconditioning": {
+  "size": "short",
+  "theme": "blue",
+  "lines": [
+   [
+    "WHY YOUR EV",
+    "white"
+   ],
+   [
+    "CHARGES",
+    "white"
+   ],
+   [
+    "SO SLOW",
+    "accent"
+   ]
+  ],
+  "car": "side34_silver",
+  "stickers": [
+   {
+    "type": "question",
+    "x": 540,
+    "y": 1420,
+    "r": 150
+   }
+  ]
+ },
+ "short_one_pedal": {
+  "size": "short",
+  "theme": "lime",
+  "lines": [
+   [
+    "NO BRAKE",
+    "accent"
+   ],
+   [
+    "PEDAL?",
+    "white"
+   ]
+  ],
+  "car": "rearside_brake",
+  "stickers": [
+   {
+    "type": "arrow",
+    "x": 250,
+    "y": 1430,
+    "ang": -0.9,
+    "len": 230
+   }
+  ]
+ },
+ "short_first_hybrid": {
+  "size": "short",
+  "theme": "purple",
+  "lines": [
+   [
+    "HYBRID",
+    "white"
+   ],
+   [
+    "IN 1900?!",
+    "accent"
+   ]
+  ],
+  "car": "side_red",
+  "stickers": [
+   {
+    "type": "number",
+    "x": 540,
+    "y": 1420,
+    "r": 110,
+    "text": "97 YEARS EARLY"
+   }
+  ]
+ }
+}

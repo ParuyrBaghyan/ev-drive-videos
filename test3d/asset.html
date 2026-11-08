@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>EV Drive 3D test</title>
+<link rel="stylesheet" href="./fonts.css">
+<style>
+  :root { --acc:#C6FF3D; --acc2:#FF7A3D; --white:#F4F6F8; --muted:#8a96a8; --bg:#07090d; }
+  html, body { margin:0; width:1600px; height:1000px; overflow:hidden; background:transparent; font-family:'Inter Display','Inter',sans-serif; }
+  #gl { position:absolute; inset:0; }
+  #ui { position:absolute; inset:0; pointer-events:none; }
+  .abs { position:absolute; }
+  #bar { left:0; top:0; height:10px; background:var(--acc); box-shadow:0 0 18px rgba(198,255,61,.7); }
+  #badge { left:50%; top:110px; transform:translateX(-50%); padding:16px 34px 16px 28px; border-radius:40px;
+           background:rgba(18,22,30,.82); border:2px solid rgba(255,255,255,.14); 
+           color:var(--white); font-weight:900; font-size:40px; letter-spacing:1px; display:flex; gap:14px; align-items:center; }
+  #badge svg { width:30px; height:36px; }
+  .head { left:0; width:1080px; text-align:center; color:var(--white); font-weight:900; font-size:96px; line-height:1.02;
+          letter-spacing:-1px; text-shadow:0 10px 40px rgba(0,0,0,.65); }
+  .head .acc { color:var(--acc); text-shadow:0 0 36px rgba(198,255,61,.45), 0 10px 40px rgba(0,0,0,.6); }
+  .head .red { color:#ff4d4d; text-shadow:0 0 40px rgba(255,60,60,.6), 0 10px 40px rgba(0,0,0,.6); }
+  .sub { left:0; width:1080px; text-align:center; color:var(--muted); font-weight:700; font-size:40px; }
+  .chip { padding:18px 30px; border-radius:26px; background:rgba(14,18,25,.85); border:2px solid rgba(255,255,255,.12);
+           color:var(--white); font-weight:900; font-size:46px; display:flex; flex-direction:column; align-items:center; min-width:250px; }
+  .chip small { font-size:24px; color:var(--muted); font-weight:800; letter-spacing:2px; margin-bottom:4px; }
+  .chip.acc { border-color:rgba(198,255,61,.6); box-shadow:0 0 30px rgba(198,255,61,.18); }
+  .call { padding:10px 22px; border-radius:22px; background:var(--acc); color:#0a0d12; font-weight:900; font-size:30px; white-space:nowrap; box-shadow:0 8px 30px rgba(0,0,0,.4); }
+  .call.red { background:#ff5a4d; color:#fff; }
+  #cap { left:60px; width:960px; top:1330px; text-align:center; }
+  #cap .ln { display:inline-block; padding:10px 22px; margin:6px 0; border-radius:18px; background:rgba(6,8,12,.72); }
+  #cap span { margin:0 .13em; font-weight:900; font-size:58px; color:var(--white); letter-spacing:-.5px; }
+  #cap span.on { color:var(--acc); text-shadow:0 0 22px rgba(198,255,61,.5); }
+  #lines { position:absolute; inset:0; }
+  #vig { position:absolute; inset:0; background:radial-gradient(ellipse at 50% 45%, rgba(0,0,0,0) 55%, rgba(0,0,0,.55) 100%); }
+</style>
+</head>
+<body>
+<canvas id="gl" width="1600" height="1000"></canvas>
+<script type="importmap">{ "imports": { "three": "./node_modules/three/build/three.module.js", "three/addons/": "./node_modules/three/examples/jsm/" } }</script>
+<script type="module" src="./asset.js"></script>
+</body>
+</html>
