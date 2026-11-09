@@ -1,0 +1,42 @@
+{
+  "title": "Charging an EV in 5 Minutes Is Real. But There's a Catch #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Charge an electric car in five minutes? It's real. It's in China right now.",
+      "visual": "fc_hook"
+    },
+    {
+      "id": "claim",
+      "text": "BYD's new flash chargers push up to fifteen hundred kilowatts. Ten to seventy percent in about five minutes, nearly full in nine.",
+      "visual": "fc_claim"
+    },
+    {
+      "id": "how",
+      "text": "The trick: a thousand volts, up to fifteen hundred amps, and a battery built to take it.",
+      "visual": "fc_how"
+    },
+    {
+      "id": "catch",
+      "text": "Here's the catch. Fifteen hundred kilowatts is about what a thousand American homes use on average, from one plug.",
+      "visual": "fc_catch"
+    },
+    {
+      "id": "buffer",
+      "text": "So stations hide their own batteries. They sip from the grid, then dump energy into your car. A few cars back to back can drain them.",
+      "visual": "fc_buffer"
+    },
+    {
+      "id": "scale",
+      "text": "And your car must be built for a thousand volts. Still, BYD says it passed ten thousand stations in August.",
+      "visual": "fc_scale"
+    },
+    {
+      "id": "outro",
+      "text": "Five minutes to charge. Would that make you give up gas? Follow EV Drive.",
+      "visual": "fc_outro"
+    }
+  ]
+}
