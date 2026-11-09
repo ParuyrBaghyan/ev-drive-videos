@@ -278,5 +278,37 @@
     "r": 110
    }
   ]
+ },
+ "2026-11-11_no-steering-wheel": {
+  "size": "short",
+  "theme": "orange",
+  "lines": [
+   [
+    "NO WHEEL.",
+    "white"
+   ],
+   [
+    "NO PEDALS.",
+    "white"
+   ],
+   [
+    "LEGAL?",
+    "accent"
+   ]
+  ],
+  "car": "cn_front34_white",
+  "car_box": [
+   40,
+   1120,
+   1000
+  ],
+  "stickers": [
+   {
+    "type": "question",
+    "x": 880,
+    "y": 1050,
+    "r": 110
+   }
+  ]
  }
 }

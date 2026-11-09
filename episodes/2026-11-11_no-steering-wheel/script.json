@@ -1,0 +1,42 @@
+{
+  "title": "Tesla's New Car Has No Steering Wheel. Is It Even Legal? #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "This taxi has no steering wheel, no pedals and no mirrors. Is that even legal?",
+      "visual": "sw_hook"
+    },
+    {
+      "id": "cab",
+      "text": "It's Tesla's Cybercab. Two seats, cameras only, and paying riders in Austin since September.",
+      "visual": "sw_cab"
+    },
+    {
+      "id": "rules",
+      "text": "But America's car safety rules assume a human driver. One says the brakes must work with a foot control.",
+      "visual": "sw_rules"
+    },
+    {
+      "id": "audit",
+      "text": "So one day after launch, regulators opened an audit of about a thousand Cybercabs: how did Tesla certify them?",
+      "visual": "sw_audit"
+    },
+    {
+      "id": "secret",
+      "text": "Tesla answered by the October deadline. Then it asked that every single answer be kept secret.",
+      "visual": "sw_secret"
+    },
+    {
+      "id": "fair",
+      "text": "To be fair, regulators haven't found it breaks any rule. Rival Zoox took the other road: an official exemption.",
+      "visual": "sw_fair"
+    },
+    {
+      "id": "outro",
+      "text": "Normal business secrecy, or should the public see the answers? Follow EV Drive.",
+      "visual": "sw_outro"
+    }
+  ]
+}
