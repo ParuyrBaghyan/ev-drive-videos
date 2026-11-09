@@ -246,5 +246,37 @@
     "r": 120
    }
   ]
+ },
+ "short_five_minute_charge": {
+  "size": "short",
+  "theme": "blue",
+  "lines": [
+   [
+    "CHARGED IN",
+    "white"
+   ],
+   [
+    "5 MIN?",
+    "accent"
+   ],
+   [
+    "THE CATCH",
+    "white"
+   ]
+  ],
+  "car": "cn_side_teal",
+  "car_box": [
+   40,
+   1120,
+   1000
+  ],
+  "stickers": [
+   {
+    "type": "question",
+    "x": 880,
+    "y": 1050,
+    "r": 110
+   }
+  ]
  }
 }
