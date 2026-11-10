@@ -373,5 +373,37 @@
     "text": "7:22"
    }
   ]
+ },
+ "short_ev_insurance": {
+  "size": "short",
+  "theme": "orange",
+  "lines": [
+   [
+    "$941",
+    "accent"
+   ],
+   [
+    "MORE",
+    "white"
+   ],
+   [
+    "A YEAR?",
+    "white"
+   ]
+  ],
+  "car": "cn_side_teal",
+  "car_box": [
+   40,
+   1120,
+   1000
+  ],
+  "stickers": [
+   {
+    "type": "warning",
+    "x": 860,
+    "y": 1030,
+    "r": 110
+   }
+  ]
  }
 }

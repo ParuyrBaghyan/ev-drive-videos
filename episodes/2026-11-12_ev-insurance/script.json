@@ -1,0 +1,13 @@
+{
+  "title": "Insuring an EV Costs 42% More. Here's Why #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {"id": "hook", "text": "Your EV could cost you almost a thousand dollars more a year. And it's not the electricity.", "visual": "in_hook"},
+    {"id": "gap", "text": "One big comparison site found full coverage averages about thirty-two hundred dollars a year for EVs, versus twenty-two hundred for gas cars. Forty-two percent more.", "visual": "in_gap"},
+    {"id": "repair", "text": "The reason is repairs. EV crash repairs average about seven hundred dollars more, and lean harder on pricey factory parts.", "visual": "in_repair"},
+    {"id": "battery", "text": "And a damaged battery pack can cost nine to twenty-one thousand dollars to replace.", "visual": "in_battery"},
+    {"id": "twist", "text": "But here's the twist. For twenty twenty-four and newer models, the gap drops to eighteen percent. In a few states, new EVs are even cheaper to insure.", "visual": "in_twist"},
+    {"id": "outro", "text": "Deal breaker, or fading fast? Tell me below. Follow EV Drive.", "visual": "in_outro"}
+  ]
+}
