@@ -310,5 +310,35 @@
     "r": 110
    }
   ]
+ },
+ "long_byd_vs_tesla": {
+  "size": "long",
+  "theme": "red",
+  "lines": [
+   [
+    "IS TESLA",
+    "white"
+   ],
+   [
+    "LOSING?",
+    "accent"
+   ]
+  ],
+  "car": "cn_side_teal",
+  "car_box": [
+   440,
+   300,
+   830
+  ],
+  "stickers": [
+   {
+    "type": "number",
+    "x": 980,
+    "y": 110,
+    "r": 64,
+    "text": "+276,000 EVs"
+   }
+  ],
+  "tag": "BYD vs TESLA"
  }
 }

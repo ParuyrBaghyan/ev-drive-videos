@@ -68,3 +68,4 @@ Published (newest last). Don't repeat these.
 - ~~What the 12-volt battery still does in an EV~~ (used 2026-10-27 12:00)
 - ~~Battery preconditioning before fast charging~~ (used 2026-11-08 12:00, as hidden feature)
 - ~~Lohner-Porsche hub motors and the first hybrid (1900)~~ (used 2026-11-09 12:00, as history)
+- LONG 2026-11-10 · comparison · BYD vs Tesla: how BYD outsold Tesla (Q3 2026 scoreboard, origin, vertical integration, Tesla's robotaxi bet, profit twist, China price war, US tariffs) · "BYD Sold 276,000 More EVs Than Tesla. Here's How" · sources in long/2026-11-10_byd-vs-tesla/description.txt

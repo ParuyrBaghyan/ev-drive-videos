@@ -1,0 +1,167 @@
+{
+ "title": "BYD Sold 276,000 More EVs Than Tesla in 3 Months. How Did That Happen?",
+ "voice": "en-US-AndrewMultilingualNeural",
+ "rate": "+6%",
+ "pitch": "+0Hz",
+ "say": {
+  "BYD's": "B Y D's",
+  "BYD": "B Y D",
+  "Wang Chuanfu": "Wang Chwan-foo",
+  "Geely": "Jee-lee",
+  "Cybercab": "Cyber-cab",
+  "Xi'an": "Shee-ahn"
+ },
+ "chapters": {
+  "intro": "Intro",
+  "score": "01  The scoreboard",
+  "origin": "02  From phone batteries to cars",
+  "weapon": "03  The secret weapon",
+  "bet": "04  Tesla's different bet",
+  "twist": "05  The plot twist",
+  "problem": "06  BYD's hidden problem",
+  "usa": "07  Why you can't buy one in America",
+  "verdict": "08  So who's winning?"
+ },
+ "scenes": [
+  {
+   "ch": "intro",
+   "visual": "hero",
+   "text": "Between July and September, one car company sold 762,478 fully electric cars. Tesla sold 486,532. And the winner wasn't Tesla."
+  },
+  {
+   "ch": "intro",
+   "visual": "who",
+   "text": "It was BYD, a Chinese company that started out making batteries for cell phones. You can't even buy one of its cars in America."
+  },
+  {
+   "ch": "intro",
+   "visual": "questions",
+   "text": "So how did a battery maker overtake the most famous car company on Earth? Is Tesla really losing? Or is it playing a completely different game? By the end of this video, you can decide for yourself. And one number in the middle might surprise even Tesla fans."
+  },
+  {
+   "ch": "score",
+   "visual": "q3_bars",
+   "text": "Let's start with the scoreboard. In the third quarter of 2026, BYD sold about 276,000 more battery electric cars than Tesla. That's not counting its plug-in hybrids."
+  },
+  {
+   "ch": "score",
+   "visual": "growth",
+   "text": "And the direction matters even more. BYD's electric sales grew about 31 percent from a year earlier. Tesla's deliveries fell about 2 percent, even though they beat Wall Street's expectations."
+  },
+  {
+   "ch": "score",
+   "visual": "annual",
+   "text": "This isn't a one-off. In 2025, BYD sold about 2.25 million battery electric cars, and Tesla delivered about 1.64 million. It was the first full year that BYD took the crown, and Tesla's second year in a row of falling sales."
+  },
+  {
+   "ch": "origin",
+   "visual": "phone",
+   "text": "To understand how, we have to go back to 1995. An engineer named Wang Chuanfu started a small battery company in Shenzhen, China. By 2003, it was the world's largest maker of nickel-cadmium batteries, the kind used in many mobile phones."
+  },
+  {
+   "ch": "origin",
+   "visual": "buy_carmaker",
+   "text": "Then, in 2003, he did something investors hated. He bought a state-owned car maker in Xi'an. BYD's shares fell 21 percent after the deal was announced. A battery company building cars sounded crazy."
+  },
+  {
+   "ch": "origin",
+   "visual": "buffett",
+   "text": "But one famous investor saw it differently. In 2008, Warren Buffett's Berkshire Hathaway bought about 10 percent of BYD for 230 million dollars. By the time Berkshire finished selling in 2025, the stock had risen more than 4,500 percent since that first purchase."
+  },
+  {
+   "ch": "weapon",
+   "visual": "inhouse",
+   "text": "So what is the secret weapon behind BYD? It makes almost everything itself. Most car companies buy their batteries, chips and motors from suppliers. BYD builds its own."
+  },
+  {
+   "ch": "weapon",
+   "visual": "blade",
+   "text": "Its Blade Battery uses lithium iron phosphate cells, which contain no cobalt or nickel, and BYD makes them in-house. It has made its own chips since 2004, and it builds its own electric motors and drive systems."
+  },
+  {
+   "ch": "weapon",
+   "visual": "ship",
+   "text": "It even owns ships. BYD built its own fleet of car carriers. The largest, the BYD Shenzhen, can carry 9,200 cars across the ocean in one trip."
+  },
+  {
+   "ch": "weapon",
+   "visual": "price",
+   "text": "When you control the whole chain, you control the price. When BYD first passed Tesla at the end of 2023, its smallest car, the Seagull, started at about 10,000 dollars in China. The cheapest Tesla Model 3 there cost about 32,000."
+  },
+  {
+   "ch": "bet",
+   "visual": "two_models",
+   "text": "Tesla took the opposite path. BYD sells a huge range of models, from tiny hatchbacks to supercars. Tesla sells only a few, and in the third quarter, just two of them, the Model 3 and Model Y, made up over 98 percent of its deliveries."
+  },
+  {
+   "ch": "bet",
+   "visual": "robotaxi",
+   "text": "That's because Tesla's biggest bet isn't on selling more cars. It's on cars that drive themselves. By the end of September, its robotaxis had covered nearly 2 million miles of what Tesla calls unsupervised driving. And its Cybercab has no steering wheel or pedals at all."
+  },
+  {
+   "ch": "bet",
+   "visual": "valuation",
+   "text": "Investors love that story. In June 2026, Tesla was worth about 1.5 trillion dollars. BYD was worth about 120 billion. So the company selling fewer cars was worth more than 10 times as much."
+  },
+  {
+   "ch": "twist",
+   "visual": "profit",
+   "text": "But here's the number most people don't expect. In the third quarter, Tesla made a net profit of 787 million dollars. BYD made about 10 billion yuan. That's roughly 1.4 billion dollars."
+  },
+  {
+   "ch": "twist",
+   "visual": "margins",
+   "text": "Last quarter, the company selling cheaper cars earned more. And their margins are now almost identical. Tesla's car business kept about 18 percent of its revenue as gross profit. BYD, as a whole company, kept about 18 percent too."
+  },
+  {
+   "ch": "twist",
+   "visual": "exports",
+   "text": "And one more surprise. In those same three months, BYD shipped 550,704 cars overseas. That's more cars than Tesla delivered in the entire world."
+  },
+  {
+   "ch": "problem",
+   "visual": "china_down",
+   "text": "So is BYD unstoppable? Not quite. At home in China, it has a serious problem. From spring 2025 until mid-2026, its sales in China dropped every single month. And in early 2026, rival Geely overtook BYD as China's best-selling car maker."
+  },
+  {
+   "ch": "problem",
+   "visual": "price_war",
+   "text": "The reason is a brutal price war. Chinese car makers cut prices so hard that in February 2026, the government banned selling cars below what they cost to make. In the first quarter, BYD's profit fell 55 percent."
+  },
+  {
+   "ch": "problem",
+   "visual": "abroad",
+   "text": "That's why BYD is racing overseas. Exports grew 137 percent, and they're now about 42 percent of its sales. Its future may depend on markets outside China."
+  },
+  {
+   "ch": "usa",
+   "visual": "tariff",
+   "text": "Except for one huge market: the United States. Since 2024, Chinese electric cars have faced a 100 percent tariff, which doubles the cost of bringing one in."
+  },
+  {
+   "ch": "usa",
+   "visual": "software",
+   "text": "And there's a second wall. A US rule bans Chinese software in connected cars from the 2027 model year, and Chinese hardware a few years later. Supporters say it protects driver data and national security. Critics say it keeps cheaper cars away from American buyers."
+  },
+  {
+   "ch": "usa",
+   "visual": "no_entry",
+   "text": "For now, BYD says it won't sell passenger cars in the US under current conditions. So the world's biggest electric car maker is one most Americans have never driven."
+  },
+  {
+   "ch": "verdict",
+   "visual": "scorecard",
+   "text": "So, who's winning? It depends on what you measure. On cars sold, BYD wins clearly. On profit last quarter, BYD again. On company value, Tesla, by a mile. On self-driving, Tesla is the one already running driverless taxis on public roads. And on price, BYD."
+  },
+  {
+   "ch": "verdict",
+   "visual": "two_games",
+   "text": "Maybe they aren't even playing the same game. BYD is building like the Toyota of electric cars, making almost everything itself and selling everywhere, cheaply. Tesla's CEO says it's really an AI and robotics company that happens to sell cars."
+  },
+  {
+   "ch": "verdict",
+   "visual": "question",
+   "text": "So, is Tesla losing, or just playing a different game? Pick a side in the comments. And if you want the next round of this rivalry explained, with real numbers, subscribe to EV Drive."
+  }
+ ]
+}
