@@ -1,0 +1,42 @@
+{
+  "title": "A Phone Company Built an SUV Faster Than Porsche #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "A phone company just built an SUV that laps the Nürburgring faster than Porsche.",
+      "visual": "xm_hook"
+    },
+    {
+      "id": "race",
+      "text": "Xiaomi makes phones. It announced its car plan in twenty twenty-one. Apple tried for ten years, then quit.",
+      "visual": "xm_race"
+    },
+    {
+      "id": "ring",
+      "text": "The test: Germany's Nordschleife. The SUV record belonged to Porsche and Audi, just under seven forty.",
+      "visual": "xm_ring"
+    },
+    {
+      "id": "record",
+      "text": "Xiaomi's YU7 GT: seven twenty-two. Almost fourteen seconds faster.",
+      "visual": "xm_record"
+    },
+    {
+      "id": "specs",
+      "text": "Two motors, about a thousand horsepower, and a starting price around fifty-seven thousand dollars in China.",
+      "visual": "xm_specs"
+    },
+    {
+      "id": "catch",
+      "text": "The catch: semi-slick tires from a track package not on sale yet. Later, it lapped the Ring driving itself.",
+      "visual": "xm_catch"
+    },
+    {
+      "id": "outro",
+      "text": "How did a phone company do in five years what Apple couldn't in ten? Tell me below, and follow EV Drive.",
+      "visual": "xm_outro"
+    }
+  ]
+}

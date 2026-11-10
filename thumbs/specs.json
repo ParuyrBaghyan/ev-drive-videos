@@ -340,5 +340,38 @@
    }
   ],
   "tag": "BYD vs TESLA"
+ },
+ "2026-11-11_phone-company-suv": {
+  "size": "short",
+  "theme": "orange",
+  "lines": [
+   [
+    "PHONE MAKER",
+    "white"
+   ],
+   [
+    "BEAT",
+    "white"
+   ],
+   [
+    "PORSCHE?",
+    "accent"
+   ]
+  ],
+  "car": "cn_side_teal",
+  "car_box": [
+   40,
+   1150,
+   1000
+  ],
+  "stickers": [
+   {
+    "type": "number",
+    "x": 800,
+    "y": 1060,
+    "r": 120,
+    "text": "7:22"
+   }
+  ]
  }
 }
