@@ -1,0 +1,13 @@
+{
+  "title": "This EV Battery Has No Lithium. It Works at -40 Degrees #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {"id": "hook", "text": "Almost every electric car runs on lithium. This battery runs on sodium, the stuff in table salt.", "visual": "na_hook"},
+    {"id": "salt", "text": "Sodium is about a thousand times more common in Earth's crust than lithium, and it can even come from seawater. That could make batteries much cheaper.", "visual": "na_salt"},
+    {"id": "cold", "text": "Now the surprise. CATL says its new Naxtra cells keep over ninety percent of their capacity at minus forty, where Celsius and Fahrenheit meet.", "visual": "na_cold"},
+    {"id": "power", "text": "And at minus thirty, nearly three times the power of a common lithium iron phosphate battery.", "visual": "na_power"},
+    {"id": "catch", "text": "The catch? Less energy per kilo than the best lithium cells. Changan's first sodium car is rated about four hundred kilometers, on China's generous test.", "visual": "na_catch"},
+    {"id": "outro", "text": "Would you trade range for a battery that shrugs off winter? Tell me below. Follow EV Drive.", "visual": "na_outro"}
+  ]
+}

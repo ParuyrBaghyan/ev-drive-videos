@@ -405,5 +405,38 @@
     "r": 110
    }
   ]
+ },
+ "2026-11-12_salt-battery": {
+  "size": "short",
+  "theme": "blue",
+  "lines": [
+   [
+    "BATTERY",
+    "white"
+   ],
+   [
+    "MADE OF",
+    "white"
+   ],
+   [
+    "SALT?",
+    "accent"
+   ]
+  ],
+  "car": "side_xray",
+  "car_box": [
+   40,
+   1130,
+   1000
+  ],
+  "stickers": [
+   {
+    "type": "number",
+    "x": 820,
+    "y": 1040,
+    "r": 120,
+    "text": "-40\u00b0"
+   }
+  ]
  }
 }
