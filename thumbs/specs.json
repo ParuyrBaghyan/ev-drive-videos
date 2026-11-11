@@ -435,7 +435,40 @@
     "x": 820,
     "y": 1040,
     "r": 120,
-    "text": "-40\u00b0"
+    "text": "-40°"
+   }
+  ]
+ },
+ "2026-11-13_zero-mile-used": {
+  "size": "short",
+  "theme": "orange",
+  "lines": [
+   [
+    "0 MILES.",
+    "accent"
+   ],
+   [
+    "SOLD AS",
+    "white"
+   ],
+   [
+    "USED?",
+    "white"
+   ]
+  ],
+  "car": "cn_side_teal",
+  "car_box": [
+   40,
+   1120,
+   1000
+  ],
+  "stickers": [
+   {
+    "type": "number",
+    "x": 840,
+    "y": 1060,
+    "r": 120,
+    "text": "0 km"
    }
   ]
  }

@@ -1,0 +1,42 @@
+{
+  "title": "China Is Selling Brand-New Cars as \"Used\". Here's Why #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Zero miles. No owner. And in China, this car is sold as used.",
+      "visual": "zu_hook"
+    },
+    {
+      "id": "trick",
+      "text": "Dealers register brand-new cars, then cancel the plates. On paper, sold. Now it's used.",
+      "visual": "zu_trick"
+    },
+    {
+      "id": "why",
+      "text": "Blame a price war that's lasted years. Too many cars, so these sell for up to twenty to thirty percent off.",
+      "visual": "zu_why"
+    },
+    {
+      "id": "where",
+      "text": "China exported about four hundred thirty-six thousand used cars in twenty twenty-four. Analysts think most had zero miles.",
+      "visual": "zu_where"
+    },
+    {
+      "id": "cost",
+      "text": "But buyers lose warranty time, dealers abroad get undercut, and sales look bigger than they are.",
+      "visual": "zu_cost"
+    },
+    {
+      "id": "fix",
+      "text": "Since January, cars under a hundred eighty days old need the maker's approval to export as used.",
+      "visual": "zu_fix"
+    },
+    {
+      "id": "outro",
+      "text": "Smart bargain, or fake sales? Tell me below. Follow EV Drive.",
+      "visual": "zu_outro"
+    }
+  ]
+}
