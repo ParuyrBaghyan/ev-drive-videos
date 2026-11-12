@@ -1,0 +1,42 @@
+{
+  "title": "NIO Swaps 110,000 EV Batteries a Day. Why Doesn't America? #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "This electric car pulls in nearly empty and leaves full about three minutes later. No plug.",
+      "visual": "sw_hook"
+    },
+    {
+      "id": "robot",
+      "text": "A robot under the floor unbolts the old battery and locks in a charged one.",
+      "visual": "sw_robot"
+    },
+    {
+      "id": "scale",
+      "text": "China's NIO has done over a hundred thirty million swaps. Over a hundred ten thousand a day.",
+      "visual": "sw_scale"
+    },
+    {
+      "id": "west",
+      "text": "It has flopped before. Startup Better Place raised about eight hundred fifty million dollars, then went bankrupt in twenty thirteen.",
+      "visual": "sw_west"
+    },
+    {
+      "id": "tesla",
+      "text": "Tesla swapped a battery in ninety seconds on stage. But of about two hundred owners invited, only four or five tried it.",
+      "visual": "sw_tesla"
+    },
+    {
+      "id": "catch",
+      "text": "The catch: cars must share one battery design, and someone must build thousands of stations. NIO has over four thousand.",
+      "visual": "sw_catch"
+    },
+    {
+      "id": "outro",
+      "text": "Robot swap, or wait at a charger? Tell me below. Follow EV Drive.",
+      "visual": "sw_outro"
+    }
+  ]
+}
