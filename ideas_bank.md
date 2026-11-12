@@ -31,7 +31,7 @@ Ideas marked (covered) overlap an earlier Short; only use them with the new news
 | 23 | Why Electric Cars Eat Tires | hidden problem | Owners replace tires sooner than expected | Weight + instant torque; EV tire compounds (verify) | — | (covered 2026-11-04) |
 | 24 | Why Chinese EVs Have Fridges, Beds and Karaoke | culture | The best fridge beats the fastest 0-60 | Common in mid-priced family SUVs (verify models) | Which feature would you pay for? | |
 | 25 | Heavy EVs: Are They Dangerous for Everyone Else? | hidden problem | An EV pickup weighs as much as two small cars | Weight protects inside, hurts outside (IIHS, verify) | Should heavy cars pay more? | |
-| 26 | Gas Car vs EV: Which Survives a Night Stuck in a Blizzard? | experiment | 10 hours stuck at -15° | Parked EV heats for many hours (verify AAA/Norway) | What would you want that night? | |
+| 26 | Gas Car vs EV: Which Survives a Night Stuck in a Blizzard? | experiment | 10 hours stuck at -15° | Parked EV heats for many hours (verify AAA/Norway) | What would you want that night? | USED 2026-11-14 12:00 (Car and Driver: Sonata ~52 h vs Model 3 ~45 h, CO tailpipe twist) |
 | 27 | Why Are Cars Suddenly Running on 1,000 Volts? | unusual engineering | Your house: 120 V. The fastest car: 1,200 V | Higher voltage = thinner cables, faster charging | Where does it stop? | |
 | 28 | Your EV Can Power Your House. Most Owners Don't Know | hidden feature | Blackout? Your car can run the house | Days of average home use (verify kWh) | Biggest battery you'll own | (covered 2026-11-03) |
 | 29 | Why EVs Fake Engine Sounds and Gear Shifts | unusual engineering | No gears, but it shifts anyway | Ioniq 5 N simulated shifts (verify lap claims) | Fun or fake? | (AVAS covered — use the gearshift angle) |
