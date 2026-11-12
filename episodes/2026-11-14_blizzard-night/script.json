@@ -1,0 +1,42 @@
+{
+  "title": "Stuck in a Blizzard All Night: EV or Gas Car? #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "You're stuck on a frozen highway all night. Would you rather be in an electric car, or a gas car?",
+      "visual": "bz_hook"
+    },
+    {
+      "id": "test",
+      "text": "Car and Driver tested it. A Tesla and a Hyundai sat outside in single-digit cold, heat set to sixty-five.",
+      "visual": "bz_test"
+    },
+    {
+      "id": "gas",
+      "text": "The gas car burned about a third of a gallon an hour. A full tank: roughly fifty-two hours of heat.",
+      "visual": "bz_gas"
+    },
+    {
+      "id": "ev",
+      "text": "The Tesla used about two percent of its battery an hour. A full charge: roughly forty-five hours.",
+      "visual": "bz_ev"
+    },
+    {
+      "id": "twist",
+      "text": "Almost a tie. But snow can block a tailpipe and fill the cabin with deadly carbon monoxide. An E V has no tailpipe.",
+      "visual": "bz_twist"
+    },
+    {
+      "id": "catch",
+      "text": "The E V's catch: start the storm with a low battery, and you're in trouble.",
+      "visual": "bz_catch"
+    },
+    {
+      "id": "outro",
+      "text": "So which car do you want that night? Tell me below. Follow EV Drive.",
+      "visual": "bz_outro"
+    }
+  ]
+}

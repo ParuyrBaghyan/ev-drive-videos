@@ -435,7 +435,7 @@
     "x": 820,
     "y": 1040,
     "r": 120,
-    "text": "-40°"
+    "text": "-40\u00b0"
    }
   ]
  },
@@ -469,6 +469,38 @@
     "y": 1060,
     "r": 120,
     "text": "0 km"
+   }
+  ]
+ },
+ "2026-11-14_blizzard-night": {
+  "size": "short",
+  "theme": "blue",
+  "lines": [
+   [
+    "HOW LONG",
+    "white"
+   ],
+   [
+    "CAN YOU",
+    "white"
+   ],
+   [
+    "STAY WARM?",
+    "accent"
+   ]
+  ],
+  "car": "side_white",
+  "car_box": [
+   40,
+   1120,
+   1000
+  ],
+  "stickers": [
+   {
+    "type": "question",
+    "x": 860,
+    "y": 1040,
+    "r": 120
    }
   ]
  }
