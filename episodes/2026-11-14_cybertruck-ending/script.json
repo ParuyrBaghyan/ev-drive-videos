@@ -1,0 +1,37 @@
+{
+  "title": "Tesla Is Killing the Cybertruck. Here's What Went Wrong #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Over a million people reserved Tesla's Cybertruck. Now Tesla is ending production.",
+      "visual": "ct_hook"
+    },
+    {
+      "id": "plan",
+      "text": "The plan: a starting price under forty thousand dollars, and about two hundred fifty thousand trucks a year.",
+      "visual": "ct_plan"
+    },
+    {
+      "id": "reality",
+      "text": "Reality? About thirty-nine thousand sold in America in 2024. Just twenty thousand in 2025.",
+      "visual": "ct_reality"
+    },
+    {
+      "id": "reveal",
+      "text": "On November sixth, Elon Musk said the Texas line will wind down, to make room for the Cybercab robotaxi. The last trucks: around late summer 2027.",
+      "visual": "ct_reveal"
+    },
+    {
+      "id": "price",
+      "text": "And the cheapest one you can still order? The Cyberbeast, at almost a hundred and ten thousand dollars.",
+      "visual": "ct_price"
+    },
+    {
+      "id": "outro",
+      "text": "Musk still calls it Tesla's best vehicle ever. Failure, or ahead of its time? Tell me below. Follow EV Drive.",
+      "visual": "ct_outro"
+    }
+  ]
+}

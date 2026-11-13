@@ -503,5 +503,37 @@
     "r": 120
    }
   ]
+ },
+ "2026-11-14_cybertruck-ending": {
+  "size": "short",
+  "theme": "red",
+  "lines": [
+   [
+    "1 MILLION",
+    "white"
+   ],
+   [
+    "RESERVED.",
+    "white"
+   ],
+   [
+    "THE END?",
+    "accent"
+   ]
+  ],
+  "car": "side_black",
+  "car_box": [
+   40,
+   1120,
+   1000
+  ],
+  "stickers": [
+   {
+    "type": "warning",
+    "x": 860,
+    "y": 1040,
+    "r": 120
+   }
+  ]
  }
 }
