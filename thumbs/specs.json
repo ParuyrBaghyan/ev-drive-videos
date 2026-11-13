@@ -535,5 +535,34 @@
     "r": 120
    }
   ]
+ },
+ "2026-11-15_battery-report-card": {
+  "size": "short",
+  "theme": "lime",
+  "lines": [
+   [
+    "DEAD AFTER",
+    "white"
+   ],
+   [
+    "5 YEARS?",
+    "accent"
+   ]
+  ],
+  "car": "side_xray",
+  "car_box": [
+   40,
+   1100,
+   1000
+  ],
+  "stickers": [
+   {
+    "type": "number",
+    "x": 620,
+    "y": 960,
+    "r": 110,
+    "text": "36,000"
+   }
+  ]
  }
 }

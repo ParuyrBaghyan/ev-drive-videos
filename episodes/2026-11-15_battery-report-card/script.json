@@ -1,0 +1,42 @@
+{
+  "title": "Ford Checked 36,000 EV Batteries After 5 Years #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Everyone says E V batteries die after a few years. Ford just checked thirty-six thousand of them.",
+      "visual": "bh_hook"
+    },
+    {
+      "id": "fleet",
+      "text": "Every twenty twenty-one Mustang Mach-E. Five years, two billion miles. Average battery health: ninety-two percent.",
+      "visual": "bh_fleet"
+    },
+    {
+      "id": "miles",
+      "text": "Past a hundred thousand miles? Still above ninety-one. Past two hundred thousand? Eighty-eight.",
+      "visual": "bh_miles"
+    },
+    {
+      "id": "range",
+      "text": "So a Mach-E rated for three hundred five miles now gets roughly two hundred eighty.",
+      "visual": "bh_range"
+    },
+    {
+      "id": "others",
+      "text": "Independent tests agree: most E Vs keep ninety to ninety-four percent after ninety-three thousand miles.",
+      "visual": "bh_others"
+    },
+    {
+      "id": "catch",
+      "text": "The catch: this is Ford's own data. And heat, plus lots of fast charging to a hundred percent, wears batteries faster.",
+      "visual": "bh_catch"
+    },
+    {
+      "id": "outro",
+      "text": "So, would you buy a five-year-old used E V? Tell me below. Follow EV Drive.",
+      "visual": "bh_outro"
+    }
+  ]
+}
