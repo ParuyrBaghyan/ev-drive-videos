@@ -1,0 +1,50 @@
+{
+ "title": "Same EV. One Brother Lost Twice as Much Battery #shorts",
+ "voice": "en-US-AndrewMultilingualNeural",
+ "rate": "+12%",
+ "pitch": "+0Hz",
+ "say": {
+  "EVs": "E Vs",
+  "EV": "E V"
+ },
+ "chapters": {
+  "s": "story"
+ },
+ "scenes": [
+  {
+   "ch": "s",
+   "visual": "hook",
+   "text": "Two brothers bought the exact same electric car. Eight years later, one of them had lost twice as much battery. So what went wrong?"
+  },
+  {
+   "ch": "s",
+   "visual": "home",
+   "text": "Sam plugged in at home every night. It was slow, boring, and cheap."
+  },
+  {
+   "ch": "s",
+   "visual": "fast",
+   "text": "Leo never bothered. He lived on high-power fast chargers. Ten minutes, and gone."
+  },
+  {
+   "ch": "s",
+   "visual": "years",
+   "text": "For years, nobody noticed a difference."
+  },
+  {
+   "ch": "s",
+   "visual": "year8",
+   "text": "Then came year eight. Sam's battery still held about 88 percent. Leo's was down to about 76."
+  },
+  {
+   "ch": "s",
+   "visual": "data",
+   "text": "That's not a guess. It matches data from more than 22,000 electric cars. Heavy high-power fast charging roughly doubles battery wear."
+  },
+  {
+   "ch": "s",
+   "visual": "twist",
+   "text": "The twist? Leo's car still drives fine. But now he has to stop and charge more often. So, is saving ten minutes worth it?"
+  }
+ ]
+}
