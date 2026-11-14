@@ -1,0 +1,16 @@
+{
+ "title": "Does Fast Charging Really Hurt Your EV Battery? #shorts",
+ "voice": "en-US-AndrewMultilingualNeural",
+ "rate": "+12%",
+ "pitch": "+0Hz",
+ "say": {},
+ "chapters": {"s": "s"},
+ "scenes": [
+  {"ch": "s", "visual": "hook", "clip": "9790187-hd_1080_1920_30fps.mp4", "speed": 1.0, "text": "Does fast charging really hurt your electric car's battery? Here's what the data says."},
+  {"ch": "s", "visual": "study", "clip": "9790186-hd_1080_1920_30fps.mp4", "speed": 1.0, "text": "One study tracked more than 22,000 electric cars."},
+  {"ch": "s", "visual": "slow", "clip": "9790183-hd_1080_1920_30fps.mp4", "speed": 1.0, "text": "Cars that mostly charged slowly lost about one and a half percent of their battery per year."},
+  {"ch": "s", "visual": "fast", "clip": "9790186-hd_1080_1920_30fps.mp4", "speed": 1.0, "ss": 6.0, "text": "Cars that relied heavily on high-power fast chargers lost about three percent. That's double."},
+  {"ch": "s", "visual": "eight", "clip": "16976169_2160_3840_60fps.mp4", "speed": 0.55, "text": "After eight years, that's roughly 88 percent of the battery left, against 76."},
+  {"ch": "s", "visual": "advice", "clip": "9790187-hd_1080_1920_30fps.mp4", "speed": 1.0, "ss": 4.0, "text": "So fast charging is fine for road trips. Just don't make it your daily habit."}
+ ]
+}
