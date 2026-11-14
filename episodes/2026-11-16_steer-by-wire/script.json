@@ -1,0 +1,42 @@
+{
+  "title": "This Steering Wheel Isn't Connected to the Wheels #shorts",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Turn this steering wheel, and nothing solid connects it to the tires. No shaft. Just wires.",
+      "visual": "sw_hook"
+    },
+    {
+      "id": "old",
+      "text": "For a century, a steel shaft linked your wheel to the tires. Infiniti went electronic in twenty thirteen, but kept a backup clutch.",
+      "visual": "sw_old"
+    },
+    {
+      "id": "cyber",
+      "text": "Tesla's Cybertruck threw the backup away: two motors on the steering rack, plus a third sensor as a tie breaker.",
+      "visual": "sw_cyber"
+    },
+    {
+      "id": "why",
+      "text": "Why? Software can change the ratio: small turns in a parking lot, calm at highway speed.",
+      "visual": "sw_ratio"
+    },
+    {
+      "id": "nowheel",
+      "text": "And with no shaft, a car can drop the wheel entirely, like Tesla's Cybercab.",
+      "visual": "sw_nowheel"
+    },
+    {
+      "id": "china",
+      "text": "And since July first, China allows it too: no mechanical link needed, if the backup systems meet strict rules.",
+      "visual": "sw_china"
+    },
+    {
+      "id": "outro",
+      "text": "So: software steering, or keep the steel? Tell me below. Follow EV Drive.",
+      "visual": "sw_outro"
+    }
+  ]
+}

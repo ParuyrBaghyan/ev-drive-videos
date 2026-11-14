@@ -564,5 +564,37 @@
     "text": "36,000"
    }
   ]
+ },
+ "2026-11-16_steer-by-wire": {
+  "size": "short",
+  "theme": "blue",
+  "lines": [
+   [
+    "NO SHAFT.",
+    "white"
+   ],
+   [
+    "JUST",
+    "white"
+   ],
+   [
+    "WIRES.",
+    "accent"
+   ]
+  ],
+  "car": "front34_silver",
+  "car_box": [
+   40,
+   1120,
+   1000
+  ],
+  "stickers": [
+   {
+    "type": "question",
+    "x": 820,
+    "y": 1020,
+    "r": 120
+   }
+  ]
  }
 }
