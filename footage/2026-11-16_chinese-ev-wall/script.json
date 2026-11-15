@@ -1,0 +1,79 @@
+{
+ "title": "Why You Can't Buy a Chinese EV in America #shorts",
+ "voice": "en-US-AndrewMultilingualNeural",
+ "rate": "+12%",
+ "pitch": "+0Hz",
+ "say": {
+  "BYD Seagull": "B. Y. D. Seagull"
+ },
+ "chapters": {
+  "s": "s"
+ },
+ "scenes": [
+  {
+   "ch": "s",
+   "visual": "hook",
+   "text": "A brand-new electric car for about ten thousand dollars exists. But in America, you basically can't buy one.",
+   "clips": [
+    "9790209_a.mp4",
+    {
+     "clip": "6326861_a.mp4",
+     "ss": 5
+    },
+    "16976169_a.mp4"
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "seagull",
+   "text": "In China, the new BYD Seagull starts under ten thousand dollars. The average new electric car here costs about fifty-six thousand.",
+   "clips": [
+    "14742963_b.mp4",
+    {
+     "clip": "9790186_a.mp4",
+     "ss": 3
+    },
+    "12421980_a.mp4"
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "tariff",
+   "text": "Wall number one: tariffs. Chinese-made electric cars face more than one hundred percent in import taxes.",
+   "clips": [
+    "13294964_a.mp4",
+    "14742963_a.mp4",
+    "14700769_b.mp4"
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "software",
+   "text": "Wall number two: software. From model year 2027, cars with Chinese connected-car software are banned from sale. Washington warns of data leaks, and even remote control.",
+   "clips": [
+    "14504687_b.mp4",
+    "12882751_a.mp4",
+    "19797397_a.mp4"
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "world",
+   "text": "Meanwhile, Canada cut its tariff to about six percent for up to forty-nine thousand cars a year.",
+   "clips": [
+    "15185869_a.mp4",
+    "14700769_a.mp4"
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "ending",
+   "text": "Supporters say the walls protect jobs and data. Critics say Americans pay more. Should they be allowed in? Follow EV Drive.",
+   "clips": [
+    "8328143_a.mp4",
+    "18321828_a.mp4",
+    "14770478_a.mp4"
+   ]
+  }
+ ]
+}
