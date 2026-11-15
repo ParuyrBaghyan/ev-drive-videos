@@ -1,0 +1,94 @@
+{
+ "title": "This Chinese SUV Can Spin Like a Tank. And Float #shorts",
+ "voice": "en-US-AndrewMultilingualNeural",
+ "rate": "+12%",
+ "pitch": "+0Hz",
+ "say": {
+  "BYD": "B. Y. D.",
+  "Yangwang": "Yang-wang"
+ },
+ "chapters": {
+  "s": "s"
+ },
+ "scenes": [
+  {
+   "ch": "s",
+   "visual": "hook",
+   "text": "This Chinese SUV can spin on the spot like a tank. And in a flood, it can float.",
+   "clips": [
+    {
+     "clip": "16655564_a.mp4",
+     "ss": 0.5
+    },
+    "14700769_a.mp4",
+    {
+     "clip": "12421980_a.mp4",
+     "ss": 2
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "motors",
+   "text": "It's the Yangwang U8, from a luxury brand owned by BYD. It has four electric motors, one at every wheel.",
+   "clips": [
+    "14742963_a.mp4",
+    {
+     "clip": "8328143_a.mp4",
+     "ss": 1
+    },
+    "14742963_b.mp4"
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "tank",
+   "text": "Left wheels forward, right wheels backward, and the whole car turns in place.",
+   "clips": [
+    {
+     "clip": "16655564_a.mp4",
+     "ss": 2.5,
+     "speed": 0.7
+    },
+    "12882751_a.mp4",
+    "19797397_a.mp4"
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "float",
+   "text": "Its emergency floating mode lets it float for about thirty minutes, crawling at about three kilometers an hour, just by turning its wheels.",
+   "clips": [
+    "11007610_a.mp4",
+    {
+     "clip": "12421980_a.mp4",
+     "ss": 5
+    },
+    "15185869_a.mp4"
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "catch",
+   "text": "The catch? It costs over a hundred and fifty thousand dollars, and it's a plug-in hybrid with a gas engine on board.",
+   "clips": [
+    {
+     "clip": "6326861_a.mp4",
+     "ss": 1
+    },
+    "8470297_a.mp4",
+    "9790183_a.mp4"
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "ending",
+   "text": "So, a life-saving feature, or a party trick? Tell me in the comments. Follow EV Drive.",
+   "clips": [
+    "13979384_a.mp4",
+    "18321828_b.mp4",
+    "18321828_a.mp4"
+   ]
+  }
+ ]
+}
