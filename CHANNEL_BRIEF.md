@@ -34,21 +34,26 @@ Honesty rules stay absolute: fact-check every claim with WebSearch/WebFetch, no 
 - No brand logos, no copyrighted footage, no real people's likenesses. Brands may be named factually.
 - Avoid repeating a topic listed in `topics_log.md`.
 
-## Visual rules (graphics only — no real footage)
-- 1080×1920, 30 fps. Palette: background #0A0D12, accent electric lime #C6FF3D, secondary orange #FF7A3D, text #F4F6F8, muted #788496. Font: Inter / Inter Display (installed).
-- Keep important content between y=250 and y=1550 (Shorts UI covers the edges).
-- Quality bar (owner asked for better graphics than the first video): labeled diagrams, cutaways, layered shapes with depth (shadows, gradients used sparingly, glow on the accent), smooth eased motion, things that *build up* on screen (counters, bar comparisons, arrows tracing energy flow). Every scene must move; no static slides.
-- Captions are handled by the engine (word-highlighted). Don't duplicate the spoken sentence as on-screen text; on-screen text is labels, numbers and key terms.
+## Visual style: REAL FOOTAGE (owner's decision, 2026-11-14 — use this for every Short from now on)
+The owner chose real video footage with numbers on top (reference: `videos/footage_fast_charging.mp4`, episode `footage/2026-11-14_fast-charging/`). The older graphics-only engine (`tools/render.py`), the 3D-car look and the cartoon story engine (`tools/render_story.py`) are no longer the default; use them only if the owner asks.
+- 1080×1920, 30 fps. Real stock clips fill the whole frame; overlays carry the facts.
+- **Use plenty of footage (owner: "a bit more footage"):** 2–3 different clips per scene, a new shot every 2–3 seconds, at least 10 shots per Short, and never the same clip twice in a row. Don't reuse the exact clip set of the previous two Shorts.
+- Choose clips from `footage/LIBRARY.md` by what they show, matching what is being said (charging talk → charging clips, cost → money or mechanic, winter → snow roads, software → screens). Never present a generic clip as a specific model, brand or news event, and avoid clips the library marks as showing a logo.
+- Overlays (`overlays.py`): one idea per scene — a big number, a 2-bar comparison, a battery gauge, a label pill. Keep them between y=380 and y=1000; captions sit at y≈1360; nothing important below y=1550. Don't repeat the spoken sentence as text. Show the source on screen once when a study is quoted.
+- Captions (1–3 words, spoken word in yellow), the EV DRIVE badge, the progress bar, music and whooshes are added by the engine.
+- If a story needs something the library doesn't have (a specific car, a record run), tell it with overlays over neutral clips (highway, city, factory) and say so honestly in words; do not fake footage.
 
-## Engine (in `tools/`)
-- `tools/tts.py EP` → voiceover (Kokoro voice `am_michael`, speed ~1.12) + `timing.json`.
-- `tools/render.py EP OUT [t1,t2,...]` → renders the video; with a third argument it only writes preview PNGs at those times (use this to check layout before the full render).
-- `tools/make.sh EP` → does everything and writes `videos/<episode>.mp4`.
-- An episode folder `episodes/YYYY-MM-DD_slug/` holds `script.json` (see `episodes/2026-10-24_avas/script.json` for the format: title, voice, speed, scenes[{id,text,visual}]) and `visuals.py`.
-- `visuals.py` runs inside render.py's globals. Define `vis_<name>(d, lt, t)` functions that draw on a 2× supersampled 900×900 logical canvas (use helpers `p()`, `arc()`, `rgba()`, `text_c()`, `FL()`, `speaker()`, `car_side()`, `person()`, `tire()`, `gauge()`, `waves()`, easing `ease_out/ease_inout/back_out`, colours `ACC/ACC2/WHITE/MUTED/BG`), then register them: `VIS.update({"name": vis_name})`. `lt` = seconds since the scene started, `t` = global time; `scenes[i]` gives start/vis_end. Look at the AVAS visuals in render.py as the reference.
-- Always render preview frames for every scene and LOOK at them (Read the PNGs) before the full render. Fix overlaps, clipping and unreadable text.
+## Engine for real-footage Shorts (in `tools/`)
+1. Episode folder `footage/YYYY-MM-DD_slug/` with `script.json`: `{title, voice: "en-US-AndrewMultilingualNeural", rate: "+12%", pitch: "+0Hz", say: {}, chapters: {"s": "s"}, scenes: [{ch: "s", visual: "<name>", text: "...", clips: ["9790187_a.mp4", {"clip": "13979384_a.mp4", "ss": 3, "speed": 0.7}]}]}`. 5–7 scenes, 70–100 words in total (about 30–40 s).
+2. Voice: `export SSL_CERT_FILE=/root/.ccr/ca-bundle.crt && python3 tools/tts_edge_long.py footage/<ep>` → `voice.wav` + `timing.json` (needs `pip install edge-tts --break-system-packages`; retries are built in). If Edge TTS keeps failing after 3 tries, stop and report to the owner rather than switching voice.
+3. Check the voice: `HF_HUB_DISABLE_XET=1 python3 tools/asr_check.py footage/<ep>` (needs `faster-whisper`). Reword any sentence where a word other than a number is flagged, then regenerate. Avoid abbreviations the voice mangles: write "electric cars", not "EVs".
+4. `overlays.py` in the episode folder: one `ov_<visual>(d, lt, t, s)` per scene, using the helpers `pill`, `card`, `text`, `rect`, `battery`, `pop`, `smooth`, `clamp`, `mix`, `sent(s, k)` (start time of sentence k inside the scene) and the colours `LIME, YELLOW, ORANGE, RED, GREEN, WHITE, INK`. Copy the pattern from `footage/2026-11-14_fast-charging/overlays.py`. Time each reveal to the sentence that says it.
+5. Preview then render: `python3 tools/render_footage.py footage/<ep> preview t1,t2,...` (one time per clip, so every shot is checked) → Read the PNGs and fix overlaps, unreadable text or a clip that doesn't match the words. Then `python3 tools/render_footage.py footage/<ep> videos/<file>.mp4`.
+6. After rendering, extract a frame strip (`ffmpeg -i videos/<file>.mp4 -vf "fps=1/2.5,scale=180:-1,tile=14x1" -frames:v 1 strip.jpg`) and look at it once more before scheduling.
+- Thumbnails/covers for Shorts: use a strong frame of the video itself (the first scene with its hook overlay) saved as `thumbs/<episode>.jpg`; the `tools/thumbnail.py` 3D-car covers are optional.
+- The CC BY credit line for the 3D car is needed only when the 3D car actually appears.
 
-## 3D car (owner: "as realistic and detailed as possible")
+## 3D car (only when the owner asks for the 3D look; not used in real-footage Shorts)
 - The only car model to use is the photoreal **Car Concept** in `test3d/models/CarConcept.glb` (full interior, metallic clearcoat paint, real wheels/brakes, opening doors), rendered by `test3d/realcar.js` with a studio softbox environment and contact shadows. The old procedural/blobby car is retired: never draw a car from primitives again.
 - Setup in a fresh run: `cd test3d && npm install three@0.169.0` (node_modules is not committed).
 - Stills / transparent PNGs: `python3 test3d/render_real.py OUTDIR poses.json [W H]` with poses like `{"ang":0.6,"dist":8,"h":1.4,"paint":"red"}`. Options: `paint` (red, white, black, silver, blue, lime, orange, gray, teal or a hex), `xray: true` (ghost body + glowing battery pack, `packColor: "hot"`), `brake: true`, `bg` (colour or omit for transparent), `env` (studio, venice_sunset, quarry_01, moonless_golf), `fov`, `ty`. Ready-made transparent renders are in `assets/cars/` (see `test3d/poses_real.json`).

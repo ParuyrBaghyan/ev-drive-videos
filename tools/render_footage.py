@@ -1,6 +1,6 @@
 """Real-footage Shorts: stock clips (footage/pexels/*.mp4) + voiceover + word captions + number overlays.
 Usage: render_footage.py EP OUT.mp4 | render_footage.py EP preview t1,t2
-script.json scenes: {visual, clip, speed, ss (start offset in the clip, s), text}; EP/overlays.py defines ov_<visual>(d, lt, t, s).
+script.json scenes: {visual, text, clips: ["id_a.mp4", {"clip": "id_b.mp4", "ss": 2, "speed": 0.7}, ...]}  (2-3 clips per scene; or a single clip/speed/ss); EP/overlays.py defines ov_<visual>(d, lt, t, s).
 Voice + timing.json come from tools/tts_edge_long.py.
 """
 import json, math, os, subprocess, sys
@@ -21,7 +21,9 @@ INK = (14, 16, 24); WHITE = (255, 255, 255); LIME = (198, 255, 61); YELLOW = (25
 cfg = json.load(open(f"{EP}/script.json")); tim = json.load(open(f"{EP}/timing.json")); TOTAL = tim["total"]
 scenes = tim["scenes"]
 for i, s in enumerate(scenes):
-    s.update({k: v for k, v in cfg["scenes"][i].items() if k in ("clip", "speed", "ss")})
+    s.update({k: v for k, v in cfg["scenes"][i].items() if k in ("clip", "speed", "ss", "clips")})
+    if "clips" not in s: s["clips"] = [{"clip": s["clip"], "speed": s.get("speed", 1.0), "ss": s.get("ss", 0)}]
+    s["clips"] = [c if isinstance(c, dict) else {"clip": c} for c in s["clips"]]
     s["vs"] = 0.0 if i == 0 else s["start"] - 0.12
     s["ve"] = scenes[i + 1]["start"] - 0.12 if i + 1 < len(scenes) else TOTAL
 WORDS = [w for s in scenes for se in s["sentences"] for w in se["words"]]
@@ -95,7 +97,7 @@ _g[:] = 0.22 + 0.38 * np.clip((yy - 0.45) / 0.4, 0, 1) + 0.25 * np.clip((0.18 - 
 SHADE = (1 - _g)[:, :, None]
 
 def clip_reader(s, n):
-    """ffmpeg pipe: n frames of the scene's clip, scaled+cropped to 1080x1920, looped, slowed."""
+    """ffmpeg pipe: n frames of one clip ({clip, speed, ss}), scaled+cropped to 1080x1920, looped, slowed."""
     sp = s.get("speed", 1.0)
     vf = f"setpts=PTS/{sp},scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},eq=saturation=1.12:contrast=1.04"
     cmd = ["ffmpeg", "-v", "error", "-stream_loop", "-1", "-ss", str(s.get("ss", 0)), "-i", os.path.join(CLIPS, s["clip"]), "-an", "-vf", vf,
@@ -145,8 +147,9 @@ if __name__ == "__main__":
     if sys.argv[2] == "preview":
         for tt in [float(x) for x in sys.argv[3].split(",")]:
             s, f0, f1 = next(b for b in bounds if b[1] <= int(tt * FPS) < b[2])
-            k = int(tt * FPS) - f0; p = clip_reader(s, k + 1); raw = None
-            for _ in range(k + 1): raw = p.stdout.read(W * H * 3)
+            k = int(tt * FPS) - f0; nc = len(s["clips"]); per = max(1, (f1 - f0) // nc); ci = min(nc - 1, k // per); k2 = k - ci * per
+            p = clip_reader(s["clips"][ci], k2 + 1); raw = None
+            for _ in range(k2 + 1): raw = p.stdout.read(W * H * 3)
             p.kill(); compose(raw, s, tt, s is scenes[0]).save(f"{EP}/prev_{tt:05.1f}.png")
         sys.exit()
     OUT = sys.argv[2]; audio()
@@ -154,10 +157,14 @@ if __name__ == "__main__":
                            "-i", f"{EP}/mix.wav", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p",
                            "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", OUT], stdin=subprocess.PIPE)
     for s, f0, f1 in bounds:
-        p = clip_reader(s, f1 - f0)
-        for i in range(f0, f1):
-            raw = p.stdout.read(W * H * 3)
-            if len(raw) < W * H * 3: break
-            ff.stdin.write(compose(raw, s, i / FPS, s is scenes[0]).tobytes())
-        p.kill(); print("scene", s["visual"], "done", flush=True)
+        nc = len(s["clips"]); per = max(1, (f1 - f0) // nc)        # several clips per scene = more cuts
+        for ci, c in enumerate(s["clips"]):
+            a = f0 + ci * per; b = f1 if ci == nc - 1 else a + per
+            p = clip_reader(c, b - a)
+            for i in range(a, b):
+                raw = p.stdout.read(W * H * 3)
+                if len(raw) < W * H * 3: break
+                ff.stdin.write(compose(raw, s, i / FPS, s is scenes[0]).tobytes())
+            p.kill()
+        print("scene", s["visual"], "done", flush=True)
     ff.stdin.close(); ff.wait(); os.remove(f"{EP}/mix.wav"); print("done", OUT)

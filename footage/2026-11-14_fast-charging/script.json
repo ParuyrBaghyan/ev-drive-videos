@@ -4,13 +4,75 @@
  "rate": "+12%",
  "pitch": "+0Hz",
  "say": {},
- "chapters": {"s": "s"},
+ "chapters": {
+  "s": "s"
+ },
  "scenes": [
-  {"ch": "s", "visual": "hook", "clip": "9790187-hd_1080_1920_30fps.mp4", "speed": 1.0, "text": "Does fast charging really hurt your electric car's battery? Here's what the data says."},
-  {"ch": "s", "visual": "study", "clip": "9790186-hd_1080_1920_30fps.mp4", "speed": 1.0, "text": "One study tracked more than 22,000 electric cars."},
-  {"ch": "s", "visual": "slow", "clip": "9790183-hd_1080_1920_30fps.mp4", "speed": 1.0, "text": "Cars that mostly charged slowly lost about one and a half percent of their battery per year."},
-  {"ch": "s", "visual": "fast", "clip": "9790186-hd_1080_1920_30fps.mp4", "speed": 1.0, "ss": 6.0, "text": "Cars that relied heavily on high-power fast chargers lost about three percent. That's double."},
-  {"ch": "s", "visual": "eight", "clip": "16976169_2160_3840_60fps.mp4", "speed": 0.55, "text": "After eight years, that's roughly 88 percent of the battery left, against 76."},
-  {"ch": "s", "visual": "advice", "clip": "9790187-hd_1080_1920_30fps.mp4", "speed": 1.0, "ss": 4.0, "text": "So fast charging is fine for road trips. Just don't make it your daily habit."}
+  {
+   "ch": "s",
+   "visual": "hook",
+   "text": "Does fast charging really hurt your electric car's battery? Here's what the data says.",
+   "clips": [
+    "9790187_a.mp4",
+    "9790209_a.mp4"
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "study",
+   "text": "One study tracked more than 22,000 electric cars.",
+   "clips": [
+    "9790186_a.mp4",
+    "13294964_a.mp4"
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "slow",
+   "text": "Cars that mostly charged slowly lost about one and a half percent of their battery per year.",
+   "clips": [
+    "9790183_a.mp4",
+    {
+     "clip": "9790209_a.mp4",
+     "ss": 4
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "fast",
+   "text": "Cars that relied heavily on high-power fast chargers lost about three percent. That's double.",
+   "clips": [
+    {
+     "clip": "9790186_a.mp4",
+     "ss": 6
+    },
+    "14700769_a.mp4"
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "eight",
+   "text": "After eight years, that's roughly 88 percent of the battery left, against 76.",
+   "clips": [
+    {
+     "clip": "16976169_a.mp4",
+     "speed": 0.6
+    },
+    "18321828_a.mp4"
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "advice",
+   "text": "So fast charging is fine for road trips. Just don't make it your daily habit.",
+   "clips": [
+    "13979384_a.mp4",
+    {
+     "clip": "9790187_a.mp4",
+     "ss": 4
+    }
+   ]
+  }
  ]
 }
