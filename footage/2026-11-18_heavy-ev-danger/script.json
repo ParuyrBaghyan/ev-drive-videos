@@ -1,0 +1,103 @@
+{
+ "title": "Heavy Electric Cars Have a Problem Nobody Talks About #shorts",
+ "voice": "en-US-AndrewMultilingualNeural",
+ "rate": "+12%",
+ "pitch": "+0Hz",
+ "say": {},
+ "chapters": {
+  "s": "s"
+ },
+ "scenes": [
+  {
+   "ch": "s",
+   "visual": "hook",
+   "text": "This electric pickup weighs over nine thousand pounds. Its battery alone weighs as much as a Honda Civic.",
+   "clips": [
+    {
+     "clip": "18321828_b.mp4",
+     "ss": 0.5
+    },
+    "13979384_a.mp4",
+    {
+     "clip": "9790209_a.mp4",
+     "ss": 1
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "inside",
+   "text": "That weight protects the people inside. But what about the other car in the crash?",
+   "clips": [
+    {
+     "clip": "16976169_a.mp4",
+     "ss": 0.3
+    },
+    "12186283_a.mp4",
+    {
+     "clip": "13294964_a.mp4",
+     "ss": 1
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "study",
+   "text": "Economists found that being hit by a vehicle a thousand pounds heavier raises your risk of dying by forty seven percent.",
+   "clips": [
+    {
+     "clip": "8328143_a.mp4",
+     "ss": 1
+    },
+    "19797397_a.mp4",
+    {
+     "clip": "14700769_b.mp4",
+     "ss": 2
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "iihs",
+   "text": "In twenty twenty five, a safety institute found extra weight barely helps its own driver, but endangers everyone else.",
+   "clips": [
+    {
+     "clip": "12421980_a.mp4",
+     "ss": 1
+    },
+    "16655564_a.mp4",
+    {
+     "clip": "14700769_a.mp4",
+     "ss": 1
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "fair",
+   "text": "To be fair, big gas pickups and SUVs are just as heavy.",
+   "clips": [
+    {
+     "clip": "8470297_a.mp4",
+     "ss": 1
+    },
+    {
+     "clip": "11007610_a.mp4",
+     "ss": 1
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "ending",
+   "text": "So should heavier cars pay more to register? Tell me below. Follow EV Drive.",
+   "clips": [
+    {
+     "clip": "6326861_a.mp4",
+     "ss": 0.5
+    },
+    "18321828_a.mp4"
+   ]
+  }
+ ]
+}
