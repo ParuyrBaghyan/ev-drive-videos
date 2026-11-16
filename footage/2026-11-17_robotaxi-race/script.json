@@ -1,0 +1,100 @@
+{
+ "title": "Tesla vs Waymo: The Robotaxi Number Nobody Talks About #shorts",
+ "voice": "en-US-AndrewMultilingualNeural",
+ "rate": "+12%",
+ "pitch": "+0Hz",
+ "say": {
+  "robotaxis": "robo-taxis",
+  "robotaxi": "robo-taxi"
+ },
+ "chapters": {
+  "s": "s"
+ },
+ "scenes": [
+  {
+   "ch": "s",
+   "visual": "hook",
+   "text": "Tesla's new robotaxi zone in San Antonio is four times bigger than Waymo's. So is Tesla winning?",
+   "clips": [
+    {
+     "clip": "14504687_b.mp4",
+     "ss": 0.5
+    },
+    "14700769_b.mp4",
+    {
+     "clip": "12421980_a.mp4",
+     "ss": 1
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "maps",
+   "text": "On November ninth, Tesla opened about two hundred seventy square miles. Waymo, there since February, covers about sixty.",
+   "clips": [
+    "13979384_a.mp4",
+    {
+     "clip": "14770478_a.mp4",
+     "ss": 1
+    },
+    "12186283_a.mp4"
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "cars",
+   "text": "But count the cars. A public tracker counts over four thousand driverless Waymos, and six hundred sixty-six Teslas.",
+   "clips": [
+    {
+     "clip": "13294964_a.mp4",
+     "ss": 1
+    },
+    "19797397_a.mp4",
+    {
+     "clip": "14700769_a.mp4",
+     "ss": 2
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "zero",
+   "text": "On launch morning, it saw zero Tesla robotaxis in San Antonio.",
+   "clips": [
+    {
+     "clip": "12882751_a.mp4",
+     "ss": 1
+    },
+    {
+     "clip": "14504687_a.mp4",
+     "ss": 2
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "bets",
+   "text": "Waymo uses lidar, radar and cameras. Tesla bets on cameras and AI alone, a cheaper setup per car.",
+   "clips": [
+    {
+     "clip": "8328143_a.mp4",
+     "ss": 1
+    },
+    "14742963_a.mp4",
+    {
+     "clip": "14504687_b.mp4",
+     "ss": 4
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "ending",
+   "text": "Bigger map, or more cars: who wins the robotaxi race? Tell me in the comments. Follow EV Drive.",
+   "clips": [
+    "18321828_b.mp4",
+    "18321828_a.mp4"
+   ]
+  }
+ ]
+}
