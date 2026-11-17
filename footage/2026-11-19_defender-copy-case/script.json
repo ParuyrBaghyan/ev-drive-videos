@@ -1,0 +1,115 @@
+{
+ "title": "Land Rover Raided BYD's Offices. Then a Judge Stepped In #shorts",
+ "voice": "en-US-AndrewMultilingualNeural",
+ "rate": "+12%",
+ "pitch": "+0Hz",
+ "say": {
+  "BYD": "B Y D",
+  "Ti7": "T I seven"
+ },
+ "chapters": {
+  "s": "s"
+ },
+ "scenes": [
+  {
+   "ch": "s",
+   "visual": "hook",
+   "text": "Land Rover says a Chinese SUV copied its Defender. So court officers raided the offices of BYD.",
+   "clips": [
+    {
+     "clip": "13294964_a.mp4",
+     "ss": 2
+    },
+    {
+     "clip": "14742963_a.mp4",
+     "ss": 0.5
+    },
+    {"clip": "12186283_a.mp4", "ss": 1}
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "car",
+   "text": "It's the BYD Ti7, a boxy plug-in hybrid. In Britain, it's about twenty thousand pounds cheaper than a seven-seat Defender.",
+   "clips": [
+    {
+     "clip": "13979384_a.mp4",
+     "ss": 1
+    },
+    {
+     "clip": "14700769_a.mp4",
+     "ss": 2
+    },
+    {
+     "clip": "6326861_a.mp4",
+     "ss": 1
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "raid",
+   "text": "In August, they seized files from two BYD offices in the Netherlands. Land Rover suspects BYD took a Defender apart.",
+   "clips": [
+    {
+     "clip": "14504687_a.mp4",
+     "ss": 0.5
+    },
+    {
+     "clip": "8328143_a.mp4",
+     "ss": 1
+    },
+    {
+     "clip": "8470297_a.mp4",
+     "ss": 1
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "twist",
+   "text": "Then the twist. A Dutch judge ordered Land Rover to destroy or hand back those files, or pay fifty thousand euros an hour.",
+   "clips": [
+    {
+     "clip": "12882751_a.mp4",
+     "ss": 0.5
+    },
+    {
+     "clip": "14535946_a.mp4",
+     "ss": 1
+    },
+    {
+     "clip": "6326861_a.mp4",
+     "ss": 5
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "still",
+   "text": "The judge said those files weren't needed for the copying claim. That case goes on, and nothing is proven yet.",
+   "clips": [
+    {
+     "clip": "12421980_a.mp4",
+     "ss": 1
+    },
+    {
+     "clip": "14700769_b.mp4",
+     "ss": 1
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "ending",
+   "text": "Real copy, or just another boxy off-roader? Tell me below. Follow EV Drive.",
+   "clips": [
+    {
+     "clip": "18321828_b.mp4",
+     "ss": 0.5
+    },
+    "18321828_a.mp4"
+   ]
+  }
+ ]
+}
