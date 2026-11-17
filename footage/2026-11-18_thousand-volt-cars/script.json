@@ -1,0 +1,113 @@
+{
+ "title": "Your Outlet Is 120 Volts. This Electric Car Uses 1,200 #shorts",
+ "voice": "en-US-AndrewMultilingualNeural",
+ "rate": "+12%",
+ "pitch": "+0Hz",
+ "say": {},
+ "chapters": {
+  "s": "s"
+ },
+ "scenes": [
+  {
+   "ch": "s",
+   "visual": "hook",
+   "text": "Your wall outlet runs on one hundred twenty volts. The newest electric hypercar runs on twelve hundred.",
+   "clips": [
+    {
+     "clip": "14770478_a.mp4",
+     "ss": 0.5
+    },
+    {
+     "clip": "14535946_a.mp4",
+     "ss": 1
+    },
+    {
+     "clip": "9790187_a.mp4",
+     "ss": 0.5
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "history",
+   "text": "Most electric cars use about four hundred volts. In twenty nineteen, Porsche's Taycan went to eight hundred.",
+   "clips": [
+    {
+     "clip": "13294964_a.mp4",
+     "ss": 1
+    },
+    "14700769_a.mp4",
+    {
+     "clip": "14700769_b.mp4",
+     "ss": 1
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "physics",
+   "text": "Why? Double the volts, and you need half the current for the same power.",
+   "clips": [
+    {
+     "clip": "8328143_a.mp4",
+     "ss": 0.5
+    },
+    {
+     "clip": "14742963_a.mp4",
+     "ss": 1
+    },
+    "9789657_a.mp4"
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "heat",
+   "text": "Half the current means a quarter of the heat in the wires. Slimmer cables, faster charging.",
+   "clips": [
+    {
+     "clip": "9790183_a.mp4",
+     "ss": 0.5
+    },
+    {
+     "clip": "14742963_b.mp4",
+     "ss": 1
+    },
+    {
+     "clip": "9790186_a.mp4",
+     "ss": 0.5
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "byd",
+   "text": "Now B Y D sells thousand volt cars, claiming four hundred kilometers of range in five minutes.",
+   "clips": [
+    {
+     "clip": "9790209_a.mp4",
+     "ss": 0.5
+    },
+    {
+     "clip": "12882751_a.mp4",
+     "ss": 1
+    },
+    {
+     "clip": "13979384_a.mp4",
+     "ss": 1
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "ending",
+   "text": "So how high can it go? Two thousand volts? Guess below. Follow EV Drive.",
+   "clips": [
+    {
+     "clip": "14504687_b.mp4",
+     "ss": 0.5
+    },
+    "18321828_a.mp4"
+   ]
+  }
+ ]
+}
