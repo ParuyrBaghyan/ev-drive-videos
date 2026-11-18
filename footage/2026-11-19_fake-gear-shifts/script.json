@@ -1,0 +1,120 @@
+{
+ "title": "This Electric Car Fakes 8 Gears On Purpose. Here's Why #shorts",
+ "voice": "en-US-AndrewMultilingualNeural",
+ "rate": "+12%",
+ "pitch": "+0Hz",
+ "say": {
+  "Ioniq 5 N": "Ioniq Five N"
+ },
+ "chapters": {
+  "s": "s"
+ },
+ "scenes": [
+  {
+   "ch": "s",
+   "visual": "hook",
+   "text": "This electric car has one gear. So why does it shift eight times?",
+   "clips": [
+    {
+     "clip": "16655564_a.mp4",
+     "ss": 0.5
+    },
+    {
+     "clip": "14700769_b.mp4",
+     "ss": 1
+    },
+    {
+     "clip": "12882751_a.mp4",
+     "ss": 0.5
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "hyundai",
+   "text": "Hyundai's Ioniq 5 N has about six hundred horsepower. Pull a paddle, and software cuts the power for a moment, faking the jolt of an eight-speed gearbox.",
+   "clips": [
+    {
+     "clip": "14504687_a.mp4",
+     "ss": 0.5
+    },
+    {
+     "clip": "18321828_b.mp4",
+     "ss": 1
+    },
+    {
+     "clip": "13979384_a.mp4",
+     "ss": 1
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "limiter",
+   "text": "Forget to shift, and it fakes the rev limiter. Ten speakers fake the engine sound.",
+   "clips": [
+    {
+     "clip": "19797397_a.mp4",
+     "ss": 0.3
+    },
+    {
+     "clip": "14504687_b.mp4",
+     "ss": 0.5
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "dodge",
+   "text": "Dodge's electric Charger has a sound box at the back. Up to one hundred twenty-six decibels, as loud as a Hellcat.",
+   "clips": [
+    {
+     "clip": "16655564_a.mp4",
+     "ss": 2.5
+    },
+    {
+     "clip": "14700769_a.mp4",
+     "ss": 1
+    },
+    {
+     "clip": "12186283_a.mp4",
+     "ss": 0.5
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "why",
+   "text": "Why? Hyundai says many electric cars give drivers almost no feedback. Now Hyundai is bringing fake shifts to more models.",
+   "clips": [
+    {
+     "clip": "16976169_a.mp4",
+     "ss": 0
+    },
+    {
+     "clip": "8328143_a.mp4",
+     "ss": 0.5
+    },
+    {
+     "clip": "13294964_a.mp4",
+     "ss": 1
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "ending",
+   "text": "You can switch it off. So, fun or fake? Tell me below. Follow EV Drive.",
+   "clips": [
+    {
+     "clip": "18321828_a.mp4",
+     "ss": 0.5
+    },
+    {
+     "clip": "9790187_a.mp4",
+     "ss": 0.5
+    }
+   ]
+  }
+ ]
+}

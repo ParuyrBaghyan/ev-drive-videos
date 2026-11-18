@@ -1,0 +1,12 @@
+SLOT: 2026-11-19 18:00 America/New_York — NOT SCHEDULED (Metricool free plan: November 20/20 used). Ready to publish when the limit resets (Dec 1) or the plan is upgraded.
+VIDEO: https://raw.githubusercontent.com/ParuyrBaghyan/ev-drive-videos/main/videos/2026-11-19_fake-gear-shifts.mp4
+THUMB: https://raw.githubusercontent.com/ParuyrBaghyan/ev-drive-videos/main/thumbs/2026-11-19_fake-gear-shifts.jpg
+TITLE: This Electric Car Fakes 8 Gears On Purpose. Here's Why #shorts
+(candidates: "Electric Cars Have One Gear. These Ones Fake Eight" / "Your Electric Car Doesn't Shift. Some Pretend To")
+TAGS: fake gear shifts, Hyundai Ioniq 5 N, Dodge Charger Daytona, EV sound, N e-Shift, electric cars
+DESCRIPTION:
+Why some electric cars fake gear shifts and engine sounds.
+
+Electric cars have a single gear, yet Hyundai's Ioniq 5 N (about 600 hp) simulates an eight-speed dual-clutch gearbox: pull a paddle and software briefly cuts the motor's torque to recreate the jolt of a shift, and if you forget to upshift it imitates bouncing off the rev limiter, while 10 speakers play engine sounds. Dodge's electric Charger Daytona uses a rear-mounted "Fratzonic" sound unit with a 600-watt amplifier, up to 126 decibels, as loud as a Hellcat V8 (Dodge, via Green Car Reports). Hyundai says it's about the lack of driver feedback in many EVs, and it plans to bring fake shifts to more models (Edmunds). Both can be switched off. Fun or fake?
+
+#EV #ElectricCars #CarTech #EVDrive #shorts
