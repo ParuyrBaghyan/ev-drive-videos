@@ -1,0 +1,31 @@
+{
+ "title": "Tesla Sells Fewer Cars Every Year. So Why Is It Worth So Much? #shorts",
+ "voice": "en-US-AndrewMultilingualNeural",
+ "rate": "+12%",
+ "pitch": "+0Hz",
+ "say": {},
+ "chapters": {"s": "s"},
+ "scenes": [
+  {"ch": "s", "visual": "hook",
+   "text": "Toyota sells over six times more cars than Tesla. Yet Tesla is worth about six times more than Toyota.",
+   "clips": [{"clip": "13294964_a.mp4", "ss": 1}, {"clip": "9790186_a.mp4", "ss": 0.5}, {"clip": "6326861_a.mp4", "ss": 1}]},
+  {"ch": "s", "visual": "sales",
+   "text": "Tesla's sales peaked in twenty twenty-three. Then they fell two years in a row.",
+   "clips": [{"clip": "14742963_b.mp4", "ss": 0.5}, {"clip": "12186283_a.mp4", "ss": 1}, {"clip": "9790209_a.mp4", "ss": 1}]},
+  {"ch": "s", "visual": "profit",
+   "text": "And last quarter, its profit fell forty-three percent.",
+   "clips": [{"clip": "12421980_a.mp4", "ss": 1}, {"clip": "6326861_a.mp4", "ss": 5}]},
+  {"ch": "s", "visual": "reveal",
+   "text": "So why is it worth one and a half trillion dollars? Investors aren't really betting on cars. They're betting on robot taxis and robots.",
+   "clips": [{"clip": "14504687_b.mp4", "ss": 0.5}, {"clip": "8328143_a.mp4", "ss": 1}, {"clip": "12882751_a.mp4", "ss": 1}]},
+  {"ch": "s", "visual": "bets",
+   "text": "Its robot taxis have driven nearly two million miles with no one supervising. And research spending jumped sixty-nine percent.",
+   "clips": [{"clip": "19797397_a.mp4", "ss": 0}, {"clip": "14700769_a.mp4", "ss": 2}, {"clip": "14742963_a.mp4", "ss": 1}]},
+  {"ch": "s", "visual": "sides",
+   "text": "Skeptics say it could take years to pay off. Fans say cars were never the point.",
+   "clips": [{"clip": "11007610_a.mp4", "ss": 1}, {"clip": "18321828_b.mp4", "ss": 0.5}]},
+  {"ch": "s", "visual": "ending",
+   "text": "Car company, or robot company? Tell me below. Follow EV Drive.",
+   "clips": [{"clip": "18321828_a.mp4", "ss": 0.5}, {"clip": "9790187_a.mp4", "ss": 0}]}
+ ]
+}
