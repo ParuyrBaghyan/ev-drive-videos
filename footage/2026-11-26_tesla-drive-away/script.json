@@ -1,0 +1,31 @@
+{
+ "title": "Tesla Added a Button That Can Cause $25,000 in Damage #shorts",
+ "voice": "en-US-AndrewMultilingualNeural",
+ "rate": "+12%",
+ "pitch": "+0Hz",
+ "say": {},
+ "chapters": {"s": "s"},
+ "scenes": [
+  {"ch": "s", "visual": "hook",
+   "text": "Tesla just added a button that can cause up to twenty-five thousand dollars in damage. On purpose.",
+   "clips": [{"clip": "9790186_a.mp4", "ss": 0.5}, {"clip": "9790187_a.mp4", "ss": 0}, {"clip": "14504687_a.mp4", "ss": 1}]},
+  {"ch": "s", "visual": "why",
+   "text": "It's called Emergency Drive Away. It came after a shooting at a Supercharger station in Idaho.",
+   "clips": [{"clip": "19797397_a.mp4", "ss": 0}, {"clip": "9790183_a.mp4", "ss": 1}]},
+  {"ch": "s", "visual": "how",
+   "text": "Plugged in and in danger? Shift into drive, hold the brake, tap activate, and go.",
+   "clips": [{"clip": "14504687_b.mp4", "ss": 0.5}, {"clip": "12882751_a.mp4", "ss": 1}, {"clip": "9790209_a.mp4", "ss": 0.5}]},
+  {"ch": "s", "visual": "snap",
+   "text": "The plug breaks away. Coolant spills from the cable, and your car needs a repair visit.",
+   "clips": [{"clip": "9790187_a.mp4", "ss": 4}, {"clip": "9790183_a.mp4", "ss": 5}, {"clip": "8470297_a.mp4", "ss": 1}]},
+  {"ch": "s", "visual": "cost",
+   "text": "Tesla says fixing the charger can cost up to twenty-five thousand dollars, and abusing it can mean extra penalties.",
+   "clips": [{"clip": "6326861_a.mp4", "ss": 1}, {"clip": "9790186_a.mp4", "ss": 5}, {"clip": "14535946_a.mp4", "ss": 1}]},
+  {"ch": "s", "visual": "oops",
+   "text": "And one driver in Austin already triggered it by accident.",
+   "clips": [{"clip": "16976169_a.mp4", "ss": 0}, {"clip": "12186283_a.mp4", "ss": 1}]},
+  {"ch": "s", "visual": "ending",
+   "text": "Life-saving escape, or expensive mistake? Tell me below. Follow EV Drive.",
+   "clips": [{"clip": "18321828_a.mp4", "ss": 0.5}, {"clip": "9790209_a.mp4", "ss": 4}]}
+ ]
+}

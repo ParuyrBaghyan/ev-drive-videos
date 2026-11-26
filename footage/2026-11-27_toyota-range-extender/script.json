@@ -1,0 +1,28 @@
+{
+ "title": "Toyota's Next Electric Car Has a Gas Engine. Here's Why #shorts",
+ "voice": "en-US-AndrewMultilingualNeural",
+ "rate": "+12%",
+ "pitch": "+0Hz",
+ "say": {},
+ "chapters": {"s": "s"},
+ "scenes": [
+  {"ch": "s", "visual": "hook",
+   "text": "Toyota's newest electric car has a gas engine inside. It debuts at the Guangzhou auto show in China.",
+   "clips": [{"clip": "14742963_a.mp4", "ss": 1}, {"clip": "13294964_a.mp4", "ss": 2}, {"clip": "8470297_b.mp4", "ss": 1}]},
+  {"ch": "s", "visual": "how",
+   "text": "It's called a range extender. Electric motors drive the wheels. The gas engine only works as a generator, recharging the battery when it runs low.",
+   "clips": [{"clip": "16655564_a.mp4", "ss": 0.5}, {"clip": "12882751_a.mp4", "ss": 2}, {"clip": "9790183_a.mp4", "ss": 2}]},
+  {"ch": "s", "visual": "xiaomi",
+   "text": "And in China, buyers love it. Xiaomi's first range extenders launched in September. By October, they were over half of all the cars Xiaomi sold.",
+   "clips": [{"clip": "12421980_a.mp4", "ss": 1}, {"clip": "14504687_a.mp4", "ss": 3}, {"clip": "13294964_a.mp4", "ss": 6}]},
+  {"ch": "s", "visual": "toyota",
+   "text": "Meanwhile, Toyota's sales in China are down about nineteen percent so far this year. So it's joining in.",
+   "clips": [{"clip": "6326861_a.mp4", "ss": 3}, {"clip": "14742963_b.mp4", "ss": 1}]},
+  {"ch": "s", "visual": "catch",
+   "text": "The catch? It still burns gas, and it's less efficient than a pure electric car.",
+   "clips": [{"clip": "18321828_b.mp4", "ss": 0.5}, {"clip": "14700769_b.mp4", "ss": 1}, {"clip": "9790187_a.mp4", "ss": 2}]},
+  {"ch": "s", "visual": "ending",
+   "text": "Smart bridge, or step back? Tell me below. Follow EV Drive.",
+   "clips": [{"clip": "18321828_a.mp4", "ss": 3}, {"clip": "11007610_a.mp4", "ss": 1}]}
+ ]
+}

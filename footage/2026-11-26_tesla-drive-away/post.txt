@@ -1,0 +1,12 @@
+TITLE: Tesla Added a Button That Can Cause $25,000 in Damage #shorts
+SLOT: 2026-11-26 18:00 America/New_York (NOT scheduled: Metricool free-plan limit of 20 posts reached for November on brand 7616311)
+VIDEO: https://raw.githubusercontent.com/ParuyrBaghyan/ev-drive-videos/main/videos/2026-11-26_tesla-drive-away.mp4
+THUMB: https://raw.githubusercontent.com/ParuyrBaghyan/ev-drive-videos/main/thumbs/2026-11-26_tesla-drive-away.jpg
+TAGS: Tesla, Tesla Supercharger, Emergency Drive Away, Tesla software update, EV charging, electric cars
+
+DESCRIPTION:
+How Tesla's Emergency Drive Away feature works, and what it costs.
+
+With software update 2026.38.3 (October 2026), Tesla lets a car plugged into a US Supercharger drive off in an emergency: shift into Drive, hold the brake, tap Activate and accelerate, and the charging plug breaks away. Tesla added it after a shooting at a Supercharger station in Idaho. Learn the price: coolant spills from the severed cable, the car's charge port needs a mandatory service visit, Tesla says repairing the stall can cost up to $25,000, and deliberate misuse brings extra penalties. It doesn't work at third-party chargers or on pre-2021 Model S and X, and one driver in Austin has already triggered it by accident. Life-saving escape or expensive mistake?
+
+#EV #ElectricCars #CarTech #EVDrive #shorts
