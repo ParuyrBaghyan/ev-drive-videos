@@ -1,0 +1,12 @@
+TITLE: A Tesla Semi Caught Fire Without Crashing. Here's the Problem #shorts
+SLOT: 2026-11-28 12:00 America/New_York (NOT scheduled: Metricool free-plan limit of 20 posts reached for November on brand 7616311)
+VIDEO: https://raw.githubusercontent.com/ParuyrBaghyan/ev-drive-videos/main/videos/2026-11-28_semi-fire-no-crash.mp4
+THUMB: https://raw.githubusercontent.com/ParuyrBaghyan/ev-drive-videos/main/thumbs/2026-11-28_semi-fire-no-crash.jpg
+TAGS: Tesla Semi, electric truck, EV battery fire, truck fire, Tesla, electric cars
+
+DESCRIPTION:
+Why electric truck battery fires are so hard to put out.
+
+On the evening of October 27, 2026, a Tesla Semi caught fire on I-880 near Hayward, California, without any crash. The driver got out unhurt, but southbound lanes stayed closed for about 10 hours (CHP, via Electrek); the cause is under investigation. Learn why battery fires are stubborn (one overheating cell heats its neighbors, so the pack feeds its own fire) and what happened in August 2024, when a Tesla Semi crashed on I-80 in the Sierra and firefighters used about 50,000 gallons of water (NTSB preliminary report). To be fair, US fire departments respond to about 15,000 large-truck fires a year, mostly diesel (NFPA, 2018-2022). Rare, but harder to fight: would you trust electric trucks on your highway?
+
+#EV #ElectricCars #CarTech #EVDrive #shorts

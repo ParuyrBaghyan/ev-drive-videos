@@ -1,0 +1,28 @@
+{
+ "title": "A Tesla Semi Caught Fire Without Crashing. Here's the Problem #shorts",
+ "voice": "en-US-AndrewMultilingualNeural",
+ "rate": "+12%",
+ "pitch": "+0Hz",
+ "say": {},
+ "chapters": {"s": "s"},
+ "scenes": [
+  {"ch": "s", "visual": "hook",
+   "text": "An electric semi truck caught fire on a California freeway. And there was no crash.",
+   "clips": [{"clip": "18321828_b.mp4", "ss": 0.5}, {"clip": "19797397_a.mp4", "ss": 0}, {"clip": "12421980_a.mp4", "ss": 2}]},
+  {"ch": "s", "visual": "event",
+   "text": "It was a Tesla Semi, near Hayward, in late October. The driver got out unhurt, but part of the freeway stayed closed for about ten hours.",
+   "clips": [{"clip": "13294964_a.mp4", "ss": 2}, {"clip": "12186283_a.mp4", "ss": 1}, {"clip": "14700769_b.mp4", "ss": 3}]},
+  {"ch": "s", "visual": "why",
+   "text": "Battery fires are stubborn. One hot cell heats its neighbors, so the battery keeps feeding its own fire.",
+   "clips": [{"clip": "14742963_a.mp4", "ss": 2}, {"clip": "8328143_a.mp4", "ss": 1}]},
+  {"ch": "s", "visual": "past",
+   "text": "In twenty twenty-four, another Tesla Semi crashed and burned in the Sierra. Firefighters used about fifty thousand gallons of water.",
+   "clips": [{"clip": "15185869_a.mp4", "ss": 1}, {"clip": "11007610_b.mp4", "ss": 1}, {"clip": "14535946_a.mp4", "ss": 1}]},
+  {"ch": "s", "visual": "fair",
+   "text": "To be fair, America sees about fifteen thousand big truck fires a year, mostly diesel. The cause of this one is still under investigation.",
+   "clips": [{"clip": "8470297_a.mp4", "ss": 3}, {"clip": "18321828_b.mp4", "ss": 5}, {"clip": "14700769_a.mp4", "ss": 1}]},
+  {"ch": "s", "visual": "ending",
+   "text": "Rare, but harder to fight. Would you trust electric trucks on your highway? Tell me below. Follow EV Drive.",
+   "clips": [{"clip": "18321828_a.mp4", "ss": 2}, {"clip": "13979384_a.mp4", "ss": 3}]}
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "title": "7 in 10 New Cars in China Now Plug In. But There's a Twist #shorts",
+ "voice": "en-US-AndrewMultilingualNeural",
+ "rate": "+12%",
+ "pitch": "+0Hz",
+ "say": {},
+ "chapters": {
+  "s": "s"
+ },
+ "scenes": [
+  {
+   "ch": "s",
+   "visual": "hook",
+   "text": "Seven out of ten new cars sold in China now plug in. A new record.",
+   "clips": [
+    {
+     "clip": "13294964_a.mp4",
+     "ss": 0.5
+    },
+    {
+     "clip": "9790186_a.mp4",
+     "ss": 1
+    },
+    {
+     "clip": "9790187_a.mp4",
+     "ss": 0
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "share",
+   "text": "In early November, plug-in cars took seventy-three percent of sales. In America, fully electric cars are about six percent.",
+   "clips": [
+    {
+     "clip": "12421980_a.mp4",
+     "ss": 1
+    },
+    {
+     "clip": "9790209_a.mp4",
+     "ss": 0.5
+    },
+    {
+     "clip": "14700769_b.mp4",
+     "ss": 1
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "twist",
+   "text": "But here's the twist. Plug-in sales in China actually fell thirteen percent.",
+   "clips": [
+    {
+     "clip": "12186283_a.mp4",
+     "ss": 0.5
+    },
+    {
+     "clip": "16976169_a.mp4",
+     "ss": 0.5
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "collapse",
+   "text": "The share jumped because gas car sales fell even faster. Total sales dropped twenty-five percent.",
+   "clips": [
+    {
+     "clip": "8470297_b.mp4",
+     "ss": 1
+    },
+    {
+     "clip": "14742963_b.mp4",
+     "ss": 0.5
+    },
+    {
+     "clip": "13294964_a.mp4",
+     "ss": 5
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "why",
+   "text": "Analysts blame high fuel prices, nervous buyers and smaller subsidies.",
+   "clips": [
+    {
+     "clip": "6326861_a.mp4",
+     "ss": 1
+    },
+    {
+     "clip": "8470297_a.mp4",
+     "ss": 1
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "survival",
+   "text": "They say the industry is now in a survival phase, and weak brands are being pushed out.",
+   "clips": [
+    {
+     "clip": "14742963_a.mp4",
+     "ss": 1
+    },
+    {
+     "clip": "14504687_b.mp4",
+     "ss": 0.5
+    },
+    {
+     "clip": "19797397_a.mp4",
+     "ss": 0
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "ending",
+   "text": "Is this the end of the gas car? Or is it just a bad year for everyone? Tell me below. Follow EV Drive.",
+   "clips": [
+    {
+     "clip": "18321828_a.mp4",
+     "ss": 0.5
+    },
+    {
+     "clip": "9790183_a.mp4",
+     "ss": 0
+    }
+   ]
+  }
+ ]
+}
