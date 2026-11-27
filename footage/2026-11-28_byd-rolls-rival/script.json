@@ -1,0 +1,28 @@
+{
+ "title": "BYD Just Built a Rolls-Royce Rival. Here's the Catch #shorts",
+ "voice": "en-US-AndrewMultilingualNeural",
+ "rate": "+12%",
+ "pitch": "+0Hz",
+ "say": {},
+ "chapters": {"s": "s"},
+ "scenes": [
+  {"ch": "s", "visual": "hook",
+   "text": "The company famous for ten thousand dollar electric cars now wants to beat Rolls-Royce.",
+   "clips": [{"clip": "16976169_a.mp4", "ss": 0}, {"clip": "14504687_b.mp4", "ss": 1}]},
+  {"ch": "s", "visual": "reveal",
+   "text": "This week in Guangzhou, BYD showed China its new luxury car. A fully electric limousine, about eighteen feet long, with rear coach doors and four seats.",
+   "clips": [{"clip": "14504687_a.mp4", "ss": 1}, {"clip": "19797397_a.mp4", "ss": 0}, {"clip": "12882751_a.mp4", "ss": 2}]},
+  {"ch": "s", "visual": "price",
+   "text": "The pre-sale price is about three hundred eleven thousand dollars. A new Rolls-Royce Ghost starts around three hundred seventy-three thousand.",
+   "clips": [{"clip": "6326861_a.mp4", "ss": 0}, {"clip": "14700769_a.mp4", "ss": 1}, {"clip": "6326861_a.mp4", "ss": 5}]},
+  {"ch": "s", "visual": "power",
+   "text": "The Ghost burns gas in a V twelve. The BYD has four motors, one in each wheel, and BYD claims ten to seventy percent charge in about five minutes.",
+   "clips": [{"clip": "8470297_b.mp4", "ss": 1}, {"clip": "16655564_a.mp4", "ss": 0}, {"clip": "9790186_a.mp4", "ss": 1}]},
+  {"ch": "s", "visual": "catch",
+   "text": "The catch: BYD still hasn't shared its power or battery size, and the six hundred mile range is on China's easy test.",
+   "clips": [{"clip": "8328143_a.mp4", "ss": 1}, {"clip": "14742963_b.mp4", "ss": 1}, {"clip": "13979384_a.mp4", "ss": 2}]},
+  {"ch": "s", "visual": "ending",
+   "text": "Would you pay Rolls-Royce money for a BYD? Tell me below. Follow EV Drive.",
+   "clips": [{"clip": "18321828_a.mp4", "ss": 2}, {"clip": "9790209_a.mp4", "ss": 1}]}
+ ]
+}
