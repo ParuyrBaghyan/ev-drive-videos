@@ -1,0 +1,114 @@
+{
+ "title": "What If Every Car in America Went Electric Tomorrow? #shorts",
+ "voice": "en-US-AndrewMultilingualNeural",
+ "rate": "+12%",
+ "pitch": "+0Hz",
+ "say": {},
+ "chapters": {
+  "s": "s"
+ },
+ "scenes": [
+  {
+   "ch": "s",
+   "visual": "hook",
+   "text": "What if every car in America went electric tomorrow? Could the power grid survive?",
+   "clips": [
+    {
+     "clip": "12421980_a.mp4",
+     "ss": 1
+    },
+    {
+     "clip": "14700769_a.mp4",
+     "ss": 2
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "miles",
+   "text": "Americans drive over three trillion miles a year. That's about a thousand terawatt hours of electricity.",
+   "clips": [
+    {
+     "clip": "14700769_b.mp4",
+     "ss": 1
+    },
+    {
+     "clip": "13979384_a.mp4",
+     "ss": 2
+    },
+    {
+     "clip": "18321828_b.mp4",
+     "ss": 3
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "grid",
+   "text": "Last year the whole country made a record of about four thousand four hundred. So we need about a fifth more.",
+   "clips": [
+    {
+     "clip": "14535946_a.mp4",
+     "ss": 1
+    },
+    {
+     "clip": "9789657_a.mp4",
+     "ss": 1
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "night",
+   "text": "The twist? Most cars charge at night, when power plants are idle. A national lab found that spare power could charge most of our cars.",
+   "clips": [
+    {
+     "clip": "19797397_a.mp4",
+     "ss": 0
+    },
+    {
+     "clip": "12882751_a.mp4",
+     "ss": 1
+    },
+    {
+     "clip": "9790209_a.mp4",
+     "ss": 1
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "street",
+   "text": "The real weak spot is your street. One fast charging car can pull as much as fifty homes.",
+   "clips": [
+    {
+     "clip": "14770478_a.mp4",
+     "ss": 1
+    },
+    {
+     "clip": "9790186_a.mp4",
+     "ss": 2
+    },
+    {
+     "clip": "12186283_a.mp4",
+     "ss": 0
+    }
+   ]
+  },
+  {
+   "ch": "s",
+   "visual": "ending",
+   "text": "So the energy exists. Just not at six p.m. Would you charge at night? Follow EV Drive.",
+   "clips": [
+    {
+     "clip": "14504687_b.mp4",
+     "ss": 1
+    },
+    {
+     "clip": "18321828_a.mp4",
+     "ss": 2
+    }
+   ]
+  }
+ ]
+}

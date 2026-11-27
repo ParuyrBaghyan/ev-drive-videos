@@ -1,0 +1,12 @@
+TITLE: What If Every Car in America Went Electric Tomorrow? #shorts
+SLOT: 2026-11-29 12:00 America/New_York (NOT scheduled: Metricool free-plan limit of 20 posts reached for November on brand 7793522)
+VIDEO: https://raw.githubusercontent.com/ParuyrBaghyan/ev-drive-videos/main/videos/2026-11-29_every-car-electric.mp4
+THUMB: https://raw.githubusercontent.com/ParuyrBaghyan/ev-drive-videos/main/thumbs/2026-11-29_every-car-electric.jpg
+TAGS: electric cars, power grid, EV charging, electricity demand, smart charging, EV adoption
+
+DESCRIPTION:
+Could the US power grid handle 100% electric cars?
+
+Americans drove a record 3.28 trillion miles in 2024 (FHWA). At roughly 0.3 kWh per mile, an all-electric fleet would need about 1,000 TWh a year, about a fifth more than the record 4,430 TWh the US generated in 2025 (EIA). The twist: most cars would charge overnight, when plants sit idle, and a 2006 Pacific Northwest National Laboratory study found spare off-peak capacity could fuel about 84% of US vehicles as plug-in hybrids. The weak spot is local: PNNL (2020) notes one fast-charging car can draw as much as up to 50 homes. Would you charge at night to keep the lights on?
+
+#EV #ElectricCars #CarTech #EVDrive #shorts
